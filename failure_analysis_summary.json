@@ -1,0 +1,541 @@
+{
+  "methodology": "For each of 7 models (seed 42), the 10 test images with lowest per-image macro-IoU (classes present in GT or prediction only, matching the project's established per-image convention) were identified and rendered as [Original | GT | Prediction] overlay grids, then visually inspected image-by-image (not inferred from the aggregate confusion matrix).",
+  "failure_mode_taxonomy": {
+    "species_misidentification_wholesale": {
+      "description": "The model classifies most/all of the correct foreground region as the WRONG species (not a boundary error -- the shape/extent is reasonable, the color/class is wrong). This is the dominant failure mode across all 7 models' worst-10 lists.",
+      "count_of_70_worst_case_slots": 41,
+      "campsis_madame_galen_confusion": {
+        "instances_found": [
+          {
+            "file": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+            "direction": "Campsis(GT) -> Madame Galen(pred)",
+            "models_affected": [
+              "DeepLabV3",
+              "SegFormer",
+              "MaskRCNN",
+              "SoloV2",
+              "YOLO11seg",
+              "PGSS_YOLO11"
+            ],
+            "note": "Appears in the worst-10 of 6/7 models with the IDENTICAL error direction -- the single most consistent cross-architecture failure found in this analysis."
+          },
+          {
+            "file": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4dbf0.jpg",
+            "direction": "Campsis(GT) -> Madame Galen(pred)",
+            "models_affected": [
+              "DeepLabV3",
+              "MaskRCNN",
+              "YOLO11seg"
+            ],
+            "note": ""
+          },
+          {
+            "file": "IMG_9705_aug1_jpg.rf.7740f61e485087f3c250b5c0b7a61657.jpg",
+            "direction": "Campsis(GT) -> Madame Galen(pred)",
+            "models_affected": [
+              "MaskRCNN",
+              "YOLO11seg"
+            ],
+            "note": ""
+          },
+          {
+            "file": "IMG_9776_aug1_jpg.rf.b76ce0ba41eb4c4c32828f376f9d9a1e.jpg",
+            "direction": "Campsis(GT) -> Madame Galen(pred)",
+            "models_affected": [
+              "SegFormer",
+              "YOLO11seg"
+            ],
+            "note": ""
+          },
+          {
+            "file": "IMG_1514_aug1_jpg.rf.24e5c4c4be74df738d589bd885434d74.jpg",
+            "direction": "Campsis(GT) -> Madame Galen(pred)",
+            "models_affected": [
+              "YOLO11seg"
+            ],
+            "note": ""
+          },
+          {
+            "file": "IMG_1801_aug1_jpg.rf.74cfe814835d397f0878eb2ad38c1736.jpg",
+            "direction": "Madame Galen(GT) -> Campsis(pred)",
+            "models_affected": [
+              "SegFormer"
+            ],
+            "note": "Reverse direction -- confirms the confusion is genuinely bidirectional/symmetric, not a one-way bias."
+          }
+        ],
+        "visual_cause_identified": "Madame Galen is taxonomically Campsis x tagliabuana 'Madame Galen' -- a cultivar hybrid of Campsis radicans itself -- so the two share near-identical compound pinnate leaflets, growth habit, and reddish-brown woody stems. Direct inspection of IMG_1144 (the worst, most-repeated confusion case) and two independently-checked, correctly-classified Madame Galen reference images (IMG_1379, TRT_20_MG) shows NONE of them have visible flowers -- all are dense, purely vegetative foliage. The two species/cultivars are primarily distinguishable by flower color when blooming (Campsis radicans: orange-red; Madame Galen: salmon/apricot); with no flowers visible, there is genuinely little to no reliable visual signal to separate them from foliage alone. This is a real botanical/dataset-level ambiguity, not merely a model weakness, and is worth stating as such in the manuscript."
+      },
+      "other_recurring_confusions": [
+        {
+          "pair": "Parthenocissus <-> multiple species (Akebia, Hydrangea, Campsis/Lonicera)",
+          "example_file": "IMG_9628_aug1_jpg.rf.d5a8f1f87485c6cdc40.jpg",
+          "note": "This single image was confused with a DIFFERENT wrong species by nearly every architecture (UNet->Campsis/Lonicera, DeepLabV3->Akebia/Hydrangea, MaskRCNN->Akebia, YOLO11seg->Lonicera). The image itself is visibly dark/low-contrast/hard to distinguish by eye even for a human annotator, suggesting the image quality itself (not a specific species pair confound) is the driver here -- a genuinely ambiguous/hard example rather than a systematic species confusion."
+        },
+        {
+          "pair": "Parthenocissus -> Hydrangea",
+          "architectures": [
+            "DeepLabV3",
+            "SegFormer"
+          ],
+          "example_files": [
+            "IMG_9770_aug1_jpg...(DeepLabV3 only)",
+            "IMG_9732_aug1_jpg.rf.d550a8dcaf44a8087aa.jpg"
+          ]
+        },
+        {
+          "pair": "Parthenocissus <-> Akebia (bidirectional)",
+          "architectures": [
+            "MaskRCNN"
+          ],
+          "example_files": [
+            "IMG_9628...",
+            "IMG_9635...",
+            "IMG_1779...",
+            "IMG_9740...(reverse)"
+          ]
+        },
+        {
+          "pair": "Akebia <-> Campsis",
+          "architectures": [
+            "UNet"
+          ],
+          "example_files": [
+            "IMG_9614...",
+            "IMG_1551..."
+          ]
+        },
+        {
+          "pair": "Campsis -> Wisteria",
+          "architectures": [
+            "MaskRCNN"
+          ],
+          "example_files": [
+            "IMG_9753...",
+            "IMG_9578..."
+          ]
+        }
+      ]
+    },
+    "boundary_extent_imprecision_correct_species": {
+      "description": "Species is correctly identified but the predicted region's shape/extent doesn't tightly match GT (over- or under-segmentation of an otherwise correctly-classified plant). This is architecture-dependent: it is the DOMINANT failure mode for the best-performing model (PGSS_YOLO11) and essentially absent from its worst-10 as a species error.",
+      "count_of_70_worst_case_slots": 14,
+      "most_affected_model": "PGSS_YOLO11 (7 of its 10 worst cases are correct-species/boundary-only, e.g. IMG_1801, IMG_1355, IMG_1379, IMG_1616, IMG_9673, IMG_1122, IMG_1617)"
+    },
+    "coarse_grid_blockiness_severe_undersegmentation": {
+      "description": "SOLOv2-specific: predictions appear as coarse, blocky rectangular patches (visually obvious grid-cell artifacts) rather than smooth plant-shaped masks, and frequently miss large fractions of the true canopy -- direct visual confirmation of the documented architectural limitation (no decoder; 16x16 native grid with no per-instance mask head).",
+      "count_of_70_worst_case_slots": 10,
+      "affected_model": "SoloV2 only",
+      "example_files": [
+        "IMG_9705 (mostly missed)",
+        "TRT_20_CR (blocky, Campsis->Madame Galen)",
+        "IMG_1514 (blocky, mixed)"
+      ]
+    },
+    "small_object_iou_sensitivity": {
+      "description": "Species correctly identified and roughly correctly located, but the true instance is small (e.g. a young/sparse Hydrangea planting), so even a visually reasonable match yields a low IoU purely from small absolute pixel counts amplifying boundary noise -- a metric artifact, not a real qualitative failure.",
+      "count_of_70_worst_case_slots": 3,
+      "example_files": [
+        "TRT_50_HA (appears in SegFormer, MaskRCNN, and PGSS_YOLO11's worst-10)"
+      ]
+    },
+    "thin_stem_tendril_boundary_imprecision": {
+      "description": "GT is a thin, wire-climbing tendril shape (Parthenocissus climbing along the grid wire); species is sometimes correctly identified (SegFormer) but the thin, high-perimeter-to-area shape is inherently hard to delineate precisely, cratering IoU despite a qualitatively reasonable prediction.",
+      "count_of_70_worst_case_slots": 2,
+      "example_files": [
+        "IMG_9770_aug1_jpg (SegFormer: correct species, imprecise thin shape; DeepLabV3: also misidentifies the same thin shape as Hydrangea)"
+      ]
+    }
+  },
+  "cross_architecture_hard_examples": {
+    "description": "A small number of specific test images are hard for NEARLY EVERY architecture, each with a different specific wrong-species output -- evidence these are genuinely ambiguous images (poor lighting/contrast, atypical growth form) rather than a single systematic species confusion.",
+    "images": [
+      {
+        "file": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "in_worst10_of": 6,
+        "consistent_error": "Campsis -> Madame Galen (same direction in all 6)"
+      },
+      {
+        "file": "IMG_9628_aug1_jpg.rf.d5a8f1f87485c6cdc40.jpg",
+        "in_worst10_of": 4,
+        "consistent_error": "Parthenocissus -> different wrong species per architecture (not consistent)"
+      },
+      {
+        "file": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4dbf0.jpg",
+        "in_worst10_of": 5,
+        "consistent_error": "Campsis -> Madame Galen (4/5) or correct-but-blocky (SoloV2)"
+      },
+      {
+        "file": "IMG_9732_aug1_jpg.rf.d550a8dcaf44a8087aa.jpg",
+        "in_worst10_of": 4,
+        "consistent_error": "Parthenocissus -> Hydrangea (DeepLabV3, SegFormer) or -> Campsis/Lonicera (UNet, SoloV2)"
+      }
+    ]
+  },
+  "per_model_worst10_raw": {
+    "UNet": [
+      {
+        "image_id": 668,
+        "file_name": "IMG_9614_aug1_jpg.rf.c4fee04f770ec90a7b97b0f441088e91.jpg",
+        "miou": 0.15402126620045656
+      },
+      {
+        "image_id": 1060,
+        "file_name": "IMG_1617_aug1_jpg.rf.e53c90561bdaaa22bb5b58e88f89fff1.jpg",
+        "miou": 0.16928102154459304
+      },
+      {
+        "image_id": 153,
+        "file_name": "IMG_9628_aug1_jpg.rf.d5a8f1f87485c6cdc4013c3671ee593b.jpg",
+        "miou": 0.17706262675773665
+      },
+      {
+        "image_id": 859,
+        "file_name": "IMG_1355_aug1_jpg.rf.918d6bb7f3a89b73f0b7fb3d796355a3.jpg",
+        "miou": 0.19304944532234383
+      },
+      {
+        "image_id": 639,
+        "file_name": "IMG_9740_aug1_jpg.rf.4ce143d1b521ab2ae4678cf1bc6f4610.jpg",
+        "miou": 0.19340365844495677
+      },
+      {
+        "image_id": 747,
+        "file_name": "IMG_9732_aug1_jpg.rf.d550a8dcaf44a8087aa4a1338d7b2440.jpg",
+        "miou": 0.19403450540402503
+      },
+      {
+        "image_id": 16,
+        "file_name": "IMG_1544_aug1_jpg.rf.f8f965c9b4a66a5567aedc767b5e40ff.jpg",
+        "miou": 0.1977253049378295
+      },
+      {
+        "image_id": 484,
+        "file_name": "IMG_9753_aug1_jpg.rf.30fc9d413f1fb7c08ffc331fcc7725e3.jpg",
+        "miou": 0.2157496235224592
+      },
+      {
+        "image_id": 255,
+        "file_name": "IMG_1551_aug1_jpg.rf.0a6216b33753f0d71a13e9e328cff2aa.jpg",
+        "miou": 0.2159087589963561
+      },
+      {
+        "image_id": 580,
+        "file_name": "IMG_1779_aug1_jpg.rf.0d39e78c44c4993c31f43c61fa67b4e0.jpg",
+        "miou": 0.2220297998679277
+      }
+    ],
+    "DeepLabV3": [
+      {
+        "image_id": 580,
+        "file_name": "IMG_1779_aug1_jpg.rf.0d39e78c44c4993c31f43c61fa67b4e0.jpg",
+        "miou": 0.19590225447966034
+      },
+      {
+        "image_id": 153,
+        "file_name": "IMG_9628_aug1_jpg.rf.d5a8f1f87485c6cdc4013c3671ee593b.jpg",
+        "miou": 0.19719245600873903
+      },
+      {
+        "image_id": 1032,
+        "file_name": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "miou": 0.3004099714067094
+      },
+      {
+        "image_id": 589,
+        "file_name": "TRT_50_CR_jpg.rf.0deb56baf13a8c4c99561c334c49a6d6.jpg",
+        "miou": 0.3076890679630685
+      },
+      {
+        "image_id": 1077,
+        "file_name": "IMG_9770_aug1_jpg.rf.a9a801046fc88e42ab7d463bf5fd4dce.jpg",
+        "miou": 0.3286438950503836
+      },
+      {
+        "image_id": 747,
+        "file_name": "IMG_9732_aug1_jpg.rf.d550a8dcaf44a8087aa4a1338d7b2440.jpg",
+        "miou": 0.3424871231178019
+      },
+      {
+        "image_id": 534,
+        "file_name": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4bf0759bce7dc47f8.jpg",
+        "miou": 0.3692625123053855
+      },
+      {
+        "image_id": 513,
+        "file_name": "TRT_20_WF_jpg.rf.258c9b8fcbec81eb102ce28a59a74e9c.jpg",
+        "miou": 0.40828299104121607
+      },
+      {
+        "image_id": 435,
+        "file_name": "TRT_20_CR_jpg.rf.1d9077e4686fd39fcae4e4fe8b5bdd17.jpg",
+        "miou": 0.4359826304132952
+      },
+      {
+        "image_id": 323,
+        "file_name": "IMG_1519_aug1_jpg.rf.5ebd9519379432bd5116183e04fe87a6.jpg",
+        "miou": 0.44009366491131147
+      }
+    ],
+    "SegFormer": [
+      {
+        "image_id": 1032,
+        "file_name": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "miou": 0.31115371983849466
+      },
+      {
+        "image_id": 808,
+        "file_name": "IMG_9776_aug1_jpg.rf.b76ce0ba41eb4c4c32828f376f9d9a1e.jpg",
+        "miou": 0.3504442930776483
+      },
+      {
+        "image_id": 24,
+        "file_name": "IMG_9733_aug1_jpg.rf.9ad5d16d309e2b0aa8dc2b009e898a73.jpg",
+        "miou": 0.3526496554996201
+      },
+      {
+        "image_id": 732,
+        "file_name": "IMG_1801_aug1_jpg.rf.74cfe814835d397f0878eb2ad38c1736.jpg",
+        "miou": 0.3549980774432218
+      },
+      {
+        "image_id": 747,
+        "file_name": "IMG_9732_aug1_jpg.rf.d550a8dcaf44a8087aa4a1338d7b2440.jpg",
+        "miou": 0.3596112135748292
+      },
+      {
+        "image_id": 534,
+        "file_name": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4bf0759bce7dc47f8.jpg",
+        "miou": 0.4477630717349385
+      },
+      {
+        "image_id": 639,
+        "file_name": "IMG_9740_aug1_jpg.rf.4ce143d1b521ab2ae4678cf1bc6f4610.jpg",
+        "miou": 0.5363092433043328
+      },
+      {
+        "image_id": 293,
+        "file_name": "TRT_20_AQ_jpg.rf.2980c1071283ecbcc32ca23d5ab9506c.jpg",
+        "miou": 0.547561168534416
+      },
+      {
+        "image_id": 453,
+        "file_name": "TRT_50_HA_jpg.rf.eba565996807fa8e4178efddbb038609.jpg",
+        "miou": 0.5698801271968353
+      },
+      {
+        "image_id": 1077,
+        "file_name": "IMG_9770_aug1_jpg.rf.a9a801046fc88e42ab7d463bf5fd4dce.jpg",
+        "miou": 0.5964301786386373
+      }
+    ],
+    "MaskRCNN": [
+      {
+        "image_id": 1032,
+        "file_name": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "miou": 0.3194158141804895
+      },
+      {
+        "image_id": 813,
+        "file_name": "IMG_9705_aug1_jpg.rf.7740f61e485087f3c250b5c0b7a61657.jpg",
+        "miou": 0.32344098504724855
+      },
+      {
+        "image_id": 153,
+        "file_name": "IMG_9628_aug1_jpg.rf.d5a8f1f87485c6cdc4013c3671ee593b.jpg",
+        "miou": 0.32474906650811775
+      },
+      {
+        "image_id": 70,
+        "file_name": "IMG_9635_aug1_jpg.rf.d8a3e72e0901defec2c5a78a1cf32918.jpg",
+        "miou": 0.32499084135648076
+      },
+      {
+        "image_id": 534,
+        "file_name": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4bf0759bce7dc47f8.jpg",
+        "miou": 0.32503375717339933
+      },
+      {
+        "image_id": 484,
+        "file_name": "IMG_9753_aug1_jpg.rf.30fc9d413f1fb7c08ffc331fcc7725e3.jpg",
+        "miou": 0.32680991408749416
+      },
+      {
+        "image_id": 580,
+        "file_name": "IMG_1779_aug1_jpg.rf.0d39e78c44c4993c31f43c61fa67b4e0.jpg",
+        "miou": 0.32738081343324227
+      },
+      {
+        "image_id": 787,
+        "file_name": "IMG_9578_aug1_jpg.rf.654aaf10cf97d645bd0d093c61e54b90.jpg",
+        "miou": 0.3287122061823981
+      },
+      {
+        "image_id": 639,
+        "file_name": "IMG_9740_aug1_jpg.rf.4ce143d1b521ab2ae4678cf1bc6f4610.jpg",
+        "miou": 0.33103377675033446
+      },
+      {
+        "image_id": 450,
+        "file_name": "TRT_50_HA_jpg.rf.12611cc0ec0ac7fd1280372f0ca78e53.jpg",
+        "miou": 0.33182707807988626
+      }
+    ],
+    "SoloV2": [
+      {
+        "image_id": 618,
+        "file_name": "IMG_9871_aug1_jpeg.rf.9701679332a7cd31d5ce97ff462df9a7.jpg",
+        "miou": 0.2405004692578551
+      },
+      {
+        "image_id": 1032,
+        "file_name": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "miou": 0.25721318952564926
+      },
+      {
+        "image_id": 737,
+        "file_name": "IMG_1390_aug1_jpg.rf.cc02bd698d988506d0ae6e9a29309688.jpg",
+        "miou": 0.2581082131472523
+      },
+      {
+        "image_id": 813,
+        "file_name": "IMG_9705_aug1_jpg.rf.7740f61e485087f3c250b5c0b7a61657.jpg",
+        "miou": 0.2627083333333333
+      },
+      {
+        "image_id": 1101,
+        "file_name": "TRT_20_CR_jpg.rf.faeeff51c80d67ecc564b1cefd8cd54b.jpg",
+        "miou": 0.2663421132490832
+      },
+      {
+        "image_id": 732,
+        "file_name": "IMG_1801_aug1_jpg.rf.74cfe814835d397f0878eb2ad38c1736.jpg",
+        "miou": 0.3160573417651256
+      },
+      {
+        "image_id": 589,
+        "file_name": "TRT_50_CR_jpg.rf.0deb56baf13a8c4c99561c334c49a6d6.jpg",
+        "miou": 0.3564767933308355
+      },
+      {
+        "image_id": 530,
+        "file_name": "IMG_1514_aug1_jpg.rf.cb2e071278e046e6cab5792800fc15ef.jpg",
+        "miou": 0.3642825007567702
+      },
+      {
+        "image_id": 534,
+        "file_name": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4bf0759bce7dc47f8.jpg",
+        "miou": 0.38494518449834764
+      },
+      {
+        "image_id": 747,
+        "file_name": "IMG_9732_aug1_jpg.rf.d550a8dcaf44a8087aa4a1338d7b2440.jpg",
+        "miou": 0.43002197265625
+      }
+    ],
+    "YOLO11seg": [
+      {
+        "image_id": 530,
+        "file_name": "IMG_1514_aug1_jpg.rf.cb2e071278e046e6cab5792800fc15ef.jpg",
+        "miou": 0.23004275425767723
+      },
+      {
+        "image_id": 534,
+        "file_name": "IMG_9670_aug1_jpg.rf.f6286a20ba3a07c4bf0759bce7dc47f8.jpg",
+        "miou": 0.24153378535693396
+      },
+      {
+        "image_id": 1032,
+        "file_name": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "miou": 0.3078816029407741
+      },
+      {
+        "image_id": 813,
+        "file_name": "IMG_9705_aug1_jpg.rf.7740f61e485087f3c250b5c0b7a61657.jpg",
+        "miou": 0.3226563319813886
+      },
+      {
+        "image_id": 153,
+        "file_name": "IMG_9628_aug1_jpg.rf.d5a8f1f87485c6cdc4013c3671ee593b.jpg",
+        "miou": 0.32778097462648886
+      },
+      {
+        "image_id": 605,
+        "file_name": "IMG_1054_aug1_jpg.rf.36d9ffc437f39aaf58e59ed6d0f63178.jpg",
+        "miou": 0.3296052559898018
+      },
+      {
+        "image_id": 808,
+        "file_name": "IMG_9776_aug1_jpg.rf.b76ce0ba41eb4c4c32828f376f9d9a1e.jpg",
+        "miou": 0.33057902521201415
+      },
+      {
+        "image_id": 612,
+        "file_name": "IMG_1535_aug1_jpg.rf.24e5c4c4be74df738d589bd885434d74.jpg",
+        "miou": 0.5840168665128437
+      },
+      {
+        "image_id": 732,
+        "file_name": "IMG_1801_aug1_jpg.rf.74cfe814835d397f0878eb2ad38c1736.jpg",
+        "miou": 0.5856137062137141
+      },
+      {
+        "image_id": 323,
+        "file_name": "IMG_1519_aug1_jpg.rf.5ebd9519379432bd5116183e04fe87a6.jpg",
+        "miou": 0.6023502658891484
+      }
+    ],
+    "PGSS_YOLO11": [
+      {
+        "image_id": 1032,
+        "file_name": "IMG_1144_aug1_jpg.rf.ccfffa01bbe8a6554048b891cf3ac3bd.jpg",
+        "miou": 0.31154169824466554
+      },
+      {
+        "image_id": 580,
+        "file_name": "IMG_1779_aug1_jpg.rf.0d39e78c44c4993c31f43c61fa67b4e0.jpg",
+        "miou": 0.32617656490843167
+      },
+      {
+        "image_id": 1060,
+        "file_name": "IMG_1617_aug1_jpg.rf.e53c90561bdaaa22bb5b58e88f89fff1.jpg",
+        "miou": 0.47876232479176817
+      },
+      {
+        "image_id": 453,
+        "file_name": "TRT_50_HA_jpg.rf.eba565996807fa8e4178efddbb038609.jpg",
+        "miou": 0.5380716242578077
+      },
+      {
+        "image_id": 732,
+        "file_name": "IMG_1801_aug1_jpg.rf.74cfe814835d397f0878eb2ad38c1736.jpg",
+        "miou": 0.5493835712202871
+      },
+      {
+        "image_id": 859,
+        "file_name": "IMG_1355_aug1_jpg.rf.918d6bb7f3a89b73f0b7fb3d796355a3.jpg",
+        "miou": 0.5878303600391845
+      },
+      {
+        "image_id": 318,
+        "file_name": "IMG_1379_aug1_jpg.rf.110c15a114d9f2d66e9159dd81c8c125.jpg",
+        "miou": 0.6047911351172
+      },
+      {
+        "image_id": 444,
+        "file_name": "IMG_1616_aug1_jpg.rf.d81f143259e7238c51d8c3a7f7fc9925.jpg",
+        "miou": 0.6125629213611022
+      },
+      {
+        "image_id": 546,
+        "file_name": "IMG_9673_aug1_jpg.rf.e87cfa8e3df1e87fd7c698faa6893d6d.jpg",
+        "miou": 0.6155362920607527
+      },
+      {
+        "image_id": 528,
+        "file_name": "IMG_1122_aug1_jpg.rf.fedbacf123bf0dd56961454a494c433d.jpg",
+        "miou": 0.617816744908769
+      }
+    ]
+  }
+}

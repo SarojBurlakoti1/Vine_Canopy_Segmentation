@@ -1,0 +1,5310 @@
+{
+  "UNet": {
+    "model": "UNet",
+    "per_seed_full_results": {
+      "42": {
+        "model": "UNet",
+        "checkpoint_used": "/workspace/vine-project-Run/UNet/checkpoints/best_model.pth (epoch 51, val_miou=0.5438, val_dice=0.6125)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.847384947329548,
+          "macro_recall_8class": 0.8227903154901335,
+          "macro_f1_8class": 0.8296782062828201,
+          "mIoU_8class": 0.7172733914227498,
+          "per_class_precision": {
+            "background": 0.9842555155083134,
+            "Akebia": 0.8225791939342901,
+            "Campsis": 0.7735651857335413,
+            "Hydrangea": 0.8994867662607651,
+            "Lonicera": 0.8373268577940881,
+            "Madame Galen": 0.6644818161494326,
+            "Parthenocissus": 0.9304174798012105,
+            "Wisteria": 0.8669667634547427
+          },
+          "per_class_recall": {
+            "background": 0.9844596894815619,
+            "Akebia": 0.7419031105363381,
+            "Campsis": 0.7205776752559253,
+            "Hydrangea": 0.6595706823154351,
+            "Lonicera": 0.7881340967019155,
+            "Madame Galen": 0.9070823771931263,
+            "Parthenocissus": 0.8580642426725165,
+            "Wisteria": 0.9225306497642491
+          },
+          "per_class_f1": {
+            "background": 0.9843575419075762,
+            "Akebia": 0.780160979629325,
+            "Campsis": 0.7461318197097513,
+            "Hydrangea": 0.7610688915211911,
+            "Lonicera": 0.8119860452964417,
+            "Madame Galen": 0.7670570627593816,
+            "Parthenocissus": 0.8927772819861858,
+            "Wisteria": 0.8938860274527076
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.6395606701877599,
+            "Campsis": 0.5950640674125451,
+            "Hydrangea": 0.614294826497047,
+            "Lonicera": 0.6834819794655786,
+            "Madame Galen": 0.6221351522156744,
+            "Parthenocissus": 0.8063214000485717,
+            "Wisteria": 0.8081320189036664
+          },
+          "background_iou": 0.9691970166511554
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35783001,
+            83355,
+            100735,
+            14969,
+            45220,
+            110806,
+            81558,
+            128214
+          ],
+          [
+            93827,
+            548532,
+            54645,
+            602,
+            14682,
+            584,
+            23052,
+            3434
+          ],
+          [
+            115560,
+            16849,
+            1266385,
+            246,
+            26262,
+            271369,
+            3953,
+            56834
+          ],
+          [
+            42811,
+            3100,
+            11666,
+            196465,
+            29901,
+            11215,
+            0,
+            2710
+          ],
+          [
+            90402,
+            463,
+            22788,
+            1080,
+            709632,
+            71279,
+            4751,
+            0
+          ],
+          [
+            54438,
+            0,
+            39723,
+            0,
+            225,
+            921417,
+            0,
+            0
+          ],
+          [
+            116839,
+            10061,
+            100198,
+            5057,
+            21575,
+            0,
+            1579045,
+            7466
+          ],
+          [
+            58520,
+            4484,
+            40936,
+            0,
+            0,
+            0,
+            4777,
+            1294638
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "UNet is a pure semantic-segmentation architecture: it outputs one per-pixel class map with no separate instance identities, confidence scores, or object proposals. COCO-style instance AP/AP50/AP75/AR is not defined for this output and was not computed. This is an architectural limitation, stated here explicitly rather than skipped silently."
+        }
+      },
+      "43": {
+        "model": "UNet",
+        "checkpoint_used": "/workspace/vine-project-Run/UNet/checkpoints_seed43/best_model.pth (epoch 54, val_miou=0.5530, val_dice=0.6206)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8525144188018926,
+          "macro_recall_8class": 0.8223781958764168,
+          "macro_f1_8class": 0.8315380956822307,
+          "mIoU_8class": 0.7199828512061022,
+          "per_class_precision": {
+            "background": 0.983044879595924,
+            "Akebia": 0.8924628033762464,
+            "Campsis": 0.8308023547946987,
+            "Hydrangea": 0.8269136025483935,
+            "Lonicera": 0.8443048903657833,
+            "Madame Galen": 0.6670521910877207,
+            "Parthenocissus": 0.9150102488289567,
+            "Wisteria": 0.8605243798174175
+          },
+          "per_class_recall": {
+            "background": 0.9861772047200114,
+            "Akebia": 0.6832616946052273,
+            "Campsis": 0.7105011897865718,
+            "Hydrangea": 0.6761820672241812,
+            "Lonicera": 0.8058674248523364,
+            "Madame Galen": 0.9129841120767597,
+            "Parthenocissus": 0.8788511939468321,
+            "Wisteria": 0.9252006797994147
+          },
+          "per_class_f1": {
+            "background": 0.9846085009559207,
+            "Akebia": 0.7739749042289881,
+            "Campsis": 0.7659568750575211,
+            "Hydrangea": 0.7439900509753529,
+            "Lonicera": 0.8246384456734154,
+            "Madame Galen": 0.770878507823446,
+            "Parthenocissus": 0.8965662404608744,
+            "Wisteria": 0.8916912402823265
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.6312880437973841,
+            "Campsis": 0.6206889695479963,
+            "Hydrangea": 0.5923441373771517,
+            "Lonicera": 0.7016041384644458,
+            "Madame Galen": 0.6271785109267483,
+            "Parthenocissus": 0.8125239266059432,
+            "Wisteria": 0.8045513694385423
+          },
+          "background_iou": 0.969683713490605
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35845429,
+            44683,
+            97716,
+            19463,
+            44158,
+            95270,
+            77220,
+            123919
+          ],
+          [
+            103574,
+            505175,
+            50128,
+            6179,
+            17341,
+            797,
+            43084,
+            13080
+          ],
+          [
+            122986,
+            10472,
+            1248676,
+            4435,
+            13834,
+            286246,
+            13177,
+            57632
+          ],
+          [
+            44202,
+            633,
+            12480,
+            201413,
+            27575,
+            11504,
+            33,
+            28
+          ],
+          [
+            97590,
+            0,
+            2458,
+            2454,
+            725599,
+            67936,
+            4358,
+            0
+          ],
+          [
+            73862,
+            0,
+            12743,
+            72,
+            1714,
+            927412,
+            0,
+            0
+          ],
+          [
+            117547,
+            4905,
+            44817,
+            9556,
+            29183,
+            1149,
+            1617298,
+            15786
+          ],
+          [
+            58485,
+            178,
+            33958,
+            0,
+            0,
+            0,
+            12349,
+            1298385
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "UNet is a pure semantic-segmentation architecture with no separate instance identities/scores/proposals; COCO instance AP/AR is not defined for it."
+        }
+      },
+      "44": {
+        "model": "UNet",
+        "checkpoint_used": "/workspace/vine-project-Run/UNet/checkpoints_seed44/best_model.pth (epoch 76, val_miou=0.5628, val_dice=0.6293)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8642163891114312,
+          "macro_recall_8class": 0.8459314906254956,
+          "macro_f1_8class": 0.8503091266299456,
+          "mIoU_8class": 0.7465948593242242,
+          "per_class_precision": {
+            "background": 0.98450637933627,
+            "Akebia": 0.8456993846325636,
+            "Campsis": 0.8416314379203779,
+            "Hydrangea": 0.8898544748856506,
+            "Lonicera": 0.836327888752248,
+            "Madame Galen": 0.693618933829674,
+            "Parthenocissus": 0.9427832577153002,
+            "Wisteria": 0.879309355819365
+          },
+          "per_class_recall": {
+            "background": 0.9848578972659106,
+            "Akebia": 0.7728786325432642,
+            "Campsis": 0.7579657664649307,
+            "Hydrangea": 0.6665603555935291,
+            "Lonicera": 0.8631222963254057,
+            "Madame Galen": 0.9115517477305234,
+            "Parthenocissus": 0.8602047231856664,
+            "Wisteria": 0.9503105058947344
+          },
+          "per_class_f1": {
+            "background": 0.9846820569293324,
+            "Akebia": 0.8076508350155731,
+            "Campsis": 0.7976105188167257,
+            "Hydrangea": 0.7621897009477535,
+            "Lonicera": 0.8495138153309789,
+            "Madame Galen": 0.7877910047389062,
+            "Parthenocissus": 0.8996028535272564,
+            "Wisteria": 0.9134322277330391
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.6773610804889563,
+            "Campsis": 0.6633546070047416,
+            "Hydrangea": 0.6157565344678096,
+            "Lonicera": 0.7383955701072757,
+            "Madame Galen": 0.6498805806524058,
+            "Parthenocissus": 0.8175256970599859,
+            "Wisteria": 0.8406583951240107
+          },
+          "background_iou": 0.9698264096886073
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35797475,
+            65016,
+            110234,
+            12804,
+            45684,
+            100604,
+            81687,
+            134354
+          ],
+          [
+            101853,
+            571434,
+            30040,
+            2478,
+            19763,
+            155,
+            9297,
+            4338
+          ],
+          [
+            105937,
+            6705,
+            1332093,
+            425,
+            17455,
+            265858,
+            3447,
+            25538
+          ],
+          [
+            43305,
+            8592,
+            3505,
+            198547,
+            33096,
+            9545,
+            0,
+            1278
+          ],
+          [
+            85880,
+            381,
+            1590,
+            1762,
+            777151,
+            32289,
+            1342,
+            0
+          ],
+          [
+            59280,
+            0,
+            30110,
+            0,
+            456,
+            925957,
+            0,
+            0
+          ],
+          [
+            120191,
+            22938,
+            53287,
+            7107,
+            35637,
+            557,
+            1582984,
+            17540
+          ],
+          [
+            46915,
+            628,
+            21892,
+            0,
+            0,
+            0,
+            297,
+            1333623
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "UNet is a pure semantic-segmentation architecture with no separate instance identities/scores/proposals; COCO instance AP/AR is not defined for it."
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.854705251747624,
+          "std": 0.00704387061500075,
+          "per_seed": {
+            "42": 0.847384947329548,
+            "43": 0.8525144188018926,
+            "44": 0.8642163891114312
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.830366667330682,
+          "std": 0.01100727801027065,
+          "per_seed": {
+            "42": 0.8227903154901335,
+            "43": 0.8223781958764168,
+            "44": 0.8459314906254956
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.8371751428649988,
+          "std": 0.00931811655854426,
+          "per_seed": {
+            "42": 0.8296782062828201,
+            "43": 0.8315380956822307,
+            "44": 0.8503091266299456
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.727950367317692,
+          "std": 0.013229968624695262,
+          "per_seed": {
+            "42": 0.7172733914227498,
+            "43": 0.7199828512061022,
+            "44": 0.7465948593242242
+          }
+        },
+        "background_iou": {
+          "mean": 0.9695690466101227,
+          "std": 0.0002694380188564226,
+          "per_seed": {
+            "42": 0.9691970166511554,
+            "43": 0.969683713490605,
+            "44": 0.9698264096886073
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.6494032648247,
+          "std": 0.02005556746286147,
+          "per_seed": {
+            "42": 0.6395606701877599,
+            "43": 0.6312880437973841,
+            "44": 0.6773610804889563
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.6263692146550944,
+          "std": 0.028167337323051683,
+          "per_seed": {
+            "42": 0.5950640674125451,
+            "43": 0.6206889695479963,
+            "44": 0.6633546070047416
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.6074651661140028,
+          "std": 0.010708821288808413,
+          "per_seed": {
+            "42": 0.614294826497047,
+            "43": 0.5923441373771517,
+            "44": 0.6157565344678096
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.7078272293457667,
+          "std": 0.022846163126133537,
+          "per_seed": {
+            "42": 0.6834819794655786,
+            "43": 0.7016041384644458,
+            "44": 0.7383955701072757
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.6330647479316095,
+          "std": 0.012067533284050358,
+          "per_seed": {
+            "42": 0.6221351522156744,
+            "43": 0.6271785109267483,
+            "44": 0.6498805806524058
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.8121236745715003,
+          "std": 0.004582882582560403,
+          "per_seed": {
+            "42": 0.8063214000485717,
+            "43": 0.8125239266059432,
+            "44": 0.8175256970599859
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.8177805944887399,
+          "std": 0.016242959173714325,
+          "per_seed": {
+            "42": 0.8081320189036664,
+            "43": 0.8045513694385423,
+            "44": 0.8406583951240107
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            35808635.0,
+            64351.333333333336,
+            102895.0,
+            15745.333333333334,
+            45020.666666666664,
+            102226.66666666667,
+            80155.0,
+            128829.0
+          ],
+          [
+            99751.33333333333,
+            541713.6666666666,
+            44937.666666666664,
+            3086.3333333333335,
+            17262.0,
+            512.0,
+            25144.333333333332,
+            6950.666666666667
+          ],
+          [
+            114827.66666666667,
+            11342.0,
+            1282384.6666666667,
+            1702.0,
+            19183.666666666668,
+            274491.0,
+            6859.0,
+            46668.0
+          ],
+          [
+            43439.333333333336,
+            4108.333333333333,
+            9217.0,
+            198808.33333333334,
+            30190.666666666668,
+            10754.666666666666,
+            11.0,
+            1338.6666666666667
+          ],
+          [
+            91290.66666666667,
+            281.3333333333333,
+            8945.333333333334,
+            1765.3333333333333,
+            737460.6666666666,
+            57168.0,
+            3483.6666666666665,
+            0.0
+          ],
+          [
+            62526.666666666664,
+            0.0,
+            27525.333333333332,
+            24.0,
+            798.3333333333334,
+            924928.6666666666,
+            0.0,
+            0.0
+          ],
+          [
+            118192.33333333333,
+            12634.666666666666,
+            66100.66666666667,
+            7240.0,
+            28798.333333333332,
+            568.6666666666666,
+            1593109.0,
+            13597.333333333334
+          ],
+          [
+            54640.0,
+            1763.3333333333333,
+            32262.0,
+            0.0,
+            0.0,
+            0.0,
+            5807.666666666667,
+            1308882.0
+          ]
+        ],
+        "median_mIoU_seed": 43,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            35845429,
+            44683,
+            97716,
+            19463,
+            44158,
+            95270,
+            77220,
+            123919
+          ],
+          [
+            103574,
+            505175,
+            50128,
+            6179,
+            17341,
+            797,
+            43084,
+            13080
+          ],
+          [
+            122986,
+            10472,
+            1248676,
+            4435,
+            13834,
+            286246,
+            13177,
+            57632
+          ],
+          [
+            44202,
+            633,
+            12480,
+            201413,
+            27575,
+            11504,
+            33,
+            28
+          ],
+          [
+            97590,
+            0,
+            2458,
+            2454,
+            725599,
+            67936,
+            4358,
+            0
+          ],
+          [
+            73862,
+            0,
+            12743,
+            72,
+            1714,
+            927412,
+            0,
+            0
+          ],
+          [
+            117547,
+            4905,
+            44817,
+            9556,
+            29183,
+            1149,
+            1617298,
+            15786
+          ],
+          [
+            58485,
+            178,
+            33958,
+            0,
+            0,
+            0,
+            12349,
+            1298385
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": false,
+        "reason": "UNet is a pure semantic-segmentation architecture: it outputs one per-pixel class map with no separate instance identities, confidence scores, or object proposals. COCO-style instance AP/AP50/AP75/AR is not defined for this output and was not computed. This is an architectural limitation, stated here explicitly rather than skipped silently."
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/UNet/checkpoints/best_model.pth (epoch 51, val_miou=0.5438, val_dice=0.6125)",
+        "43": "/workspace/vine-project-Run/UNet/checkpoints_seed43/best_model.pth (epoch 54, val_miou=0.5530, val_dice=0.6206)",
+        "44": "/workspace/vine-project-Run/UNet/checkpoints_seed44/best_model.pth (epoch 76, val_miou=0.5628, val_dice=0.6293)"
+      },
+      "test_set": "rebuilt/final/test",
+      "n_test_images": 169
+    }
+  },
+  "DeepLabV3": {
+    "model": "DeepLabV3",
+    "per_seed_full_results": {
+      "42": {
+        "model": "DeepLabV3",
+        "checkpoint_used": "/workspace/vine-project-Run/DeepLabV3/checkpoints/best_model.pth (epoch 9, val_miou=0.7565, val_dice=0.8184)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8760061440495588,
+          "macro_recall_8class": 0.8958840962784629,
+          "macro_f1_8class": 0.8843409839598568,
+          "mIoU_8class": 0.7978832152172921,
+          "per_class_precision": {
+            "background": 0.9849405113204045,
+            "Akebia": 0.8659760553891754,
+            "Campsis": 0.8837405705701191,
+            "Hydrangea": 0.7194915791764996,
+            "Lonicera": 0.9364427339179724,
+            "Madame Galen": 0.7645539652579622,
+            "Parthenocissus": 0.9174086084905141,
+            "Wisteria": 0.9354951282738225
+          },
+          "per_class_recall": {
+            "background": 0.9844867887400657,
+            "Akebia": 0.8676568049576974,
+            "Campsis": 0.8341815280933693,
+            "Hydrangea": 0.8758812628409645,
+            "Lonicera": 0.9152738520315067,
+            "Madame Galen": 0.8780964419281221,
+            "Parthenocissus": 0.8793206976694423,
+            "Wisteria": 0.9321753939665351
+          },
+          "per_class_f1": {
+            "background": 0.9847135477652544,
+            "Akebia": 0.8668155654337634,
+            "Campsis": 0.8582461536032493,
+            "Hydrangea": 0.7900211622940434,
+            "Lonicera": 0.9257372413215942,
+            "Madame Galen": 0.817401040109381,
+            "Parthenocissus": 0.8979609004006179,
+            "Wisteria": 0.9338322607509516
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7649378399840736,
+            "Campsis": 0.7516911318700485,
+            "Hydrangea": 0.6529215383997725,
+            "Lonicera": 0.8617419964697404,
+            "Madame Galen": 0.6911904643824127,
+            "Parthenocissus": 0.8148177241870985,
+            "Wisteria": 0.8758775192375735
+          },
+          "background_iou": 0.9698875072076164
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35783986,
+            64419,
+            121716,
+            29440,
+            55235,
+            96905,
+            105955,
+            90202
+          ],
+          [
+            97270,
+            641509,
+            0,
+            0,
+            0,
+            579,
+            0,
+            0
+          ],
+          [
+            99196,
+            0,
+            1466039,
+            255,
+            0,
+            177201,
+            14767,
+            0
+          ],
+          [
+            36971,
+            0,
+            0,
+            260897,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            75804,
+            0,
+            0,
+            228,
+            824108,
+            0,
+            255,
+            0
+          ],
+          [
+            55630,
+            0,
+            68200,
+            0,
+            0,
+            891973,
+            0,
+            0
+          ],
+          [
+            112087,
+            34554,
+            2947,
+            71793,
+            698,
+            0,
+            1618162,
+            0
+          ],
+          [
+            70170,
+            311,
+            0,
+            0,
+            0,
+            0,
+            24701,
+            1308173
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "DeepLabV3 is a pure semantic-segmentation architecture: it outputs one per-pixel class map with no separate instance identities, confidence scores, or object proposals. COCO-style instance AP/AP50/AP75/AR is not defined for this output and was not computed. This is an architectural limitation, stated here explicitly rather than skipped silently."
+        }
+      },
+      "43": {
+        "model": "DeepLabV3",
+        "checkpoint_used": "/workspace/vine-project-Run/DeepLabV3/checkpoints_seed43/best_model.pth (epoch 12, val_miou=0.7650, val_dice=0.8295)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.9068876663697757,
+          "macro_recall_8class": 0.9104395408443714,
+          "macro_f1_8class": 0.9073685990872479,
+          "mIoU_8class": 0.8335352999619445,
+          "per_class_precision": {
+            "background": 0.983970235037034,
+            "Akebia": 0.897576603570742,
+            "Campsis": 0.9418664597600189,
+            "Hydrangea": 0.8187655710543362,
+            "Lonicera": 0.9290713418830234,
+            "Madame Galen": 0.7996324845877922,
+            "Parthenocissus": 0.9528765693012676,
+            "Wisteria": 0.9313420657639909
+          },
+          "per_class_recall": {
+            "background": 0.986039645032175,
+            "Akebia": 0.8723000224517931,
+            "Campsis": 0.827476389193891,
+            "Hydrangea": 0.8694085970964087,
+            "Lonicera": 0.9114277622597958,
+            "Madame Galen": 0.9343100975286611,
+            "Parthenocissus": 0.9244120742880458,
+            "Wisteria": 0.9581417389042005
+          },
+          "per_class_f1": {
+            "background": 0.9850038031219083,
+            "Akebia": 0.8847577686458524,
+            "Campsis": 0.8809736492135033,
+            "Hydrangea": 0.843327421713345,
+            "Lonicera": 0.9201649337376635,
+            "Madame Galen": 0.8617409472271466,
+            "Parthenocissus": 0.9384284745500627,
+            "Wisteria": 0.9445517944885016
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7933324558737352,
+            "Campsis": 0.7872680903217767,
+            "Hydrangea": 0.7290978656551745,
+            "Lonicera": 0.8521347889923376,
+            "Madame Galen": 0.7570693441457195,
+            "Parthenocissus": 0.8839993784975292,
+            "Wisteria": 0.8949296462712029
+          },
+          "background_iou": 0.9704508299380797
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35840429,
+            72646,
+            89759,
+            28166,
+            57077,
+            77735,
+            84128,
+            97918
+          ],
+          [
+            94416,
+            644942,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            141291,
+            0,
+            1454255,
+            0,
+            1376,
+            160079,
+            0,
+            457
+          ],
+          [
+            38729,
+            0,
+            0,
+            258969,
+            170,
+            0,
+            0,
+            0
+          ],
+          [
+            79750,
+            0,
+            0,
+            0,
+            820645,
+            0,
+            0,
+            0
+          ],
+          [
+            66728,
+            0,
+            0,
+            0,
+            0,
+            949075,
+            0,
+            0
+          ],
+          [
+            105110,
+            56,
+            0,
+            29157,
+            4028,
+            0,
+            1701141,
+            749
+          ],
+          [
+            57849,
+            893,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1344613
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "DeepLabV3 is a pure semantic-segmentation architecture with no separate instance identities/scores/proposals; COCO instance AP/AR is not defined for it."
+        }
+      },
+      "44": {
+        "model": "DeepLabV3",
+        "checkpoint_used": "/workspace/vine-project-Run/DeepLabV3/checkpoints_seed44/best_model.pth (epoch 21, val_miou=0.7726, val_dice=0.8312)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.9024552256754024,
+          "macro_recall_8class": 0.8898435523977569,
+          "macro_f1_8class": 0.892659903487532,
+          "mIoU_8class": 0.8114046394242357,
+          "per_class_precision": {
+            "background": 0.9824720596016492,
+            "Akebia": 0.8849371021355827,
+            "Campsis": 0.9233787697034687,
+            "Hydrangea": 0.9109029735379064,
+            "Lonicera": 0.9455919395464875,
+            "Madame Galen": 0.7084781978296495,
+            "Parthenocissus": 0.9445408167483336,
+            "Wisteria": 0.9193399463001418
+          },
+          "per_class_recall": {
+            "background": 0.9862269187911955,
+            "Akebia": 0.8814349746670921,
+            "Campsis": 0.7235700654012374,
+            "Hydrangea": 0.8407415365192499,
+            "Lonicera": 0.8859722677268437,
+            "Madame Galen": 0.9139606793836095,
+            "Parthenocissus": 0.9311465183092361,
+            "Wisteria": 0.9556954583835912
+          },
+          "per_class_f1": {
+            "background": 0.9843458584136409,
+            "Akebia": 0.8831825166254125,
+            "Campsis": 0.8113539194121718,
+            "Hydrangea": 0.874417060624214,
+            "Lonicera": 0.9148117067987858,
+            "Madame Galen": 0.7982071734113046,
+            "Parthenocissus": 0.937795793134562,
+            "Wisteria": 0.9371651994801637
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7908029909208427,
+            "Campsis": 0.6825866972127056,
+            "Hydrangea": 0.7768571455158387,
+            "Lonicera": 0.8429982193712486,
+            "Madame Galen": 0.664180412485403,
+            "Parthenocissus": 0.8828772106270399,
+            "Wisteria": 0.8817600751071395
+          },
+          "background_iou": 0.9691743641536675
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35847236,
+            84445,
+            72508,
+            20790,
+            40835,
+            84534,
+            100611,
+            96899
+          ],
+          [
+            84959,
+            651696,
+            2702,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            165670,
+            267,
+            1271644,
+            0,
+            1624,
+            297482,
+            0,
+            20771
+          ],
+          [
+            47438,
+            0,
+            0,
+            250430,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            97006,
+            0,
+            5664,
+            0,
+            797725,
+            0,
+            0,
+            0
+          ],
+          [
+            62753,
+            0,
+            24646,
+            0,
+            0,
+            928404,
+            0,
+            0
+          ],
+          [
+            119545,
+            16,
+            0,
+            3705,
+            3441,
+            0,
+            1713534,
+            0
+          ],
+          [
+            62167,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1341180
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "DeepLabV3 is a pure semantic-segmentation architecture with no separate instance identities/scores/proposals; COCO instance AP/AR is not defined for it."
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.8951163453649121,
+          "std": 0.013633573225981223,
+          "per_seed": {
+            "42": 0.8760061440495588,
+            "43": 0.9068876663697757,
+            "44": 0.9024552256754024
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.8987223965068637,
+          "std": 0.008644483642307176,
+          "per_seed": {
+            "42": 0.8958840962784629,
+            "43": 0.9104395408443714,
+            "44": 0.8898435523977569
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.8947898288448789,
+          "std": 0.009520861345302542,
+          "per_seed": {
+            "42": 0.8843409839598568,
+            "43": 0.9073685990872479,
+            "44": 0.892659903487532
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.8142743848678241,
+          "std": 0.014695676594228135,
+          "per_seed": {
+            "42": 0.7978832152172921,
+            "43": 0.8335352999619445,
+            "44": 0.8114046394242357
+          }
+        },
+        "background_iou": {
+          "mean": 0.969837567099788,
+          "std": 0.0005223100838079553,
+          "per_seed": {
+            "42": 0.9698875072076164,
+            "43": 0.9704508299380797,
+            "44": 0.9691743641536675
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.783024428926217,
+          "std": 0.012830772200937628,
+          "per_seed": {
+            "42": 0.7649378399840736,
+            "43": 0.7933324558737352,
+            "44": 0.7908029909208427
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.7405153064681769,
+          "std": 0.043460501767879675,
+          "per_seed": {
+            "42": 0.7516911318700485,
+            "43": 0.7872680903217767,
+            "44": 0.6825866972127056
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.7196255165235952,
+          "std": 0.051037912224540675,
+          "per_seed": {
+            "42": 0.6529215383997725,
+            "43": 0.7290978656551745,
+            "44": 0.7768571455158387
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.8522916682777755,
+          "std": 0.0076529189774070475,
+          "per_seed": {
+            "42": 0.8617419964697404,
+            "43": 0.8521347889923376,
+            "44": 0.8429982193712486
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.7041467403378451,
+          "std": 0.039012709221685864,
+          "per_seed": {
+            "42": 0.6911904643824127,
+            "43": 0.7570693441457195,
+            "44": 0.664180412485403
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.8605647711038893,
+          "std": 0.03235129097256838,
+          "per_seed": {
+            "42": 0.8148177241870985,
+            "43": 0.8839993784975292,
+            "44": 0.8828772106270399
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.8841890802053053,
+          "std": 0.007965380737984182,
+          "per_seed": {
+            "42": 0.8758775192375735,
+            "43": 0.8949296462712029,
+            "44": 0.8817600751071395
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            35823883.666666664,
+            73836.66666666667,
+            94661.0,
+            26132.0,
+            51049.0,
+            86391.33333333333,
+            96898.0,
+            95006.33333333333
+          ],
+          [
+            92215.0,
+            646049.0,
+            900.6666666666666,
+            0.0,
+            0.0,
+            193.0,
+            0.0,
+            0.3333333333333333
+          ],
+          [
+            135385.66666666666,
+            89.0,
+            1397312.6666666667,
+            85.0,
+            1000.0,
+            211587.33333333334,
+            4922.333333333333,
+            7076.0
+          ],
+          [
+            41046.0,
+            0.0,
+            0.0,
+            256765.33333333334,
+            56.666666666666664,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            84186.66666666667,
+            0.0,
+            1888.0,
+            76.0,
+            814159.3333333334,
+            0.0,
+            85.0,
+            0.0
+          ],
+          [
+            61703.666666666664,
+            0.0,
+            30948.666666666668,
+            0.0,
+            0.0,
+            923150.6666666666,
+            0.0,
+            0.0
+          ],
+          [
+            112247.33333333333,
+            11542.0,
+            982.3333333333334,
+            34885.0,
+            2722.3333333333335,
+            0.0,
+            1677612.3333333333,
+            249.66666666666666
+          ],
+          [
+            63395.333333333336,
+            404.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            8233.666666666666,
+            1331322.0
+          ]
+        ],
+        "median_mIoU_seed": 44,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            35847236,
+            84445,
+            72508,
+            20790,
+            40835,
+            84534,
+            100611,
+            96899
+          ],
+          [
+            84959,
+            651696,
+            2702,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            165670,
+            267,
+            1271644,
+            0,
+            1624,
+            297482,
+            0,
+            20771
+          ],
+          [
+            47438,
+            0,
+            0,
+            250430,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            97006,
+            0,
+            5664,
+            0,
+            797725,
+            0,
+            0,
+            0
+          ],
+          [
+            62753,
+            0,
+            24646,
+            0,
+            0,
+            928404,
+            0,
+            0
+          ],
+          [
+            119545,
+            16,
+            0,
+            3705,
+            3441,
+            0,
+            1713534,
+            0
+          ],
+          [
+            62167,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1341180
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": false,
+        "reason": "DeepLabV3 is a pure semantic-segmentation architecture: it outputs one per-pixel class map with no separate instance identities, confidence scores, or object proposals. COCO-style instance AP/AP50/AP75/AR is not defined for this output and was not computed. This is an architectural limitation, stated here explicitly rather than skipped silently."
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/DeepLabV3/checkpoints/best_model.pth (epoch 9, val_miou=0.7565, val_dice=0.8184)",
+        "43": "/workspace/vine-project-Run/DeepLabV3/checkpoints_seed43/best_model.pth (epoch 12, val_miou=0.7650, val_dice=0.8295)",
+        "44": "/workspace/vine-project-Run/DeepLabV3/checkpoints_seed44/best_model.pth (epoch 21, val_miou=0.7726, val_dice=0.8312)"
+      },
+      "test_set": "rebuilt/final/test",
+      "n_test_images": 169
+    }
+  },
+  "SegFormer": {
+    "model": "SegFormer",
+    "per_seed_full_results": {
+      "42": {
+        "model": "SegFormer",
+        "checkpoint_used": "/workspace/vine-project-Run/SegFormer/checkpoints/best_model.pth (epoch 7, val_miou=0.8173, val_dice=0.8765)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.897299216276896,
+          "macro_recall_8class": 0.9085352747405349,
+          "macro_f1_8class": 0.9013727404102809,
+          "mIoU_8class": 0.8247007931035242,
+          "per_class_precision": {
+            "background": 0.9860196680481794,
+            "Akebia": 0.928952686393599,
+            "Campsis": 0.8951565370528721,
+            "Hydrangea": 0.7511883916482669,
+            "Lonicera": 0.9358942335140263,
+            "Madame Galen": 0.8030650712281843,
+            "Parthenocissus": 0.9288315804685386,
+            "Wisteria": 0.9492855618615018
+          },
+          "per_class_recall": {
+            "background": 0.9854935880953399,
+            "Akebia": 0.8250495700322679,
+            "Campsis": 0.8572580397368895,
+            "Hydrangea": 0.888628520015279,
+            "Lonicera": 0.9321242343637035,
+            "Madame Galen": 0.9057445193604562,
+            "Parthenocissus": 0.9325191646093673,
+            "Wisteria": 0.9414645617109755
+          },
+          "per_class_f1": {
+            "background": 0.9857565078819976,
+            "Akebia": 0.8739235858851622,
+            "Campsis": 0.8757974335359558,
+            "Hydrangea": 0.8141486811944588,
+            "Lonicera": 0.9340053796689749,
+            "Madame Galen": 0.8513198291896175,
+            "Parthenocissus": 0.9306716697410881,
+            "Wisteria": 0.9453588361849927
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7760784822622586,
+            "Campsis": 0.7790388926089937,
+            "Hydrangea": 0.6865521436110072,
+            "Lonicera": 0.8761821642099425,
+            "Madame Galen": 0.7411287646161726,
+            "Parthenocissus": 0.8703330276792302,
+            "Wisteria": 0.8963797009237903
+          },
+          "background_iou": 0.9719131689167975
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35820581,
+            46654,
+            136405,
+            29512,
+            57488,
+            57205,
+            129429,
+            70584
+          ],
+          [
+            109349,
+            610007,
+            17944,
+            0,
+            0,
+            0,
+            2058,
+            0
+          ],
+          [
+            82443,
+            0,
+            1506595,
+            0,
+            0,
+            168420,
+            0,
+            0
+          ],
+          [
+            33174,
+            0,
+            0,
+            264694,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            61115,
+            0,
+            0,
+            0,
+            839280,
+            0,
+            0,
+            0
+          ],
+          [
+            73637,
+            0,
+            22108,
+            0,
+            0,
+            920058,
+            0,
+            0
+          ],
+          [
+            66020,
+            0,
+            0,
+            58161,
+            0,
+            0,
+            1716060,
+            0
+          ],
+          [
+            82146,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1321209
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "SegFormer is a pure semantic-segmentation (transformer encoder + MLP decode head) architecture: it outputs one per-pixel class map with no separate instance identities, confidence scores, or object proposals. COCO-style instance AP/AP50/AP75/AR is not defined for this output and was not computed. This is an architectural limitation, stated here explicitly rather than skipped silently."
+        }
+      },
+      "43": {
+        "model": "SegFormer",
+        "checkpoint_used": "/workspace/vine-project-Run/SegFormer/checkpoints_seed43/best_model.pth (epoch 18, val_miou=0.8470, val_dice=0.9019)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.9218988459131428,
+          "macro_recall_8class": 0.9094205280609111,
+          "macro_f1_8class": 0.9153734435586547,
+          "mIoU_8class": 0.8470731192219842,
+          "per_class_precision": {
+            "background": 0.9854311608722391,
+            "Akebia": 0.9144406371835354,
+            "Campsis": 0.8991726045056151,
+            "Hydrangea": 0.9238994920455221,
+            "Lonicera": 0.9477210111983712,
+            "Madame Galen": 0.8186809964508984,
+            "Parthenocissus": 0.950763713022357,
+            "Wisteria": 0.9350811520266039
+          },
+          "per_class_recall": {
+            "background": 0.9876640598738969,
+            "Akebia": 0.8799931832751008,
+            "Campsis": 0.8588472669047649,
+            "Hydrangea": 0.8707548309986737,
+            "Lonicera": 0.9214922339638801,
+            "Madame Galen": 0.8520382396979678,
+            "Parthenocissus": 0.9435481548340167,
+            "Wisteria": 0.9610262549389884
+          },
+          "per_class_f1": {
+            "background": 0.9865462969171445,
+            "Akebia": 0.8968862191655165,
+            "Campsis": 0.8785473958361734,
+            "Hydrangea": 0.8965402316187838,
+            "Lonicera": 0.9344225516514156,
+            "Madame Galen": 0.8350265660994877,
+            "Parthenocissus": 0.9471421416616429,
+            "Wisteria": 0.9478761455190727
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.8130496829676304,
+            "Campsis": 0.7834013507993268,
+            "Hydrangea": 0.8124812048914857,
+            "Lonicera": 0.8769166867476593,
+            "Madame Galen": 0.7167774196433007,
+            "Parthenocissus": 0.8995917436895957,
+            "Wisteria": 0.9009169752308537
+          },
+          "background_iou": 0.9734498898060215
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35899473,
+            60876,
+            86636,
+            21364,
+            45317,
+            62622,
+            77976,
+            93594
+          ],
+          [
+            76785,
+            650630,
+            0,
+            0,
+            0,
+            0,
+            11943,
+            0
+          ],
+          [
+            118513,
+            0,
+            1509388,
+            0,
+            452,
+            129067,
+            0,
+            38
+          ],
+          [
+            38498,
+            0,
+            0,
+            259370,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            70645,
+            0,
+            43,
+            0,
+            829707,
+            0,
+            0,
+            0
+          ],
+          [
+            67726,
+            0,
+            82574,
+            0,
+            0,
+            865503,
+            0,
+            0
+          ],
+          [
+            103885,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1736356,
+            0
+          ],
+          [
+            54694,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1348661
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "SegFormer is a pure semantic-segmentation architecture with no separate instance identities/scores/proposals; COCO instance AP/AR is not defined for it."
+        }
+      },
+      "44": {
+        "model": "SegFormer",
+        "checkpoint_used": "/workspace/vine-project-Run/SegFormer/checkpoints_seed44/best_model.pth (epoch 28, val_miou=0.8159, val_dice=0.8730)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.9344835304736706,
+          "macro_recall_8class": 0.8994786488592807,
+          "macro_f1_8class": 0.9146511988609749,
+          "mIoU_8class": 0.8453509792467535,
+          "per_class_precision": {
+            "background": 0.9825062131991841,
+            "Akebia": 0.9418531620314615,
+            "Campsis": 0.9555048507207355,
+            "Hydrangea": 0.9331454955815349,
+            "Lonicera": 0.960344788756321,
+            "Madame Galen": 0.789340078444922,
+            "Parthenocissus": 0.953655907279499,
+            "Wisteria": 0.9595177477757066
+          },
+          "per_class_recall": {
+            "background": 0.9907331265572762,
+            "Akebia": 0.8275301004383766,
+            "Campsis": 0.8203951388880519,
+            "Hydrangea": 0.8494635207538743,
+            "Lonicera": 0.899818413029737,
+            "Madame Galen": 0.9400602282134488,
+            "Parthenocissus": 0.9316350412798687,
+            "Wisteria": 0.9361936217136124
+          },
+          "per_class_f1": {
+            "background": 0.98660246988061,
+            "Akebia": 0.8809982712690779,
+            "Campsis": 0.8828104005422156,
+            "Hydrangea": 0.889340294278135,
+            "Lonicera": 0.9290968410680721,
+            "Madame Galen": 0.8581323462444825,
+            "Parthenocissus": 0.9425168185294643,
+            "Wisteria": 0.9477121490757415
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7873074166387922,
+            "Campsis": 0.7902065056485952,
+            "Hydrangea": 0.8007316548308204,
+            "Lonicera": 0.8675825882100051,
+            "Madame Galen": 0.7515165442622567,
+            "Parthenocissus": 0.8912831235482154,
+            "Wisteria": 0.9006207220391697
+          },
+          "background_iou": 0.9735592787961729
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            36011027,
+            37773,
+            64117,
+            12756,
+            32747,
+            74725,
+            59283,
+            55430
+          ],
+          [
+            103485,
+            611841,
+            0,
+            0,
+            0,
+            0,
+            24032,
+            0
+          ],
+          [
+            135524,
+            0,
+            1441810,
+            0,
+            0,
+            180124,
+            0,
+            0
+          ],
+          [
+            42430,
+            0,
+            1702,
+            253028,
+            708,
+            0,
+            0,
+            0
+          ],
+          [
+            90203,
+            0,
+            0,
+            0,
+            810192,
+            0,
+            0,
+            0
+          ],
+          [
+            60887,
+            0,
+            0,
+            0,
+            0,
+            954916,
+            0,
+            0
+          ],
+          [
+            120436,
+            0,
+            0,
+            5372,
+            0,
+            0,
+            1714433,
+            0
+          ],
+          [
+            88221,
+            0,
+            1322,
+            0,
+            0,
+            0,
+            0,
+            1313812
+          ]
+        ],
+        "instance_metrics": {
+          "supported": false,
+          "reason": "SegFormer is a pure semantic-segmentation architecture with no separate instance identities/scores/proposals; COCO instance AP/AR is not defined for it."
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.9178938642212365,
+          "std": 0.015442327422498885,
+          "per_seed": {
+            "42": 0.897299216276896,
+            "43": 0.9218988459131428,
+            "44": 0.9344835304736706
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.9058114838869088,
+          "std": 0.004492550721336741,
+          "per_seed": {
+            "42": 0.9085352747405349,
+            "43": 0.9094205280609111,
+            "44": 0.8994786488592807
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.9104657942766368,
+          "std": 0.006436517216278242,
+          "per_seed": {
+            "42": 0.9013727404102809,
+            "43": 0.9153734435586547,
+            "44": 0.9146511988609749
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.8390416305240874,
+          "std": 0.01016484644795778,
+          "per_seed": {
+            "42": 0.8247007931035242,
+            "43": 0.8470731192219842,
+            "44": 0.8453509792467535
+          }
+        },
+        "background_iou": {
+          "mean": 0.9729741125063306,
+          "std": 0.0007515284261291411,
+          "per_seed": {
+            "42": 0.9719131689167975,
+            "43": 0.9734498898060215,
+            "44": 0.9735592787961729
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.7921451939562271,
+          "std": 0.01547622881344236,
+          "per_seed": {
+            "42": 0.7760784822622586,
+            "43": 0.8130496829676304,
+            "44": 0.7873074166387922
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.784215583018972,
+          "std": 0.004595369106045797,
+          "per_seed": {
+            "42": 0.7790388926089937,
+            "43": 0.7834013507993268,
+            "44": 0.7902065056485952
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.7665883344444379,
+          "std": 0.05679704724719999,
+          "per_seed": {
+            "42": 0.6865521436110072,
+            "43": 0.8124812048914857,
+            "44": 0.8007316548308204
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.8735604797225357,
+          "std": 0.0042376307091968315,
+          "per_seed": {
+            "42": 0.8761821642099425,
+            "43": 0.8769166867476593,
+            "44": 0.8675825882100051
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.7364742428405767,
+          "std": 0.014559077913624006,
+          "per_seed": {
+            "42": 0.7411287646161726,
+            "43": 0.7167774196433007,
+            "44": 0.7515165442622567
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.8870692983056804,
+          "std": 0.012310845029885211,
+          "per_seed": {
+            "42": 0.8703330276792302,
+            "43": 0.8995917436895957,
+            "44": 0.8912831235482154
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.899305799397938,
+          "std": 0.002072595908307972,
+          "per_seed": {
+            "42": 0.8963797009237903,
+            "43": 0.9009169752308537,
+            "44": 0.9006207220391697
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            35910360.333333336,
+            48434.333333333336,
+            95719.33333333333,
+            21210.666666666668,
+            45184.0,
+            64850.666666666664,
+            88896.0,
+            73202.66666666667
+          ],
+          [
+            96539.66666666667,
+            624159.3333333334,
+            5981.333333333333,
+            0.0,
+            0.0,
+            0.0,
+            12677.666666666666,
+            0.0
+          ],
+          [
+            112160.0,
+            0.0,
+            1485931.0,
+            0.0,
+            150.66666666666666,
+            159203.66666666666,
+            0.0,
+            12.666666666666666
+          ],
+          [
+            38034.0,
+            0.0,
+            567.3333333333334,
+            259030.66666666666,
+            236.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            73987.66666666667,
+            0.0,
+            14.333333333333334,
+            0.0,
+            826393.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            67416.66666666667,
+            0.0,
+            34894.0,
+            0.0,
+            0.0,
+            913492.3333333334,
+            0.0,
+            0.0
+          ],
+          [
+            96780.33333333333,
+            0.0,
+            0.0,
+            21177.666666666668,
+            0.0,
+            0.0,
+            1722283.0,
+            0.0
+          ],
+          [
+            75020.33333333333,
+            0.0,
+            440.6666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1327894.0
+          ]
+        ],
+        "median_mIoU_seed": 44,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            36011027,
+            37773,
+            64117,
+            12756,
+            32747,
+            74725,
+            59283,
+            55430
+          ],
+          [
+            103485,
+            611841,
+            0,
+            0,
+            0,
+            0,
+            24032,
+            0
+          ],
+          [
+            135524,
+            0,
+            1441810,
+            0,
+            0,
+            180124,
+            0,
+            0
+          ],
+          [
+            42430,
+            0,
+            1702,
+            253028,
+            708,
+            0,
+            0,
+            0
+          ],
+          [
+            90203,
+            0,
+            0,
+            0,
+            810192,
+            0,
+            0,
+            0
+          ],
+          [
+            60887,
+            0,
+            0,
+            0,
+            0,
+            954916,
+            0,
+            0
+          ],
+          [
+            120436,
+            0,
+            0,
+            5372,
+            0,
+            0,
+            1714433,
+            0
+          ],
+          [
+            88221,
+            0,
+            1322,
+            0,
+            0,
+            0,
+            0,
+            1313812
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": false,
+        "reason": "SegFormer is a pure semantic-segmentation (transformer encoder + MLP decode head) architecture: it outputs one per-pixel class map with no separate instance identities, confidence scores, or object proposals. COCO-style instance AP/AP50/AP75/AR is not defined for this output and was not computed. This is an architectural limitation, stated here explicitly rather than skipped silently."
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/SegFormer/checkpoints/best_model.pth (epoch 7, val_miou=0.8173, val_dice=0.8765)",
+        "43": "/workspace/vine-project-Run/SegFormer/checkpoints_seed43/best_model.pth (epoch 18, val_miou=0.8470, val_dice=0.9019)",
+        "44": "/workspace/vine-project-Run/SegFormer/checkpoints_seed44/best_model.pth (epoch 28, val_miou=0.8159, val_dice=0.8730)"
+      },
+      "test_set": "rebuilt/final/test",
+      "n_test_images": 169
+    }
+  },
+  "MaskRCNN": {
+    "model": "MaskRCNN",
+    "per_seed_full_results": {
+      "42": {
+        "model": "Mask R-CNN",
+        "checkpoint_used": "/workspace/vine-project-Run/MaskRCNN/checkpoints/best_model.pth (epoch 24, val_loss=0.4082, val_dice=0.8663)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.881525718228077,
+          "macro_recall_8class": 0.8609522800185906,
+          "macro_f1_8class": 0.86760483104814,
+          "mIoU_8class": 0.7709339424849905,
+          "per_class_precision": {
+            "background": 0.9770354399688332,
+            "Akebia": 0.8149368372609973,
+            "Campsis": 0.9267989393381899,
+            "Hydrangea": 0.8824159341038964,
+            "Lonicera": 0.8936999427519169,
+            "Madame Galen": 0.7600637319197718,
+            "Parthenocissus": 0.937892633287098,
+            "Wisteria": 0.859362287193912
+          },
+          "per_class_recall": {
+            "background": 0.9852201194359212,
+            "Akebia": 0.7975757346237144,
+            "Campsis": 0.6916927744503316,
+            "Hydrangea": 0.8077772704685271,
+            "Lonicera": 0.8929058913031622,
+            "Madame Galen": 0.9138740484128405,
+            "Parthenocissus": 0.8630407647693502,
+            "Wisteria": 0.9355316366848777
+          },
+          "per_class_f1": {
+            "background": 0.9811106603216246,
+            "Akebia": 0.8061627768675754,
+            "Campsis": 0.7921697524164563,
+            "Hydrangea": 0.8434485366142194,
+            "Lonicera": 0.8933026905706944,
+            "Madame Galen": 0.829902385150966,
+            "Parthenocissus": 0.8989111217900905,
+            "Wisteria": 0.8958307246534933
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.675270334180263,
+            "Campsis": 0.6558618937118166,
+            "Hydrangea": 0.7292789379563152,
+            "Lonicera": 0.8071789578944233,
+            "Madame Galen": 0.7092591757821002,
+            "Parthenocissus": 0.8163838816661553,
+            "Wisteria": 0.8113165572146058
+          },
+          "background_iou": 0.9629218014742444
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35810641,
+            73375,
+            95709,
+            21118,
+            55122,
+            75981,
+            76608,
+            139304
+          ],
+          [
+            120726,
+            589694,
+            0,
+            39,
+            0,
+            0,
+            28563,
+            336
+          ],
+          [
+            209883,
+            0,
+            1215621,
+            0,
+            39817,
+            216919,
+            0,
+            75218
+          ],
+          [
+            49325,
+            7244,
+            0,
+            240611,
+            688,
+            0,
+            0,
+            0
+          ],
+          [
+            96277,
+            0,
+            0,
+            0,
+            803968,
+            150,
+            0,
+            0
+          ],
+          [
+            87183,
+            0,
+            304,
+            0,
+            0,
+            928316,
+            0,
+            0
+          ],
+          [
+            187839,
+            53294,
+            0,
+            10905,
+            0,
+            0,
+            1588203,
+            0
+          ],
+          [
+            90472,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1312883
+          ]
+        ],
+        "notes": "Semantic metrics computed by rasterizing instance predictions (conf>=0.5) to a per-pixel class map, highest-confidence instance painted last on overlaps.",
+        "instance_metrics": {
+          "confidence_threshold": 0.5,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance predicted masks vs GT polygons.",
+          "AP": 0.4937283602098698,
+          "AP50": 0.7744251921840482,
+          "AP75": 0.5830375382516377,
+          "AP_small": 0.03999999999999999,
+          "AP_medium": 0.09094766619519094,
+          "AP_large": 0.5849440382008532,
+          "AR_max1": 0.5400911997408104,
+          "AR_max10": 0.5537985497384831,
+          "AR_max100": 0.5537985497384831,
+          "AR_small": 0.04,
+          "AR_medium": 0.10030612244897957,
+          "AR_large": 0.6572797619047619
+        }
+      },
+      "43": {
+        "model": "Mask R-CNN",
+        "checkpoint_used": "/workspace/vine-project-Run/MaskRCNN/checkpoints_seed43/best_model.pth (epoch 9, val_loss=0.3839, val_dice=0.8713)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8690470654531044,
+          "macro_recall_8class": 0.8492435182294713,
+          "macro_f1_8class": 0.8546660185630585,
+          "mIoU_8class": 0.7524273296793387,
+          "per_class_precision": {
+            "background": 0.9775920380069769,
+            "Akebia": 0.7296683948711625,
+            "Campsis": 0.9262383214567755,
+            "Hydrangea": 0.9051210147433887,
+            "Lonicera": 0.8954346918902885,
+            "Madame Galen": 0.789858499456754,
+            "Parthenocissus": 0.9417680817141013,
+            "Wisteria": 0.7866954814853876
+          },
+          "per_class_recall": {
+            "background": 0.9857269168378479,
+            "Akebia": 0.7701587052549955,
+            "Campsis": 0.6656426497816355,
+            "Hydrangea": 0.815945318060075,
+            "Lonicera": 0.8936744428833019,
+            "Madame Galen": 0.9075834586035966,
+            "Parthenocissus": 0.8416267217173815,
+            "Wisteria": 0.9135899326969361
+          },
+          "per_class_f1": {
+            "background": 0.9816425742641293,
+            "Akebia": 0.7493669486887503,
+            "Campsis": 0.7746102918908877,
+            "Hydrangea": 0.8582228322873672,
+            "Lonicera": 0.8945536514596353,
+            "Madame Galen": 0.8446385611106622,
+            "Parthenocissus": 0.8888857781369769,
+            "Wisteria": 0.8454075106660588
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.599190168374623,
+            "Campsis": 0.6321338968204352,
+            "Hydrangea": 0.7516553526416825,
+            "Lonicera": 0.8092240234924163,
+            "Madame Galen": 0.7310600984392969,
+            "Parthenocissus": 0.7999950413402018,
+            "Wisteria": 0.7322129709002707
+          },
+          "background_iou": 0.9639470854257826
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35829062,
+            80079,
+            92382,
+            21942,
+            53924,
+            64069,
+            67821,
+            138579
+          ],
+          [
+            141723,
+            569423,
+            0,
+            0,
+            0,
+            0,
+            27661,
+            551
+          ],
+          [
+            157589,
+            0,
+            1169839,
+            0,
+            40041,
+            181209,
+            284,
+            208496
+          ],
+          [
+            54643,
+            181,
+            0,
+            243044,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            95373,
+            0,
+            0,
+            362,
+            804660,
+            0,
+            0,
+            0
+          ],
+          [
+            93098,
+            0,
+            779,
+            0,
+            0,
+            921926,
+            0,
+            0
+          ],
+          [
+            157569,
+            130703,
+            0,
+            3173,
+            0,
+            0,
+            1548796,
+            0
+          ],
+          [
+            121264,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1282091
+          ]
+        ],
+        "instance_metrics": {
+          "confidence_threshold": 0.5,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks.",
+          "AP": 0.4966189193073403,
+          "AP50": 0.7800525403694368,
+          "AP75": 0.5706096186000208,
+          "AP_small": 0.019999999999999993,
+          "AP_medium": 0.11758604431871758,
+          "AP_large": 0.5838519091286958,
+          "AR_max1": 0.5349702454263077,
+          "AR_max10": 0.5563324853369348,
+          "AR_max100": 0.5563324853369348,
+          "AR_small": 0.02,
+          "AR_medium": 0.12187074829931974,
+          "AR_large": 0.6561170634920633
+        }
+      },
+      "44": {
+        "model": "Mask R-CNN",
+        "checkpoint_used": "/workspace/vine-project-Run/MaskRCNN/checkpoints_seed44/best_model.pth (epoch 33, val_loss=0.4252, val_dice=0.8808)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8739506372453597,
+          "macro_recall_8class": 0.8816364819635494,
+          "macro_f1_8class": 0.8737225396878097,
+          "mIoU_8class": 0.7800525395918443,
+          "per_class_precision": {
+            "background": 0.982484381236303,
+            "Akebia": 0.7671389744173643,
+            "Campsis": 0.9242732617303812,
+            "Hydrangea": 0.8947914902387775,
+            "Lonicera": 0.8946707424255673,
+            "Madame Galen": 0.7422292666410132,
+            "Parthenocissus": 0.9440078459526129,
+            "Wisteria": 0.8420091353208581
+          },
+          "per_class_recall": {
+            "background": 0.9822618158131878,
+            "Akebia": 0.8734550785950955,
+            "Campsis": 0.7235199930808746,
+            "Hydrangea": 0.8158647454574456,
+            "Lonicera": 0.8987844223922946,
+            "Madame Galen": 0.9344469350847621,
+            "Parthenocissus": 0.8802972002036212,
+            "Wisteria": 0.9444616650811133
+          },
+          "per_class_f1": {
+            "background": 0.9823730359187011,
+            "Akebia": 0.8168521531820808,
+            "Campsis": 0.8116675334069442,
+            "Hydrangea": 0.8535072956357804,
+            "Lonicera": 0.8967228145987937,
+            "Madame Galen": 0.8273199336437466,
+            "Parthenocissus": 0.9110399820043796,
+            "Wisteria": 0.8902975691120509
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.6904058859122661,
+            "Campsis": 0.6830307503391807,
+            "Hydrangea": 0.7444507753289269,
+            "Lonicera": 0.8127811551830164,
+            "Madame Galen": 0.7054950804855518,
+            "Parthenocissus": 0.8366148055647222,
+            "Wisteria": 0.802285039798989
+          },
+          "background_iou": 0.9653568241221016
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35703113,
+            111790,
+            103056,
+            24594,
+            58411,
+            94208,
+            94632,
+            158054
+          ],
+          [
+            91726,
+            645796,
+            0,
+            0,
+            0,
+            542,
+            970,
+            324
+          ],
+          [
+            134631,
+            0,
+            1271556,
+            0,
+            25566,
+            234905,
+            483,
+            90317
+          ],
+          [
+            42489,
+            1062,
+            0,
+            243020,
+            11297,
+            0,
+            0,
+            0
+          ],
+          [
+            91134,
+            0,
+            0,
+            0,
+            809261,
+            0,
+            0,
+            0
+          ],
+          [
+            65465,
+            0,
+            1124,
+            0,
+            0,
+            949214,
+            0,
+            0
+          ],
+          [
+            133126,
+            83176,
+            0,
+            3980,
+            0,
+            0,
+            1619959,
+            0
+          ],
+          [
+            77940,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1325415
+          ]
+        ],
+        "instance_metrics": {
+          "confidence_threshold": 0.5,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks.",
+          "AP": 0.5029201946609123,
+          "AP50": 0.808635691936549,
+          "AP75": 0.5494315574937922,
+          "AP_small": 0.019999999999999993,
+          "AP_medium": 0.11836397925506835,
+          "AP_large": 0.5894356230042702,
+          "AR_max1": 0.5426140831730376,
+          "AR_max10": 0.5668553437046207,
+          "AR_max100": 0.5668553437046207,
+          "AR_small": 0.02,
+          "AR_medium": 0.14112244897959184,
+          "AR_large": 0.664502551020408
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.8748411403088471,
+          "std": 0.005133156309662585,
+          "per_seed": {
+            "42": 0.881525718228077,
+            "43": 0.8690470654531044,
+            "44": 0.8739506372453597
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.8639440934038705,
+          "std": 0.013392516202929132,
+          "per_seed": {
+            "42": 0.8609522800185906,
+            "43": 0.8492435182294713,
+            "44": 0.8816364819635494
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.8653311297663361,
+          "std": 0.007944181832581627,
+          "per_seed": {
+            "42": 0.86760483104814,
+            "43": 0.8546660185630585,
+            "44": 0.8737225396878097
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.7678046039187244,
+          "std": 0.011492972507123337,
+          "per_seed": {
+            "42": 0.7709339424849905,
+            "43": 0.7524273296793387,
+            "44": 0.7800525395918443
+          }
+        },
+        "background_iou": {
+          "mean": 0.9640752370073762,
+          "std": 0.0009982153891797683,
+          "per_seed": {
+            "42": 0.9629218014742444,
+            "43": 0.9639470854257826,
+            "44": 0.9653568241221016
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.654955462822384,
+          "std": 0.03991321652612622,
+          "per_seed": {
+            "42": 0.675270334180263,
+            "43": 0.599190168374623,
+            "44": 0.6904058859122661
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.6570088469571441,
+          "std": 0.020794375054124372,
+          "per_seed": {
+            "42": 0.6558618937118166,
+            "43": 0.6321338968204352,
+            "44": 0.6830307503391807
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.7417950219756415,
+          "std": 0.009326155082990903,
+          "per_seed": {
+            "42": 0.7292789379563152,
+            "43": 0.7516553526416825,
+            "44": 0.7444507753289269
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.8097280455232854,
+          "std": 0.0023146896510160284,
+          "per_seed": {
+            "42": 0.8071789578944233,
+            "43": 0.8092240234924163,
+            "44": 0.8127811551830164
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.715271451568983,
+          "std": 0.011269520275119077,
+          "per_seed": {
+            "42": 0.7092591757821002,
+            "43": 0.7310600984392969,
+            "44": 0.7054950804855518
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.8176645761903597,
+          "std": 0.01497735884177874,
+          "per_seed": {
+            "42": 0.8163838816661553,
+            "43": 0.7999950413402018,
+            "44": 0.8366148055647222
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.7819381893046219,
+          "std": 0.03535383134095901,
+          "per_seed": {
+            "42": 0.8113165572146058,
+            "43": 0.7322129709002707,
+            "44": 0.802285039798989
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            35780938.666666664,
+            88414.66666666667,
+            97049.0,
+            22551.333333333332,
+            55819.0,
+            78086.0,
+            79687.0,
+            145312.33333333334
+          ],
+          [
+            118058.33333333333,
+            601637.6666666666,
+            0.0,
+            13.0,
+            0.0,
+            180.66666666666666,
+            19064.666666666668,
+            403.6666666666667
+          ],
+          [
+            167367.66666666666,
+            0.0,
+            1219005.3333333333,
+            0.0,
+            35141.333333333336,
+            211011.0,
+            255.66666666666666,
+            124677.0
+          ],
+          [
+            48819.0,
+            2829.0,
+            0.0,
+            242225.0,
+            3995.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            94261.33333333333,
+            0.0,
+            0.0,
+            120.66666666666667,
+            805963.0,
+            50.0,
+            0.0,
+            0.0
+          ],
+          [
+            81915.33333333333,
+            0.0,
+            735.6666666666666,
+            0.0,
+            0.0,
+            933152.0,
+            0.0,
+            0.0
+          ],
+          [
+            159511.33333333334,
+            89057.66666666667,
+            0.0,
+            6019.333333333333,
+            0.0,
+            0.0,
+            1585652.6666666667,
+            0.0
+          ],
+          [
+            96558.66666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1306796.3333333333
+          ]
+        ],
+        "median_mIoU_seed": 42,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            35810641,
+            73375,
+            95709,
+            21118,
+            55122,
+            75981,
+            76608,
+            139304
+          ],
+          [
+            120726,
+            589694,
+            0,
+            39,
+            0,
+            0,
+            28563,
+            336
+          ],
+          [
+            209883,
+            0,
+            1215621,
+            0,
+            39817,
+            216919,
+            0,
+            75218
+          ],
+          [
+            49325,
+            7244,
+            0,
+            240611,
+            688,
+            0,
+            0,
+            0
+          ],
+          [
+            96277,
+            0,
+            0,
+            0,
+            803968,
+            150,
+            0,
+            0
+          ],
+          [
+            87183,
+            0,
+            304,
+            0,
+            0,
+            928316,
+            0,
+            0
+          ],
+          [
+            187839,
+            53294,
+            0,
+            10905,
+            0,
+            0,
+            1588203,
+            0
+          ],
+          [
+            90472,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1312883
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": true,
+        "AP": {
+          "mean": 0.4977558247260408,
+          "std": 0.0038376964090580715,
+          "per_seed": {
+            "42": 0.4937283602098698,
+            "43": 0.4966189193073403,
+            "44": 0.5029201946609123
+          }
+        },
+        "AP50": {
+          "mean": 0.7877044748300114,
+          "std": 0.014977842503081273,
+          "per_seed": {
+            "42": 0.7744251921840482,
+            "43": 0.7800525403694368,
+            "44": 0.808635691936549
+          }
+        },
+        "AP75": {
+          "mean": 0.567692904781817,
+          "std": 0.013873737787564589,
+          "per_seed": {
+            "42": 0.5830375382516377,
+            "43": 0.5706096186000208,
+            "44": 0.5494315574937922
+          }
+        },
+        "AR_max100": {
+          "mean": 0.5589954595933462,
+          "std": 0.005653231588290831,
+          "per_seed": {
+            "42": 0.5537985497384831,
+            "43": 0.5563324853369348,
+            "44": 0.5668553437046207
+          }
+        },
+        "confidence_threshold": 0.5
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/MaskRCNN/checkpoints/best_model.pth (epoch 24, val_loss=0.4082, val_dice=0.8663)",
+        "43": "/workspace/vine-project-Run/MaskRCNN/checkpoints_seed43/best_model.pth (epoch 9, val_loss=0.3839, val_dice=0.8713)",
+        "44": "/workspace/vine-project-Run/MaskRCNN/checkpoints_seed44/best_model.pth (epoch 33, val_loss=0.4252, val_dice=0.8808)"
+      },
+      "test_set": "rebuilt/final/test",
+      "n_test_images": 169
+    }
+  },
+  "SoloV2": {
+    "model": "SoloV2",
+    "per_seed_full_results": {
+      "42": {
+        "model": "SOLOv2",
+        "checkpoint_used": "/workspace/vine-project-Run/SoloV2/checkpoints_clean/best_model.pth (epoch 36, val_loss=0.3615, val_dice=0.6750)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.7845146590761594,
+          "macro_recall_8class": 0.5443334904001769,
+          "macro_f1_8class": 0.6202372137941781,
+          "mIoU_8class": 0.47879322795056234,
+          "per_class_precision": {
+            "background": 0.9115905801844189,
+            "Akebia": 0.6588486139320152,
+            "Campsis": 0.7027559054426421,
+            "Hydrangea": 0.7755102024989587,
+            "Lonicera": 0.806640624842453,
+            "Madame Galen": 0.700127064714088,
+            "Parthenocissus": 0.8980061349004596,
+            "Wisteria": 0.822638146094239
+          },
+          "per_class_recall": {
+            "background": 0.9724093409650488,
+            "Akebia": 0.43277310918308504,
+            "Campsis": 0.4207424867165149,
+            "Hydrangea": 0.13868613133624594,
+            "Lonicera": 0.4836065573204208,
+            "Madame Galen": 0.5628192032111523,
+            "Parthenocissus": 0.6699084667808977,
+            "Wisteria": 0.6737226276880494
+          },
+          "per_class_f1": {
+            "background": 0.9410182434777705,
+            "Akebia": 0.5224006283030492,
+            "Campsis": 0.5263545421274437,
+            "Hydrangea": 0.23529409176355848,
+            "Lonicera": 0.6046851653443097,
+            "Madame Galen": 0.6240090105429896,
+            "Parthenocissus": 0.7673656128689895,
+            "Wisteria": 0.7407704159253141
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.3535469107146972,
+            "Campsis": 0.3571785892767794,
+            "Hydrangea": 0.1333333332865497,
+            "Lonicera": 0.43336831055263714,
+            "Madame Galen": 0.4534979423495063,
+            "Parthenocissus": 0.6225412014554736,
+            "Wisteria": 0.5882727851760183
+          },
+          "background_iou": 0.8886067507928372
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            34645,
+            160,
+            293,
+            11,
+            99,
+            89,
+            133,
+            198
+          ],
+          [
+            405,
+            309,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            835,
+            0,
+            714,
+            0,
+            0,
+            147,
+            0,
+            1
+          ],
+          [
+            236,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            441,
+            0,
+            0,
+            0,
+            413,
+            0,
+            0,
+            0
+          ],
+          [
+            419,
+            0,
+            9,
+            0,
+            0,
+            551,
+            0,
+            0
+          ],
+          [
+            577,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1171,
+            0
+          ],
+          [
+            447,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            923
+          ]
+        ],
+        "notes": "This 'SimplifiedSOLOv2' head predicts one shared per-pixel category map plus a single class-agnostic objectness mask per image -- it does NOT predict per-instance mask proposals the way real SOLOv2 or Mask R-CNN do. Semantic metrics are computed on the category head's native 16x16 grid (ResNet50 stride 32, no decoder) with GT downsampled to match, exactly as this repo's own evaluate_metrics() does -- NOT at the 512x512 resolution used for the other six models, so SOLOv2's mIoU/precision/recall/F1 are not directly resolution-comparable to the rest. Instance metrics below are *derived* pseudo-instances (connected components of the class map, area>=150px, confidence=mean class prob over the component), matching the visualization convention already used in train_solov2_clean.py's plot_sample_prediction_comparison. Treat SOLOv2 instance AP as a weaker, derived signal, not a native per-instance prediction like Mask R-CNN/YOLO11.",
+        "instance_metrics": {
+          "confidence_threshold": 0.5,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', on connected-component pseudo-instances (see notes) vs GT polygons.",
+          "AP": 0.05069211944742355,
+          "AP50": 0.14089719411501592,
+          "AP75": 0.021098538425271096,
+          "AP_small": 0.0,
+          "AP_medium": 0.0,
+          "AP_large": 0.05993066889106493,
+          "AR_max1": 0.0564214996473061,
+          "AR_max10": 0.0564214996473061,
+          "AR_max100": 0.0564214996473061,
+          "AR_small": 0.0,
+          "AR_medium": 0.0,
+          "AR_large": 0.06684013605442177
+        }
+      },
+      "43": {
+        "model": "SOLOv2",
+        "checkpoint_used": "/workspace/vine-project-Run/SoloV2/checkpoints_clean_seed43/best_model.pth (epoch 10, val_loss=0.4345, val_dice=0.6187)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8055278059724174,
+          "macro_recall_8class": 0.42579769729224604,
+          "macro_f1_8class": 0.48049510943946744,
+          "mIoU_8class": 0.36880758049109885,
+          "per_class_precision": {
+            "background": 0.896136140275963,
+            "Akebia": 0.8999999987142858,
+            "Campsis": 0.7323340470307994,
+            "Hydrangea": 0.7499999812500004,
+            "Lonicera": 0.9812499993867188,
+            "Madame Galen": 0.64502164488203,
+            "Parthenocissus": 0.7523390203218305,
+            "Wisteria": 0.7871416159177114
+          },
+          "per_class_recall": {
+            "background": 0.9725496800242154,
+            "Akebia": 0.08823529410528917,
+            "Campsis": 0.40306423097212346,
+            "Hydrangea": 0.010948905105493099,
+            "Lonicera": 0.18384074939299289,
+            "Madame Galen": 0.3043922369454145,
+            "Parthenocissus": 0.7820366132275722,
+            "Wisteria": 0.6613138685648675
+          },
+          "per_class_f1": {
+            "background": 0.9327805245554832,
+            "Akebia": 0.16071426941053368,
+            "Campsis": 0.5199543441313815,
+            "Hydrangea": 0.02158273096113068,
+            "Lonicera": 0.3096646676404132,
+            "Madame Galen": 0.4136016218887674,
+            "Parthenocissus": 0.766900370733073,
+            "Wisteria": 0.7187623461949565
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.08737864076457995,
+            "Campsis": 0.35130970722386695,
+            "Hydrangea": 0.010909090905123967,
+            "Lonicera": 0.183197199511879,
+            "Madame Galen": 0.2607174103008996,
+            "Parthenocissus": 0.6219290263593299,
+            "Wisteria": 0.5609907120395671
+          },
+          "background_iou": 0.8740288568235445
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            34650,
+            7,
+            235,
+            1,
+            3,
+            75,
+            434,
+            223
+          ],
+          [
+            651,
+            63,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            886,
+            0,
+            684,
+            0,
+            0,
+            89,
+            16,
+            22
+          ],
+          [
+            271,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            697,
+            0,
+            0,
+            0,
+            157,
+            0,
+            0,
+            0
+          ],
+          [
+            666,
+            0,
+            15,
+            0,
+            0,
+            298,
+            0,
+            0
+          ],
+          [
+            381,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1367,
+            0
+          ],
+          [
+            464,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            906
+          ]
+        ],
+        "notes": "Semantic metrics on the native 16x16 category-head grid (no decoder); GT downsampled to match. Not resolution-comparable to the other six models' 512x512 metrics. Instance metrics are derived connected-component pseudo-instances, not native.",
+        "instance_metrics": {
+          "confidence_threshold": 0.5,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', connected-component pseudo-instances.",
+          "AP": 0.027064583640005888,
+          "AP50": 0.08811401178902635,
+          "AP75": 0.0050919377652050915,
+          "AP_small": 0.0,
+          "AP_medium": 0.0,
+          "AP_large": 0.03128371000365343,
+          "AR_max1": 0.03837863749154072,
+          "AR_max10": 0.03837863749154072,
+          "AR_max100": 0.03837863749154072,
+          "AR_small": 0.0,
+          "AR_medium": 0.0,
+          "AR_large": 0.04146173469387755
+        }
+      },
+      "44": {
+        "model": "SOLOv2",
+        "checkpoint_used": "/workspace/vine-project-Run/SoloV2/checkpoints_clean_seed44/best_model.pth (epoch 14, val_loss=0.3785, val_dice=0.6809)",
+        "test_set": "rebuilt/final/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.7388955547683262,
+          "macro_recall_8class": 0.5443329951054996,
+          "macro_f1_8class": 0.6152137749077804,
+          "mIoU_8class": 0.465919151794845,
+          "per_class_precision": {
+            "background": 0.9098704470614052,
+            "Akebia": 0.8131147538317656,
+            "Campsis": 0.657831325248367,
+            "Hydrangea": 0.5187499996757813,
+            "Lonicera": 0.8441558439731264,
+            "Madame Galen": 0.5974683543547509,
+            "Parthenocissus": 0.8045751633461061,
+            "Wisteria": 0.765398550655308
+          },
+          "per_class_recall": {
+            "background": 0.9619681149630572,
+            "Akebia": 0.3473389355255828,
+            "Campsis": 0.4826163818218847,
+            "Hydrangea": 0.3029197079186424,
+            "Lonicera": 0.456674473014441,
+            "Madame Galen": 0.482124616906831,
+            "Parthenocissus": 0.704233409570696,
+            "Wisteria": 0.6167883211228621
+          },
+          "per_class_f1": {
+            "background": 0.9351942307609153,
+            "Akebia": 0.48675167532948915,
+            "Campsis": 0.556764057192677,
+            "Hydrangea": 0.3824884325362668,
+            "Lonicera": 0.5927051215195757,
+            "Madame Galen": 0.5336347724437079,
+            "Parthenocissus": 0.751067674397404,
+            "Wisteria": 0.6831042350822069
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.32166018154064074,
+            "Campsis": 0.3857748468965721,
+            "Hydrangea": 0.23646723639986686,
+            "Lonicera": 0.42116630664998206,
+            "Madame Galen": 0.36391673088944354,
+            "Parthenocissus": 0.6013678553687656,
+            "Wisteria": 0.5187231430006922
+          },
+          "background_iou": 0.8782769136127968
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            34273,
+            57,
+            411,
+            70,
+            72,
+            195,
+            298,
+            252
+          ],
+          [
+            461,
+            248,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            747,
+            0,
+            819,
+            0,
+            0,
+            123,
+            1,
+            7
+          ],
+          [
+            191,
+            0,
+            0,
+            83,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            464,
+            0,
+            0,
+            0,
+            390,
+            0,
+            0,
+            0
+          ],
+          [
+            492,
+            0,
+            15,
+            0,
+            0,
+            472,
+            0,
+            0
+          ],
+          [
+            515,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1231,
+            0
+          ],
+          [
+            525,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            845
+          ]
+        ],
+        "notes": "Semantic metrics on the native 16x16 category-head grid (no decoder); GT downsampled to match. Not resolution-comparable to the other six models' 512x512 metrics. Instance metrics are derived connected-component pseudo-instances, not native.",
+        "instance_metrics": {
+          "confidence_threshold": 0.5,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', connected-component pseudo-instances.",
+          "AP": 0.027999431811313,
+          "AP50": 0.11381147533905667,
+          "AP75": 0.0,
+          "AP_small": 0.0,
+          "AP_medium": 0.0,
+          "AP_large": 0.03405772209874049,
+          "AR_max1": 0.03630549557968913,
+          "AR_max10": 0.03630549557968913,
+          "AR_max100": 0.03630549557968913,
+          "AR_small": 0.0,
+          "AR_medium": 0.0,
+          "AR_large": 0.042252834467120186
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.7763126732723009,
+          "std": 0.027813889257902496,
+          "per_seed": {
+            "42": 0.7845146590761594,
+            "43": 0.8055278059724174,
+            "44": 0.7388955547683262
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.5048213942659742,
+          "std": 0.05587819200491987,
+          "per_seed": {
+            "42": 0.5443334904001769,
+            "43": 0.42579769729224604,
+            "44": 0.5443329951054996
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.5719820327138087,
+          "std": 0.06472352268027053,
+          "per_seed": {
+            "42": 0.6202372137941781,
+            "43": 0.48049510943946744,
+            "44": 0.6152137749077804
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.43783998674550206,
+          "std": 0.04909541929868493,
+          "per_seed": {
+            "42": 0.47879322795056234,
+            "43": 0.36880758049109885,
+            "44": 0.465919151794845
+          }
+        },
+        "background_iou": {
+          "mean": 0.8803041737430594,
+          "std": 0.006121605773640342,
+          "per_seed": {
+            "42": 0.8886067507928372,
+            "43": 0.8740288568235445,
+            "44": 0.8782769136127968
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.25419524433997265,
+          "std": 0.11867329184411345,
+          "per_seed": {
+            "42": 0.3535469107146972,
+            "43": 0.08737864076457995,
+            "44": 0.32166018154064074
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.36475438113240616,
+          "std": 0.015055584342575434,
+          "per_seed": {
+            "42": 0.3571785892767794,
+            "43": 0.35130970722386695,
+            "44": 0.3857748468965721
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.12690322019718017,
+          "std": 0.09219591102832222,
+          "per_seed": {
+            "42": 0.1333333332865497,
+            "43": 0.010909090905123967,
+            "44": 0.23646723639986686
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.3459106055714994,
+          "std": 0.11516354055125921,
+          "per_seed": {
+            "42": 0.43336831055263714,
+            "43": 0.183197199511879,
+            "44": 0.42116630664998206
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.3593773611799498,
+          "std": 0.07876775055928904,
+          "per_seed": {
+            "42": 0.4534979423495063,
+            "43": 0.2607174103008996,
+            "44": 0.36391673088944354
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.6152793610611897,
+          "std": 0.009840094259705928,
+          "per_seed": {
+            "42": 0.6225412014554736,
+            "43": 0.6219290263593299,
+            "44": 0.6013678553687656
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.5559955467387593,
+          "std": 0.028612374234070724,
+          "per_seed": {
+            "42": 0.5882727851760183,
+            "43": 0.5609907120395671,
+            "44": 0.5187231430006922
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            34522.666666666664,
+            74.66666666666667,
+            313.0,
+            27.333333333333332,
+            58.0,
+            119.66666666666667,
+            288.3333333333333,
+            224.33333333333334
+          ],
+          [
+            505.6666666666667,
+            206.66666666666666,
+            0.0,
+            1.6666666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            822.6666666666666,
+            0.0,
+            739.0,
+            0.0,
+            0.0,
+            119.66666666666667,
+            5.666666666666667,
+            10.0
+          ],
+          [
+            232.66666666666666,
+            0.0,
+            0.0,
+            41.333333333333336,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            534.0,
+            0.0,
+            0.0,
+            0.0,
+            320.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            525.6666666666666,
+            0.0,
+            13.0,
+            0.0,
+            0.0,
+            440.3333333333333,
+            0.0,
+            0.0
+          ],
+          [
+            491.0,
+            0.0,
+            0.0,
+            0.6666666666666666,
+            0.0,
+            0.0,
+            1256.3333333333333,
+            0.0
+          ],
+          [
+            478.6666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            891.3333333333334
+          ]
+        ],
+        "median_mIoU_seed": 44,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            34273,
+            57,
+            411,
+            70,
+            72,
+            195,
+            298,
+            252
+          ],
+          [
+            461,
+            248,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            747,
+            0,
+            819,
+            0,
+            0,
+            123,
+            1,
+            7
+          ],
+          [
+            191,
+            0,
+            0,
+            83,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            464,
+            0,
+            0,
+            0,
+            390,
+            0,
+            0,
+            0
+          ],
+          [
+            492,
+            0,
+            15,
+            0,
+            0,
+            472,
+            0,
+            0
+          ],
+          [
+            515,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1231,
+            0
+          ],
+          [
+            525,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            845
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": true,
+        "AP": {
+          "mean": 0.03525204496624748,
+          "std": 0.010924449956070937,
+          "per_seed": {
+            "42": 0.05069211944742355,
+            "43": 0.027064583640005888,
+            "44": 0.027999431811313
+          }
+        },
+        "AP50": {
+          "mean": 0.11427422708103298,
+          "std": 0.021551128176125582,
+          "per_seed": {
+            "42": 0.14089719411501592,
+            "43": 0.08811401178902635,
+            "44": 0.11381147533905667
+          }
+        },
+        "AP75": {
+          "mean": 0.008730158730158729,
+          "std": 0.008989422293749152,
+          "per_seed": {
+            "42": 0.021098538425271096,
+            "43": 0.0050919377652050915,
+            "44": 0.0
+          }
+        },
+        "AR_max100": {
+          "mean": 0.04370187757284532,
+          "std": 0.009033864755629284,
+          "per_seed": {
+            "42": 0.0564214996473061,
+            "43": 0.03837863749154072,
+            "44": 0.03630549557968913
+          }
+        },
+        "confidence_threshold": 0.5
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/SoloV2/checkpoints_clean/best_model.pth (epoch 36, val_loss=0.3615, val_dice=0.6750)",
+        "43": "/workspace/vine-project-Run/SoloV2/checkpoints_clean_seed43/best_model.pth (epoch 10, val_loss=0.4345, val_dice=0.6187)",
+        "44": "/workspace/vine-project-Run/SoloV2/checkpoints_clean_seed44/best_model.pth (epoch 14, val_loss=0.3785, val_dice=0.6809)"
+      },
+      "test_set": "rebuilt/final/test",
+      "n_test_images": 169
+    }
+  },
+  "YOLO11seg": {
+    "model": "YOLO11-seg",
+    "per_seed_full_results": {
+      "42": {
+        "model": "YOLO11-seg",
+        "checkpoint_used": "/workspace/vine-project-Run/YOLO11seg/runs/vine_clean_v6/weights/best_dice.pt (val-Dice-selected checkpoint, see dice_early_stop_log.json)",
+        "test_set": "rebuilt/final_yolo/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8812556855285686,
+          "macro_recall_8class": 0.9216893034342863,
+          "macro_f1_8class": 0.89594984166173,
+          "mIoU_8class": 0.8171022667731247,
+          "per_class_precision": {
+            "background": 0.9892186355548699,
+            "Akebia": 0.8934671942328595,
+            "Campsis": 0.9281150701578869,
+            "Hydrangea": 0.8564451529154481,
+            "Lonicera": 0.9082677110226193,
+            "Madame Galen": 0.6570724737313454,
+            "Parthenocissus": 0.934217835194079,
+            "Wisteria": 0.8832414114194408
+          },
+          "per_class_recall": {
+            "background": 0.9801172877917567,
+            "Akebia": 0.912264424000158,
+            "Campsis": 0.7317677008497084,
+            "Hydrangea": 0.9325271596811566,
+            "Lonicera": 0.9365367422074826,
+            "Madame Galen": 0.9597382563350414,
+            "Parthenocissus": 0.9459092586242267,
+            "Wisteria": 0.9746535979847598
+          },
+          "per_class_f1": {
+            "background": 0.98464688059225,
+            "Akebia": 0.9027679218122883,
+            "Campsis": 0.8183283807262025,
+            "Hydrangea": 0.8928682860030508,
+            "Lonicera": 0.9221855850734912,
+            "Madame Galen": 0.7800759105488925,
+            "Parthenocissus": 0.9400271458095404,
+            "Wisteria": 0.9266986227281245
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.8227685198850885,
+            "Campsis": 0.6925176595769514,
+            "Hydrangea": 0.8064698760547789,
+            "Lonicera": 0.8556071110767517,
+            "Madame Galen": 0.6394463363697004,
+            "Parthenocissus": 0.8868408624161529,
+            "Wisteria": 0.8634096026491612
+          },
+          "background_iou": 0.9697581661564126
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35625164,
+            80364,
+            99264,
+            46559,
+            63388,
+            132602,
+            122570,
+            177947
+          ],
+          [
+            64868,
+            674490,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            92339,
+            0,
+            1286051,
+            0,
+            0,
+            376203,
+            0,
+            2865
+          ],
+          [
+            20098,
+            0,
+            0,
+            277770,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            57142,
+            0,
+            0,
+            0,
+            843253,
+            0,
+            0,
+            0
+          ],
+          [
+            40554,
+            0,
+            344,
+            0,
+            0,
+            974905,
+            0,
+            0
+          ],
+          [
+            77703,
+            59,
+            0,
+            0,
+            21778,
+            0,
+            1740701,
+            0
+          ],
+          [
+            35570,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1367785
+          ]
+        ],
+        "notes": "Semantic metrics computed by rasterizing native YOLO instance masks (conf>=0.25) to a per-pixel class map; ground truth is the same COCO polygon annotations used for the other models (rebuilt/final/test and rebuilt/final_yolo/test contain the identical 169 test images).",
+        "instance_metrics": {
+          "confidence_threshold": 0.25,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks (Ultralytics NMS, IoU=0.7) vs GT polygons.",
+          "AP": 0.5537718249799469,
+          "AP50": 0.8054424104396406,
+          "AP75": 0.6415666604961031,
+          "AP_small": 0.016237623762376238,
+          "AP_medium": 0.1529066478076379,
+          "AP_large": 0.6551629526046427,
+          "AR_max1": 0.5749006953372917,
+          "AR_max10": 0.6084792314964729,
+          "AR_max100": 0.6084792314964729,
+          "AR_small": 0.016,
+          "AR_medium": 0.17210884353741496,
+          "AR_large": 0.7151337868480725
+        }
+      },
+      "43": {
+        "model": "YOLO11-seg",
+        "checkpoint_used": "/workspace/vine-project-Run/YOLO11seg/runs/vine_clean_v6_seed43/weights/best_dice.pt (val-Dice-selected checkpoint)",
+        "test_set": "rebuilt/final_yolo/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8879474024790499,
+          "macro_recall_8class": 0.8992452978912984,
+          "macro_f1_8class": 0.8918912609318719,
+          "mIoU_8class": 0.8111946420253088,
+          "per_class_precision": {
+            "background": 0.9878638850948961,
+            "Akebia": 0.8934693677691431,
+            "Campsis": 0.8608822444246816,
+            "Hydrangea": 0.8879008510942293,
+            "Lonicera": 0.9302431924084952,
+            "Madame Galen": 0.6953531724032327,
+            "Parthenocissus": 0.9175537406523422,
+            "Wisteria": 0.9303127659853795
+          },
+          "per_class_recall": {
+            "background": 0.9824270249982793,
+            "Akebia": 0.8144241355336908,
+            "Campsis": 0.8019019515686405,
+            "Hydrangea": 0.867538641277053,
+            "Lonicera": 0.937638480888839,
+            "Madame Galen": 0.8717654899620426,
+            "Parthenocissus": 0.9610605350059607,
+            "Wisteria": 0.9572061238958812
+          },
+          "per_class_f1": {
+            "background": 0.9851379037567912,
+            "Akebia": 0.8521175043504071,
+            "Campsis": 0.8303460088460157,
+            "Hydrangea": 0.8776016005273142,
+            "Lonicera": 0.9339261469930745,
+            "Madame Galen": 0.7736298149118463,
+            "Parthenocissus": 0.9388033013204766,
+            "Wisteria": 0.9435678067490493
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7423386927758795,
+            "Campsis": 0.7099074602520999,
+            "Hydrangea": 0.781898557609153,
+            "Lonicera": 0.876042722705971,
+            "Madame Galen": 0.6308290146212442,
+            "Parthenocissus": 0.8846648285576071,
+            "Wisteria": 0.8931646606532215
+          },
+          "background_iou": 0.9707111990272942
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35709118,
+            71796,
+            119307,
+            32625,
+            63308,
+            121883,
+            129198,
+            100623
+          ],
+          [
+            80803,
+            602151,
+            27156,
+            0,
+            0,
+            0,
+            29248,
+            0
+          ],
+          [
+            93548,
+            0,
+            1409309,
+            0,
+            0,
+            254601,
+            0,
+            0
+          ],
+          [
+            27968,
+            0,
+            0,
+            258412,
+            0,
+            11488,
+            0,
+            0
+          ],
+          [
+            56147,
+            0,
+            3,
+            0,
+            844245,
+            0,
+            0,
+            0
+          ],
+          [
+            48984,
+            0,
+            81277,
+            0,
+            0,
+            885542,
+            0,
+            0
+          ],
+          [
+            71658,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1768583,
+            0
+          ],
+          [
+            59586,
+            0,
+            0,
+            0,
+            0,
+            0,
+            469,
+            1343300
+          ]
+        ],
+        "notes": "Semantic metrics from rasterized native YOLO instance masks.",
+        "instance_metrics": {
+          "confidence_threshold": 0.25,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks (NMS IoU=0.7).",
+          "AP": 0.5626122622201319,
+          "AP50": 0.8024338004333944,
+          "AP75": 0.6362762980227058,
+          "AP_small": 0.012475247524752472,
+          "AP_medium": 0.16206113468489705,
+          "AP_large": 0.6627880726719898,
+          "AR_max1": 0.581815291987706,
+          "AR_max10": 0.6122036019227345,
+          "AR_max100": 0.6122036019227345,
+          "AR_small": 0.012000000000000002,
+          "AR_medium": 0.19404761904761905,
+          "AR_large": 0.7147874149659865
+        }
+      },
+      "44": {
+        "model": "YOLO11-seg",
+        "checkpoint_used": "/workspace/vine-project-Run/YOLO11seg/runs/vine_clean_v6_seed44/weights/best_dice.pt (val-Dice-selected checkpoint)",
+        "test_set": "rebuilt/final_yolo/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.896814846436901,
+          "macro_recall_8class": 0.9254931580379551,
+          "macro_f1_8class": 0.9089812813740117,
+          "mIoU_8class": 0.8360446478426314,
+          "per_class_precision": {
+            "background": 0.9887843364800017,
+            "Akebia": 0.9006724532026361,
+            "Campsis": 0.9254829564019105,
+            "Hydrangea": 0.8684946434195238,
+            "Lonicera": 0.9313716117671134,
+            "Madame Galen": 0.7479237062616233,
+            "Parthenocissus": 0.931646412201069,
+            "Wisteria": 0.8801426517613301
+          },
+          "per_class_recall": {
+            "background": 0.9805101857721549,
+            "Akebia": 0.8809561809027723,
+            "Campsis": 0.8380615639178384,
+            "Hydrangea": 0.8883330871389715,
+            "Lonicera": 0.9305327106435586,
+            "Madame Galen": 0.9517908492098417,
+            "Parthenocissus": 0.9552727061291997,
+            "Wisteria": 0.9784879805893036
+          },
+          "per_class_f1": {
+            "background": 0.9846298288692151,
+            "Akebia": 0.8907051726645325,
+            "Campsis": 0.8796054093384531,
+            "Hydrangea": 0.8783018054845613,
+            "Lonicera": 0.930951922217363,
+            "Madame Galen": 0.8376311132405524,
+            "Parthenocissus": 0.943311595635147,
+            "Wisteria": 0.9267134035422697
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.8029472786242413,
+            "Campsis": 0.7850854562356195,
+            "Hydrangea": 0.7830108837818086,
+            "Lonicera": 0.870823338169724,
+            "Madame Galen": 0.7206242420763607,
+            "Parthenocissus": 0.8927056323880397,
+            "Wisteria": 0.86343526464576
+          },
+          "background_iou": 0.9697250868194978
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35639445,
+            71831,
+            116794,
+            30950,
+            57381,
+            115483,
+            128977,
+            186997
+          ],
+          [
+            88016,
+            651342,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            74280,
+            0,
+            1472858,
+            0,
+            0,
+            210320,
+            0,
+            0
+          ],
+          [
+            28906,
+            0,
+            0,
+            264606,
+            4356,
+            0,
+            0,
+            0
+          ],
+          [
+            60699,
+            0,
+            1796,
+            0,
+            837847,
+            53,
+            0,
+            0
+          ],
+          [
+            48971,
+            0,
+            0,
+            0,
+            0,
+            966832,
+            0,
+            0
+          ],
+          [
+            73193,
+            0,
+            0,
+            9116,
+            0,
+            0,
+            1757932,
+            0
+          ],
+          [
+            30189,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1373166
+          ]
+        ],
+        "notes": "Semantic metrics from rasterized native YOLO instance masks.",
+        "instance_metrics": {
+          "confidence_threshold": 0.25,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks (NMS IoU=0.7).",
+          "AP": 0.5785354036379302,
+          "AP50": 0.8196238065026972,
+          "AP75": 0.6418285861450126,
+          "AP_small": 0.02693069306930693,
+          "AP_medium": 0.17666195190947667,
+          "AP_large": 0.6784220418434381,
+          "AR_max1": 0.5939978171624445,
+          "AR_max10": 0.617268474634993,
+          "AR_max100": 0.617268474634993,
+          "AR_small": 0.026666666666666665,
+          "AR_medium": 0.1798639455782313,
+          "AR_large": 0.7248058390022675
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.8886726448148399,
+          "std": 0.0063726684299468305,
+          "per_seed": {
+            "42": 0.8812556855285686,
+            "43": 0.8879474024790499,
+            "44": 0.896814846436901
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.9154759197878466,
+          "std": 0.011581368451756063,
+          "per_seed": {
+            "42": 0.9216893034342863,
+            "43": 0.8992452978912984,
+            "44": 0.9254931580379551
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.8989407946558711,
+          "std": 0.0072904755006360095,
+          "per_seed": {
+            "42": 0.89594984166173,
+            "43": 0.8918912609318719,
+            "44": 0.9089812813740117
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.8214471855470217,
+          "std": 0.010599982284389728,
+          "per_seed": {
+            "42": 0.8171022667731247,
+            "43": 0.8111946420253088,
+            "44": 0.8360446478426314
+          }
+        },
+        "background_iou": {
+          "mean": 0.9700648173344014,
+          "std": 0.00045726034182783955,
+          "per_seed": {
+            "42": 0.9697581661564126,
+            "43": 0.9707111990272942,
+            "44": 0.9697250868194978
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.7893514970950698,
+          "std": 0.03421377138664131,
+          "per_seed": {
+            "42": 0.8227685198850885,
+            "43": 0.7423386927758795,
+            "44": 0.8029472786242413
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.7291701920215571,
+          "std": 0.04017037773431785,
+          "per_seed": {
+            "42": 0.6925176595769514,
+            "43": 0.7099074602520999,
+            "44": 0.7850854562356195
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.7904597724819135,
+          "std": 0.011329956742753604,
+          "per_seed": {
+            "42": 0.8064698760547789,
+            "43": 0.781898557609153,
+            "44": 0.7830108837818086
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.8674910573174822,
+          "std": 0.008669164797285231,
+          "per_seed": {
+            "42": 0.8556071110767517,
+            "43": 0.876042722705971,
+            "44": 0.870823338169724
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.6636331976891018,
+          "std": 0.040452020252738856,
+          "per_seed": {
+            "42": 0.6394463363697004,
+            "43": 0.6308290146212442,
+            "44": 0.7206242420763607
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.8880704411205999,
+          "std": 0.0033958336632504086,
+          "per_seed": {
+            "42": 0.8868408624161529,
+            "43": 0.8846648285576071,
+            "44": 0.8927056323880397
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.8733365093160476,
+          "std": 0.01402062418301272,
+          "per_seed": {
+            "42": 0.8634096026491612,
+            "43": 0.8931646606532215,
+            "44": 0.86343526464576
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            35657909.0,
+            74663.66666666667,
+            111788.33333333333,
+            36711.333333333336,
+            61359.0,
+            123322.66666666667,
+            126915.0,
+            155189.0
+          ],
+          [
+            77895.66666666667,
+            642661.0,
+            9052.0,
+            0.0,
+            0.0,
+            0.0,
+            9749.333333333334,
+            0.0
+          ],
+          [
+            86722.33333333333,
+            0.0,
+            1389406.0,
+            0.0,
+            0.0,
+            280374.6666666667,
+            0.0,
+            955.0
+          ],
+          [
+            25657.333333333332,
+            0.0,
+            0.0,
+            266929.3333333333,
+            1452.0,
+            3829.3333333333335,
+            0.0,
+            0.0
+          ],
+          [
+            57996.0,
+            0.0,
+            599.6666666666666,
+            0.0,
+            841781.6666666666,
+            17.666666666666668,
+            0.0,
+            0.0
+          ],
+          [
+            46169.666666666664,
+            0.0,
+            27207.0,
+            0.0,
+            0.0,
+            942426.3333333334,
+            0.0,
+            0.0
+          ],
+          [
+            74184.66666666667,
+            19.666666666666668,
+            0.0,
+            3038.6666666666665,
+            7259.333333333333,
+            0.0,
+            1755738.6666666667,
+            0.0
+          ],
+          [
+            41781.666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            156.33333333333334,
+            1361417.0
+          ]
+        ],
+        "median_mIoU_seed": 42,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            35625164,
+            80364,
+            99264,
+            46559,
+            63388,
+            132602,
+            122570,
+            177947
+          ],
+          [
+            64868,
+            674490,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            92339,
+            0,
+            1286051,
+            0,
+            0,
+            376203,
+            0,
+            2865
+          ],
+          [
+            20098,
+            0,
+            0,
+            277770,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            57142,
+            0,
+            0,
+            0,
+            843253,
+            0,
+            0,
+            0
+          ],
+          [
+            40554,
+            0,
+            344,
+            0,
+            0,
+            974905,
+            0,
+            0
+          ],
+          [
+            77703,
+            59,
+            0,
+            0,
+            21778,
+            0,
+            1740701,
+            0
+          ],
+          [
+            35570,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1367785
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": true,
+        "AP": {
+          "mean": 0.5649731636126697,
+          "std": 0.0102465961348634,
+          "per_seed": {
+            "42": 0.5537718249799469,
+            "43": 0.5626122622201319,
+            "44": 0.5785354036379302
+          }
+        },
+        "AP50": {
+          "mean": 0.8091666724585774,
+          "std": 0.0074956286307392905,
+          "per_seed": {
+            "42": 0.8054424104396406,
+            "43": 0.8024338004333944,
+            "44": 0.8196238065026972
+          }
+        },
+        "AP75": {
+          "mean": 0.6398905148879405,
+          "std": 0.0025578733253882845,
+          "per_seed": {
+            "42": 0.6415666604961031,
+            "43": 0.6362762980227058,
+            "44": 0.6418285861450126
+          }
+        },
+        "AR_max100": {
+          "mean": 0.6126504360180668,
+          "std": 0.0036020775735279426,
+          "per_seed": {
+            "42": 0.6084792314964729,
+            "43": 0.6122036019227345,
+            "44": 0.617268474634993
+          }
+        },
+        "confidence_threshold": 0.25
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/YOLO11seg/runs/vine_clean_v6/weights/best_dice.pt (val-Dice-selected checkpoint, see dice_early_stop_log.json)",
+        "43": "/workspace/vine-project-Run/YOLO11seg/runs/vine_clean_v6_seed43/weights/best_dice.pt (val-Dice-selected checkpoint)",
+        "44": "/workspace/vine-project-Run/YOLO11seg/runs/vine_clean_v6_seed44/weights/best_dice.pt (val-Dice-selected checkpoint)"
+      },
+      "test_set": "rebuilt/final_yolo/test",
+      "n_test_images": 169
+    }
+  },
+  "PGSS_YOLO11": {
+    "model": "YOLO11-PGSS",
+    "per_seed_full_results": {
+      "42": {
+        "model": "YOLO11-PGSS",
+        "checkpoint_used": "/workspace/vine-project-Run/PGSS_YOLO11/runs/pgss_vine_v6/weights/best_dice.pt (val-Dice-selected checkpoint, see dice_early_stop_log.json)",
+        "test_set": "rebuilt/final_yolo/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.9085315715721427,
+          "macro_recall_8class": 0.9279177489149941,
+          "macro_f1_8class": 0.9170019070187189,
+          "mIoU_8class": 0.8489241700829571,
+          "per_class_precision": {
+            "background": 0.9872725278740412,
+            "Akebia": 0.880880009069391,
+            "Campsis": 0.9333184640202794,
+            "Hydrangea": 0.8994147385908137,
+            "Lonicera": 0.9370448969727924,
+            "Madame Galen": 0.7814761849525613,
+            "Parthenocissus": 0.9363416130839126,
+            "Wisteria": 0.9125041380133501
+          },
+          "per_class_recall": {
+            "background": 0.9820112095738875,
+            "Akebia": 0.893279033972596,
+            "Campsis": 0.8690716933206445,
+            "Hydrangea": 0.8940973854187445,
+            "Lonicera": 0.9302761565756218,
+            "Madame Galen": 0.9484260235497485,
+            "Parthenocissus": 0.9535441281875063,
+            "Wisteria": 0.9526363607212037
+          },
+          "per_class_f1": {
+            "background": 0.9846347904150635,
+            "Akebia": 0.8870361451319424,
+            "Campsis": 0.9000499804411703,
+            "Hydrangea": 0.8967481296373304,
+            "Lonicera": 0.9336482089737628,
+            "Madame Galen": 0.8568950361538822,
+            "Parthenocissus": 0.9448645284660405,
+            "Wisteria": 0.9321384369305588
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.7970036323264029,
+            "Campsis": 0.8182645167822442,
+            "Hydrangea": 0.8128227509672418,
+            "Lonicera": 0.8755537437150872,
+            "Madame Galen": 0.7496206821962035,
+            "Parthenocissus": 0.895491288771809,
+            "Wisteria": 0.8729020340923583
+          },
+          "background_iou": 0.9697347118123099
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35694004,
+            73950,
+            107596,
+            29784,
+            56275,
+            138762,
+            119299,
+            128188
+          ],
+          [
+            78905,
+            660453,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            99464,
+            0,
+            1527357,
+            0,
+            0,
+            130637,
+            0,
+            0
+          ],
+          [
+            31522,
+            23,
+            0,
+            266323,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            62769,
+            0,
+            10,
+            0,
+            837616,
+            0,
+            0,
+            0
+          ],
+          [
+            50872,
+            0,
+            1517,
+            0,
+            0,
+            963414,
+            0,
+            0
+          ],
+          [
+            70151,
+            15339,
+            0,
+            0,
+            0,
+            0,
+            1754751,
+            0
+          ],
+          [
+            66468,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1336887
+          ]
+        ],
+        "notes": "Semantic metrics computed by rasterizing native YOLO instance masks (conf>=0.25) to a per-pixel class map; ground truth is the same COCO polygon annotations used for the other models (rebuilt/final/test and rebuilt/final_yolo/test contain the identical 169 test images).",
+        "instance_metrics": {
+          "confidence_threshold": 0.25,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks (Ultralytics NMS, IoU=0.7) vs GT polygons.",
+          "AP": 0.5901517011274982,
+          "AP50": 0.8316254843772933,
+          "AP75": 0.6631224994533105,
+          "AP_small": 0.012475247524752472,
+          "AP_medium": 0.11987741631305987,
+          "AP_large": 0.6970266971448954,
+          "AR_max1": 0.6093036317285482,
+          "AR_max10": 0.6266094534559494,
+          "AR_max100": 0.6266094534559494,
+          "AR_small": 0.012000000000000002,
+          "AR_medium": 0.14625850340136054,
+          "AR_large": 0.7387168367346939
+        }
+      },
+      "43": {
+        "model": "YOLO11-PGSS",
+        "checkpoint_used": "/workspace/vine-project-Run/PGSS_YOLO11/runs/pgss_vine_v6_seed43/weights/best_dice.pt (val-Dice-selected checkpoint)",
+        "test_set": "rebuilt/final_yolo/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.8916577210275053,
+          "macro_recall_8class": 0.9141773655219838,
+          "macro_f1_8class": 0.9016116567080458,
+          "mIoU_8class": 0.8254235016389511,
+          "per_class_precision": {
+            "background": 0.9880374139846425,
+            "Akebia": 0.9009791754741227,
+            "Campsis": 0.8928539731376292,
+            "Hydrangea": 0.8664419816943615,
+            "Lonicera": 0.9166387614640622,
+            "Madame Galen": 0.7260614863228657,
+            "Parthenocissus": 0.9366378971227832,
+            "Wisteria": 0.9056110790195754
+          },
+          "per_class_recall": {
+            "background": 0.9816422469791729,
+            "Akebia": 0.8935603591222528,
+            "Campsis": 0.8242882617962521,
+            "Hydrangea": 0.8682570803171645,
+            "Lonicera": 0.9394143681383238,
+            "Madame Galen": 0.8858095516551058,
+            "Parthenocissus": 0.957462636687208,
+            "Wisteria": 0.9629844194803908
+          },
+          "per_class_f1": {
+            "background": 0.9848293985503296,
+            "Akebia": 0.8972543822130796,
+            "Campsis": 0.8572021486894765,
+            "Hydrangea": 0.8673485313935556,
+            "Lonicera": 0.9278867752045324,
+            "Madame Galen": 0.79801937576785,
+            "Parthenocissus": 0.9469357378297619,
+            "Wisteria": 0.9334169040157801
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.8136549884415483,
+            "Campsis": 0.7500908713396067,
+            "Hydrangea": 0.7657683265526225,
+            "Lonicera": 0.8654746970790607,
+            "Madame Galen": 0.66392040109344,
+            "Parthenocissus": 0.8992194178423424,
+            "Wisteria": 0.875147000922099
+          },
+          "background_iou": 0.9701123098408891
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35680593,
+            72605,
+            105585,
+            39866,
+            64798,
+            124395,
+            119194,
+            140822
+          ],
+          [
+            78697,
+            660661,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            93535,
+            0,
+            1448652,
+            0,
+            639,
+            214601,
+            0,
+            31
+          ],
+          [
+            27756,
+            0,
+            0,
+            258626,
+            11486,
+            0,
+            0,
+            0
+          ],
+          [
+            54055,
+            0,
+            0,
+            0,
+            845844,
+            496,
+            0,
+            0
+          ],
+          [
+            47736,
+            0,
+            68259,
+            0,
+            0,
+            899808,
+            0,
+            0
+          ],
+          [
+            78275,
+            4,
+            0,
+            0,
+            0,
+            0,
+            1761962,
+            0
+          ],
+          [
+            51946,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1351409
+          ]
+        ],
+        "notes": "Semantic metrics from rasterized native YOLO instance masks.",
+        "instance_metrics": {
+          "confidence_threshold": 0.25,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks (NMS IoU=0.7).",
+          "AP": 0.5717744425980491,
+          "AP50": 0.8237884312957213,
+          "AP75": 0.6389600013712678,
+          "AP_small": 0.012475247524752472,
+          "AP_medium": 0.14231966053748232,
+          "AP_large": 0.6734454925020553,
+          "AR_max1": 0.5959515774671503,
+          "AR_max10": 0.6219526651200734,
+          "AR_max100": 0.6219526651200734,
+          "AR_small": 0.012000000000000002,
+          "AR_medium": 0.1762925170068027,
+          "AR_large": 0.7315989229024943
+        }
+      },
+      "44": {
+        "model": "YOLO11-PGSS",
+        "checkpoint_used": "/workspace/vine-project-Run/PGSS_YOLO11/runs/pgss_vine_v6_seed44/weights/best_dice.pt (val-Dice-selected checkpoint)",
+        "test_set": "rebuilt/final_yolo/test",
+        "n_test_images": 169,
+        "test_set_used_in_training_or_validation": false,
+        "semantic_metrics": {
+          "macro_precision_8class": 0.9088859880600765,
+          "macro_recall_8class": 0.9272066897810337,
+          "macro_f1_8class": 0.9169742459760362,
+          "mIoU_8class": 0.8487096880323237,
+          "per_class_precision": {
+            "background": 0.9876257246652789,
+            "Akebia": 0.905536032382926,
+            "Campsis": 0.9327768765595353,
+            "Hydrangea": 0.8917474475689025,
+            "Lonicera": 0.9016701517778496,
+            "Madame Galen": 0.8014359992160545,
+            "Parthenocissus": 0.9308947043793769,
+            "Wisteria": 0.9194009679306882
+          },
+          "per_class_recall": {
+            "background": 0.98267988721646,
+            "Akebia": 0.8834989274477474,
+            "Campsis": 0.8595090181386492,
+            "Hydrangea": 0.8934628761730385,
+            "Lonicera": 0.9266755146351405,
+            "Madame Galen": 0.9461027384245817,
+            "Parthenocissus": 0.962023995770067,
+            "Wisteria": 0.9637005604425849
+          },
+          "per_class_f1": {
+            "background": 0.9851465484503485,
+            "Akebia": 0.8943817047960201,
+            "Campsis": 0.8946453185325829,
+            "Hydrangea": 0.8926042876837355,
+            "Lonicera": 0.9140017903387614,
+            "Madame Galen": 0.8677813358975827,
+            "Parthenocissus": 0.9462033374886881,
+            "Wisteria": 0.9410296446205703
+          },
+          "per_class_iou_species": {
+            "Akebia": 0.8089426514641085,
+            "Campsis": 0.8093740623258172,
+            "Hydrangea": 0.8060392216246518,
+            "Lonicera": 0.8416237469561965,
+            "Madame Galen": 0.766443312699215,
+            "Parthenocissus": 0.8978994392553246,
+            "Wisteria": 0.8886270840533114
+          },
+          "background_iou": 0.9707279858799654
+        },
+        "confusion_matrix_rows_gt_cols_pred": [
+          [
+            35718309,
+            68136,
+            107686,
+            32307,
+            64026,
+            107542,
+            131293,
+            118559
+          ],
+          [
+            86136,
+            653222,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            89259,
+            0,
+            1510551,
+            0,
+            26949,
+            130569,
+            130,
+            0
+          ],
+          [
+            31718,
+            0,
+            0,
+            266134,
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            66020,
+            0,
+            1,
+            0,
+            834374,
+            0,
+            0,
+            0
+          ],
+          [
+            53574,
+            0,
+            1175,
+            0,
+            0,
+            961054,
+            0,
+            0
+          ],
+          [
+            69878,
+            7,
+            0,
+            0,
+            0,
+            0,
+            1770356,
+            0
+          ],
+          [
+            50941,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1352414
+          ]
+        ],
+        "notes": "Semantic metrics from rasterized native YOLO instance masks.",
+        "instance_metrics": {
+          "confidence_threshold": 0.25,
+          "iou_matching_thresholds_evaluated": "COCO standard: 0.50:0.05:0.95 (AP), 0.50 (AP50), 0.75 (AP75)",
+          "note": "pycocotools COCOeval, iouType='segm', native per-instance masks (NMS IoU=0.7).",
+          "AP": 0.5836478924759456,
+          "AP50": 0.8352261012519268,
+          "AP75": 0.6547977262745728,
+          "AP_small": 0.028712871287128714,
+          "AP_medium": 0.14336229541321477,
+          "AP_large": 0.6814666989646447,
+          "AR_max1": 0.5970447316248206,
+          "AR_max10": 0.6231291465301476,
+          "AR_max100": 0.6231291465301476,
+          "AR_small": 0.028000000000000004,
+          "AR_medium": 0.16816326530612247,
+          "AR_large": 0.7282723922902494
+        }
+      }
+    },
+    "aggregate": {
+      "semantic_metrics": {
+        "macro_precision_8class": {
+          "mean": 0.9030250935532416,
+          "std": 0.00803924836311938,
+          "per_seed": {
+            "42": 0.9085315715721427,
+            "43": 0.8916577210275053,
+            "44": 0.9088859880600765
+          }
+        },
+        "macro_recall_8class": {
+          "mean": 0.9231006014060039,
+          "std": 0.006316354711086384,
+          "per_seed": {
+            "42": 0.9279177489149941,
+            "43": 0.9141773655219838,
+            "44": 0.9272066897810337
+          }
+        },
+        "macro_f1_8class": {
+          "mean": 0.9118626032342668,
+          "std": 0.0072485225987049635,
+          "per_seed": {
+            "42": 0.9170019070187189,
+            "43": 0.9016116567080458,
+            "44": 0.9169742459760362
+          }
+        },
+        "mIoU_8class": {
+          "mean": 0.8410191199180773,
+          "std": 0.01102811506313667,
+          "per_seed": {
+            "42": 0.8489241700829571,
+            "43": 0.8254235016389511,
+            "44": 0.8487096880323237
+          }
+        },
+        "background_iou": {
+          "mean": 0.9701916691777215,
+          "std": 0.0004093668050588396,
+          "per_seed": {
+            "42": 0.9697347118123099,
+            "43": 0.9701123098408891,
+            "44": 0.9707279858799654
+          }
+        },
+        "IoU_Akebia": {
+          "mean": 0.8065337574106866,
+          "std": 0.007008042667241009,
+          "per_seed": {
+            "42": 0.7970036323264029,
+            "43": 0.8136549884415483,
+            "44": 0.8089426514641085
+          }
+        },
+        "IoU_Campsis": {
+          "mean": 0.792576483482556,
+          "std": 0.03026032027238854,
+          "per_seed": {
+            "42": 0.8182645167822442,
+            "43": 0.7500908713396067,
+            "44": 0.8093740623258172
+          }
+        },
+        "IoU_Hydrangea": {
+          "mean": 0.7948767663815053,
+          "std": 0.02076824530445804,
+          "per_seed": {
+            "42": 0.8128227509672418,
+            "43": 0.7657683265526225,
+            "44": 0.8060392216246518
+          }
+        },
+        "IoU_Lonicera": {
+          "mean": 0.8608840625834482,
+          "std": 0.014227124652550495,
+          "per_seed": {
+            "42": 0.8755537437150872,
+            "43": 0.8654746970790607,
+            "44": 0.8416237469561965
+          }
+        },
+        "IoU_Madame Galen": {
+          "mean": 0.7266614653296196,
+          "std": 0.04489306613406659,
+          "per_seed": {
+            "42": 0.7496206821962035,
+            "43": 0.66392040109344,
+            "44": 0.766443312699215
+          }
+        },
+        "IoU_Parthenocissus": {
+          "mean": 0.8975367152898253,
+          "std": 0.0015434621468200984,
+          "per_seed": {
+            "42": 0.895491288771809,
+            "43": 0.8992194178423424,
+            "44": 0.8978994392553246
+          }
+        },
+        "IoU_Wisteria": {
+          "mean": 0.8788920396892562,
+          "std": 0.006944459930728969,
+          "per_seed": {
+            "42": 0.8729020340923583,
+            "43": 0.875147000922099,
+            "44": 0.8886270840533114
+          }
+        }
+      },
+      "confusion_matrix": {
+        "method": "elementwise_mean_across_seeds",
+        "why": "Linear averaging of the three seeds' 8x8 confusion matrices is a well-defined, information-preserving aggregate (uses all three seeds, not just one) and is the standard way to report an 'average confusion matrix' across repeated runs. The median-mIoU seed is also reported below for reference/cross-check.",
+        "mean_matrix_rows_gt_cols_pred": [
+          [
+            35697635.333333336,
+            71563.66666666667,
+            106955.66666666667,
+            33985.666666666664,
+            61699.666666666664,
+            123566.33333333333,
+            123262.0,
+            129189.66666666667
+          ],
+          [
+            81246.0,
+            658112.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            94086.0,
+            0.0,
+            1495520.0,
+            0.0,
+            9196.0,
+            158602.33333333334,
+            43.333333333333336,
+            10.333333333333334
+          ],
+          [
+            30332.0,
+            7.666666666666667,
+            0.0,
+            263694.3333333333,
+            3834.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            60948.0,
+            0.0,
+            3.6666666666666665,
+            0.0,
+            839278.0,
+            165.33333333333334,
+            0.0,
+            0.0
+          ],
+          [
+            50727.333333333336,
+            0.0,
+            23650.333333333332,
+            0.0,
+            0.0,
+            941425.3333333334,
+            0.0,
+            0.0
+          ],
+          [
+            72768.0,
+            5116.666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1762356.3333333333,
+            0.0
+          ],
+          [
+            56451.666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1346903.3333333333
+          ]
+        ],
+        "median_mIoU_seed": 44,
+        "median_mIoU_seed_matrix_rows_gt_cols_pred": [
+          [
+            35718309,
+            68136,
+            107686,
+            32307,
+            64026,
+            107542,
+            131293,
+            118559
+          ],
+          [
+            86136,
+            653222,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            89259,
+            0,
+            1510551,
+            0,
+            26949,
+            130569,
+            130,
+            0
+          ],
+          [
+            31718,
+            0,
+            0,
+            266134,
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            66020,
+            0,
+            1,
+            0,
+            834374,
+            0,
+            0,
+            0
+          ],
+          [
+            53574,
+            0,
+            1175,
+            0,
+            0,
+            961054,
+            0,
+            0
+          ],
+          [
+            69878,
+            7,
+            0,
+            0,
+            0,
+            0,
+            1770356,
+            0
+          ],
+          [
+            50941,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1352414
+          ]
+        ]
+      },
+      "instance_metrics": {
+        "supported": true,
+        "AP": {
+          "mean": 0.5818580120671643,
+          "std": 0.0076084891918109625,
+          "per_seed": {
+            "42": 0.5901517011274982,
+            "43": 0.5717744425980491,
+            "44": 0.5836478924759456
+          }
+        },
+        "AP50": {
+          "mean": 0.8302133389749805,
+          "std": 0.004774982686511446,
+          "per_seed": {
+            "42": 0.8316254843772933,
+            "43": 0.8237884312957213,
+            "44": 0.8352261012519268
+          }
+        },
+        "AP75": {
+          "mean": 0.6522934090330503,
+          "std": 0.010021985233336365,
+          "per_seed": {
+            "42": 0.6631224994533105,
+            "43": 0.6389600013712678,
+            "44": 0.6547977262745728
+          }
+        },
+        "AR_max100": {
+          "mean": 0.6238970883687235,
+          "std": 0.0019771562746976096,
+          "per_seed": {
+            "42": 0.6266094534559494,
+            "43": 0.6219526651200734,
+            "44": 0.6231291465301476
+          }
+        },
+        "confidence_threshold": 0.25
+      },
+      "checkpoints_used": {
+        "42": "/workspace/vine-project-Run/PGSS_YOLO11/runs/pgss_vine_v6/weights/best_dice.pt (val-Dice-selected checkpoint, see dice_early_stop_log.json)",
+        "43": "/workspace/vine-project-Run/PGSS_YOLO11/runs/pgss_vine_v6_seed43/weights/best_dice.pt (val-Dice-selected checkpoint)",
+        "44": "/workspace/vine-project-Run/PGSS_YOLO11/runs/pgss_vine_v6_seed44/weights/best_dice.pt (val-Dice-selected checkpoint)"
+      },
+      "test_set": "rebuilt/final_yolo/test",
+      "n_test_images": 169
+    }
+  }
+}

@@ -1,0 +1,73 @@
+# --- Large / regenerable data & artifacts (never commit) ---
+# Raw and augmented image datasets
+rebuilt/
+Vines_2025.v8-vineo.coco-segmentation/
+SoloV2/Vines_2025-6_clean/
+YOLO11seg/Vines_2025-6_yolo/
+*/canopy_area_validation/
+*/canopy_area_validation_test.xlsx
+*_results_v6/
+*_results_v6.zip
+imagej_canopy_area.csv
+
+# Model checkpoints / weights
+checkpoints/
+checkpoints_*/
+runs/
+weights/
+*.pth
+*.pt
+*.onnx
+
+# Pretrained/base weights shipped alongside code
+yolo11*.pt
+yolo26n.pt
+
+# Generated figures, contact sheets, overlays (regenerable from scripts + data)
+*.png
+*.pdf
+test_images.zip
+panel_detection_prototype_check.png
+
+# Per-image / per-seed intermediate results (large, regenerable)
+per_image_f1.json
+per_image_f1.csv
+evaluation_results.json
+evaluation_results.csv
+evaluation_results_seed43.json
+evaluation_results_seed44.json
+evaluation_multiseed_per_seed.csv
+pairwise_stats_full.json
+pairwise_stats_per_seed.csv
+pairwise_stats_consistency.csv
+failure_analysis_worst_cases.json
+fig4_iou_summary.json
+fig4_iou_summary.csv
+
+# Review templates / working scratch CSVs from manual QC passes
+tier_d_backdrop_review.csv
+tier_d_backdrop_filled.csv
+ab_year_review.csv
+ab_year_review_filled.csv
+panel_calibration_template.csv
+
+# Logs
+*.log
+full_run_logs/
+seed_runs_logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Jupyter notebooks with embedded output (large, e.g. SoloV2/*.ipynb, "yolo11seg Final.ipynb")
+*.ipynb
+
+# Anything else large gets caught by pre-commit size check; keep this file updated
+# if new large artifact types are introduced.
