@@ -1,6 +1,6 @@
 # Amendment 1 to the canopy-area analysis plan (AREA_ANALYSIS_PLAN.md, commit 33da919)
 
-**Status: DRAFT, 12–13 November 2026. Awaiting the author's approval; freeze by public commit before the analysis is run.**
+**Status: FINAL. Approved by the author on 12 November 2026 (Pacific time; 13 November 07:28 UTC). Frozen by public commit before the analysis is run.**
 
 **When and why.** All 169 images were measured (11–12 Nov 2026). On 12 Nov 2026 a duplicate-photo search (`analysis/audit_outputs/DUPLICATE_PHOTOS_FINDINGS.md`) showed that 41 of the 134 `IMG_` images are identical photos to `TRT_` images used in LOTO, and that 5 photos occur twice among the 169. The 20 repeat images were then measured (12 Nov 2026) and checked with `read_imagej_outputs.py` (20 rows, 0 problems). **At the time of this amendment no ground-truth or model area had been computed for any of the 169 images, the repeat measurements had not been compared with the first measurements, and no agreement or repeatability statistic had been calculated.** The changes below were therefore made without knowledge of any result.
 
