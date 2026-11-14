@@ -1,0 +1,32 @@
+{
+  "eval_root": "/workspace/loto_eval_corrected",
+  "eval_manifest_started_utc": "2026-11-10 18:22:12",
+  "bootstrap_B": 10000,
+  "equivalence_margin": 0.02,
+  "pairwise": {
+    "miou": {
+      "n_pairs": 21,
+      "n_clusters": 21,
+      "n_images": 572,
+      "n_nan_dropped": 0,
+      "n_images_cluster_from_corrected_species": 1,
+      "n_significant_holm_0.05": 18,
+      "n_equivalent_within_2_points": 1
+    },
+    "macro_f1": {
+      "n_pairs": 21,
+      "n_clusters": 21,
+      "n_images": 572,
+      "n_nan_dropped": 0,
+      "n_images_cluster_from_corrected_species": 1,
+      "n_significant_holm_0.05": 18,
+      "n_equivalent_within_2_points": 1
+    }
+  },
+  "figures": [
+    "/workspace/loto_stats_corrected/fig3_confusion_matrices_all_folds.png",
+    "/workspace/loto_stats_corrected/fig3_confusion_matrices_test_trt20.png",
+    "/workspace/loto_stats_corrected/fig3_confusion_matrices_test_trt50.png",
+    "/workspace/loto_stats_corrected/fig3_confusion_matrices_test_trt80.png"
+  ]
+}

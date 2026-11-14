@@ -1,0 +1,13 @@
+[
+  {
+    "file_name": "Trt-1-Wisteria-floribunda-16-_aug1_jpeg.rf.ab45a3ec4405b5285075375f8eb9a6d2.jpg",
+    "change": "relabel all polygons of this image",
+    "from_category": "Parthenocissus",
+    "to_category": "Wisteria",
+    "how_found": "During the test evaluation (10 Nov 2026), all seven models predicted Wisteria on this image (LOTO fold test_trt20), whose file name names Wisteria floribunda, while its two polygons were labelled Parthenocissus.",
+    "decided_by": "corresponding author, after inspecting the image",
+    "date": "2026-11-10",
+    "applies_to": "Ground truth of the test evaluation (step2_evaluate_test_folds.py --gt_corrections). In folds test_trt50 and test_trt80 this image is a training image; those models were trained with the original label (Parthenocissus) and were not retrained.",
+    "status_relative_to_plan": "Deviation from the frozen analysis plan (commit ecf84fd): identified after the test evaluation. The pre-specified result set (labels as exported) is kept alongside the corrected one."
+  }
+]

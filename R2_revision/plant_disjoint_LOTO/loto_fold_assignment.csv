@@ -1,0 +1,573 @@
+roboflow_filename,species,tier,group_id,treatment,block,fold_test_trt20,fold_test_trt50,fold_test_trt80
+TRT_20_AQ_jpg.rf.000e29317e08a3e7c89d2806a3267b09.jpg,Akebia,A_block_resolved,BLOCK|8|20|akebia,20,8,test,val,val
+TRT_20_AQ_jpg.rf.2980c1071283ecbcc32ca23d5ab9506c.jpg,Akebia,A_block_resolved,BLOCK|4|20|akebia,20,4,test,train,train
+TRT_20_AQ_jpg.rf.2c9f7a7d2d45ace98ecc114e14622615.jpg,Akebia,A_block_resolved,BLOCK|7|20|akebia,20,7,test,val,val
+TRT_20_AQ_jpg.rf.950f4b7452fe08e34dab79aef9bf002d.jpg,Akebia,A_block_resolved,BLOCK|6|20|akebia,20,6,test,val,val
+TRT_20_AQ_jpg.rf.d56ffa1808f86371f87c66f1d48b69e9.jpg,Akebia,A_block_resolved,BLOCK|3|20|akebia,20,3,test,train,train
+TRT_20_AQ_jpg.rf.fd75c8be22208515f171ddf7dd2d2189.jpg,Akebia,A_block_resolved,BLOCK|5|20|akebia,20,5,test,train,train
+TRT_20_CR_jpg.rf.153125108ca723937220603c34c48d45.jpg,Campsis,A_block_resolved,BLOCK|8|20|campsis,20,8,test,val,val
+TRT_20_CR_jpg.rf.1d9077e4686fd39fcae4e4fe8b5bdd17.jpg,Campsis,A_block_resolved,BLOCK|3|20|campsis,20,3,test,train,train
+TRT_20_CR_jpg.rf.76bcd18dc3d3cf09701efce930fa1f4a.jpg,Campsis,A_block_resolved,BLOCK|2|20|campsis,20,2,test,train,train
+TRT_20_CR_jpg.rf.83915953a572f6daa8740dbfb4e32d75.jpg,Campsis,A_block_resolved,BLOCK|5|20|campsis,20,5,test,train,train
+TRT_20_CR_jpg.rf.84a3c6229a3bae8bb17bf498c6949729.jpg,Campsis,A_block_resolved,BLOCK|7|20|campsis,20,7,test,val,val
+TRT_20_CR_jpg.rf.91b9754c5589eccf28d563e9fceed385.jpg,Campsis,A_block_resolved,BLOCK|1|20|campsis,20,1,test,train,train
+TRT_20_CR_jpg.rf.f727d4530c6235237a3085ced827a3d1.jpg,Campsis,A_block_resolved,BLOCK|4|20|campsis,20,4,test,train,train
+TRT_20_HA_jpg.rf.3f6f965b01cad4ed2bf9ddabedd2137b.jpg,Hydrangea,A_block_resolved,BLOCK|5|20|hydrangea,20,5,test,train,train
+TRT_20_HA_jpg.rf.78d5a29bd8f2d02e6cb53e19e3103bad.jpg,Hydrangea,A_block_resolved,BLOCK|7|20|hydrangea,20,7,test,val,val
+TRT_20_HA_jpg.rf.7e482dae630f422c29bd92e7c74a8485.jpg,Hydrangea,A_block_resolved,BLOCK|6|20|hydrangea,20,6,test,val,val
+TRT_20_HA_jpg.rf.82ca310ccea5c7a78c1cb1364a60491d.jpg,Hydrangea,A_block_resolved,BLOCK|3|20|hydrangea,20,3,test,train,train
+TRT_20_HA_jpg.rf.908912859f8d7eb5c6264ffac3995ba3.jpg,Hydrangea,A_block_resolved,BLOCK|4|20|hydrangea,20,4,test,train,train
+TRT_20_HA_jpg.rf.9c3b1220c2019144bc05d03c929f94ab.jpg,Hydrangea,A_block_resolved,BLOCK|8|20|hydrangea,20,8,test,val,val
+TRT_20_HA_jpg.rf.c23ef607746cbe9fff3241003aaab196.jpg,Hydrangea,A_block_resolved,BLOCK|2|20|hydrangea,20,2,test,train,train
+TRT_20_LH_jpg.rf.0be61513f4dc933648a595e137990969.jpg,Lonicera,A_block_resolved,BLOCK|6|20|lonicera,20,6,test,val,val
+TRT_20_LH_jpg.rf.2763848835fc8bf8533f1e4a8dc7e6f3.jpg,Lonicera,A_block_resolved,BLOCK|3|20|lonicera,20,3,test,train,train
+TRT_20_LH_jpg.rf.74c5a346148e5db2055b3885cc896de6.jpg,Lonicera,A_block_resolved,BLOCK|8|20|lonicera,20,8,test,val,val
+TRT_20_LH_jpg.rf.e2f3f2364d9f393503d93dc4b869ee7d.jpg,Lonicera,A_block_resolved,BLOCK|2|20|lonicera,20,2,test,train,train
+TRT_20_LH_jpg.rf.e4ac3b1e530031b73cfd7fbe4ca9d9e2.jpg,Lonicera,A_block_resolved,BLOCK|7|20|lonicera,20,7,test,val,val
+TRT_20_LH_jpg.rf.e55b2cfffc6bc3c27d17e22af2c32c54.jpg,Lonicera,A_block_resolved,BLOCK|4|20|lonicera,20,4,test,train,train
+TRT_20_LH_jpg.rf.f3e60f4ffae02560859d46e71874ac50.jpg,Lonicera,A_block_resolved,BLOCK|1|20|lonicera,20,1,test,train,train
+TRT_20_MG_jpg.rf.0fec42109f3052c5e1a16d8100b0408d.jpg,Madame Galen,A_block_resolved,BLOCK|3|20|madamegalen,20,3,test,train,train
+TRT_20_MG_jpg.rf.53d8600ca5030c1ba3adc37d821eab39.jpg,Madame Galen,A_block_resolved,BLOCK|6|20|madamegalen,20,6,test,val,val
+TRT_20_MG_jpg.rf.64ff6e8972dbf62923ea1726c5dd5202.jpg,Madame Galen,A_block_resolved,BLOCK|8|20|madamegalen,20,8,test,val,val
+TRT_20_MG_jpg.rf.97851a32ddf17cbad249979abfec128d.jpg,Madame Galen,A_block_resolved,BLOCK|4|20|madamegalen,20,4,test,train,train
+TRT_20_MG_jpg.rf.bb6ec879f6b109339fb1bb9a2c63963c.jpg,Madame Galen,A_block_resolved,BLOCK|1|20|madamegalen,20,1,test,train,train
+TRT_20_PQ_jpg.rf.0281a8da6539db3b6fe8a0bb424533de.jpg,Parthenocissus,A_block_resolved,BLOCK|4|20|parthenocissus,20,4,test,train,train
+TRT_20_PQ_jpg.rf.04b5438f1451149662369c3699ca1190.jpg,Parthenocissus,A_block_resolved,BLOCK|6|20|parthenocissus,20,6,test,val,val
+TRT_20_PQ_jpg.rf.19929edc219c3e3c2eafd5d9c164c56f.jpg,Parthenocissus,A_block_resolved,BLOCK|3|20|parthenocissus,20,3,test,train,train
+TRT_20_PQ_jpg.rf.21a361c3176f4700ca104dd356245d56.jpg,Parthenocissus,A_block_resolved,BLOCK|7|20|parthenocissus,20,7,test,val,val
+TRT_20_PQ_jpg.rf.673724e90caa7a5760785881cc1cea6c.jpg,Parthenocissus,A_block_resolved,BLOCK|5|20|parthenocissus,20,5,test,train,train
+TRT_20_WF_jpg.rf.1a1d77c523c34c373ef5889d24cc1f54.jpg,Wisteria,A_block_resolved,BLOCK|3|20|wisteria,20,3,test,train,train
+TRT_20_WF_jpg.rf.1eccbd39a9c03b038f8b36b050d12d25.jpg,Wisteria,A_block_resolved,BLOCK|5|20|wisteria,20,5,test,train,train
+TRT_20_WF_jpg.rf.258c9b8fcbec81eb102ce28a59a74e9c.jpg,Wisteria,A_block_resolved,BLOCK|8|20|wisteria,20,8,test,val,val
+TRT_20_WF_jpg.rf.84a4c80e2944c4e6e8fd32180b707a2f.jpg,Wisteria,A_block_resolved,BLOCK|6|20|wisteria,20,6,test,val,val
+TRT_20_WF_jpg.rf.983160160e7a1d0bbe03c276b500d75b.jpg,Wisteria,A_block_resolved,BLOCK|7|20|wisteria,20,7,test,val,val
+TRT_20_WF_jpg.rf.ce408ba7afcf59464391f90d8378e50a.jpg,Wisteria,A_block_resolved,BLOCK|4|20|wisteria,20,4,test,train,train
+TRT_20_WF_jpg.rf.f69f7bb02e27a9127c4b7aea1ae9dd81.jpg,Wisteria,A_block_resolved,BLOCK|1|20|wisteria,20,1,test,train,train
+TRT_50_AQ_jpg.rf.026d2ab9d4be755732d19b154af0dc92.jpg,Akebia,A_block_resolved,BLOCK|1|50|akebia,50,1,train,test,train
+TRT_50_AQ_jpg.rf.2c4eca65fb722acd810e3b5a332eb865.jpg,Akebia,A_block_resolved,BLOCK|8|50|akebia,50,8,val,test,val
+TRT_50_AQ_jpg.rf.996781f5382c994e241d43a7ddf46cc2.jpg,Akebia,A_block_resolved,BLOCK|6|50|akebia,50,6,val,test,val
+TRT_50_AQ_jpg.rf.a9a279d01ea6ff18f0a283344d606779.jpg,Akebia,A_block_resolved,BLOCK|5|50|akebia,50,5,train,test,train
+TRT_50_AQ_jpg.rf.ab14b99b8f0e3560e9e0c49ed9b02a15.jpg,Akebia,A_block_resolved,BLOCK|7|50|akebia,50,7,val,test,val
+TRT_50_CR_jpg.rf.0deb56baf13a8c4c99561c334c49a6d6.jpg,Campsis,A_block_resolved,BLOCK|8|50|campsis,50,8,val,test,val
+TRT_50_CR_jpg.rf.3462696196605f80fdf4982f53c6fe32.jpg,Campsis,A_block_resolved,BLOCK|6|50|campsis,50,6,val,test,val
+TRT_50_CR_jpg.rf.523f1c15f6341bea31b0e9bc9b630e5d.jpg,Campsis,A_block_resolved,BLOCK|3|50|campsis,50,3,train,test,train
+TRT_50_CR_jpg.rf.56bad0b6e72fd7db6ad39ed75edee722.jpg,Campsis,A_block_resolved,BLOCK|5|50|campsis,50,5,train,test,train
+TRT_50_CR_jpg.rf.7bf9ca1d56150e230ee2fc49279a7944.jpg,Campsis,A_block_resolved,BLOCK|1|50|campsis,50,1,train,test,train
+TRT_50_CR_jpg.rf.8feba292c8080b909bc084082c3629f4.jpg,Campsis,A_block_resolved,BLOCK|2|50|campsis,50,2,train,test,train
+TRT_50_CR_jpg.rf.c48e364211ee2a3ff46b327fcffffb4f.jpg,Campsis,A_block_resolved,BLOCK|4|50|campsis,50,4,train,test,train
+TRT_50_HA_jpg.rf.078243fc3edd833286c4bfaf833f67c9.jpg,Hydrangea,A_block_resolved,BLOCK|6|50|hydrangea,50,6,val,test,val
+TRT_50_HA_jpg.rf.12611cc0ec0ac7fd1280372f0ca78e53.jpg,Hydrangea,A_block_resolved,BLOCK|3|50|hydrangea,50,3,train,test,train
+TRT_50_HA_jpg.rf.282efc74d8bd9ab17de99977025d5268.jpg,Hydrangea,A_block_resolved,BLOCK|5|50|hydrangea,50,5,train,test,train
+TRT_50_HA_jpg.rf.340c5b6a5b4b4692b5a73635690cef61.jpg,Hydrangea,A_block_resolved,BLOCK|7|50|hydrangea,50,7,val,test,val
+TRT_50_HA_jpg.rf.eba565996807fa8e4178efddbb038609.jpg,Hydrangea,A_block_resolved,BLOCK|4|50|hydrangea,50,4,train,test,train
+TRT_50_LH_jpg.rf.6398c472b576f659300199706270cf4e.jpg,Lonicera,A_block_resolved,BLOCK|2|50|lonicera,50,2,train,test,train
+TRT_50_LH_jpg.rf.6f78f94efffeea532b82c9a2894cd337.jpg,Lonicera,A_block_resolved,BLOCK|7|50|lonicera,50,7,val,test,val
+TRT_50_LH_jpg.rf.b6ecd3ee4d021245360dc6c3bf62de46.jpg,Lonicera,A_block_resolved,BLOCK|1|50|lonicera,50,1,train,test,train
+TRT_50_LH_jpg.rf.d06b01857aafea67919836b1c0b18d11.jpg,Lonicera,A_block_resolved,BLOCK|4|50|lonicera,50,4,train,test,train
+TRT_50_LH_jpg.rf.d429143a49bf65053b2c63671ebd8818.jpg,Lonicera,A_block_resolved,BLOCK|6|50|lonicera,50,6,val,test,val
+TRT_50_MG_jpg.rf.4bd19dc606df563944ed66ff19591361.jpg,Madame Galen,A_block_resolved,BLOCK|7|50|madamegalen,50,7,val,test,val
+TRT_50_MG_jpg.rf.5b0389ac8b5a234e88705e92bb9d2966.jpg,Madame Galen,A_block_resolved,BLOCK|6|50|madamegalen,50,6,val,test,val
+TRT_50_MG_jpg.rf.65866b62fbf6eaf69a9d8541de08e899.jpg,Madame Galen,A_block_resolved,BLOCK|4|50|madamegalen,50,4,train,test,train
+TRT_50_MG_jpg.rf.7c89625d6401c644295fb0cafd68fc16.jpg,Madame Galen,A_block_resolved,BLOCK|5|50|madamegalen,50,5,train,test,train
+TRT_50_MG_jpg.rf.abbaffe8de31bffe837fd6dadd120ae8.jpg,Madame Galen,A_block_resolved,BLOCK|2|50|madamegalen,50,2,train,test,train
+TRT_50_MG_jpg.rf.ae58788a3b86aed1de7c011b26570fc5.jpg,Madame Galen,A_block_resolved,BLOCK|1|50|madamegalen,50,1,train,test,train
+TRT_50_MG_jpg.rf.b6d628dc25eb1e06a20b7ed577030a7d.jpg,Madame Galen,A_block_resolved,BLOCK|8|50|madamegalen,50,8,val,test,val
+TRT_50_PQ_jpg.rf.03343c8e51a1a71550863e600c76a61c.jpg,Parthenocissus,A_block_resolved,BLOCK|3|50|parthenocissus,50,3,train,test,train
+TRT_50_PQ_jpg.rf.2f210d01a43277cafd08ab3b511b48ee.jpg,Parthenocissus,A_block_resolved,BLOCK|1|50|parthenocissus,50,1,train,test,train
+TRT_50_PQ_jpg.rf.39b25e283df47336c3e961426850652e.jpg,Parthenocissus,A_block_resolved,BLOCK|8|50|parthenocissus,50,8,val,test,val
+TRT_50_PQ_jpg.rf.9fd9b178b669f037ca1595f145d88c95.jpg,Parthenocissus,A_block_resolved,BLOCK|7|50|parthenocissus,50,7,val,test,val
+TRT_50_PQ_jpg.rf.ceb4d419ee20f44b0cc2767cedf5a3a0.jpg,Parthenocissus,A_block_resolved,BLOCK|4|50|parthenocissus,50,4,train,test,train
+TRT_50_PQ_jpg.rf.d77797290de6ea87df2b49910296d9f6.jpg,Parthenocissus,A_block_resolved,BLOCK|2|50|parthenocissus,50,2,train,test,train
+TRT_50_WF_jpg.rf.15e5b1614166d8eb26982f6619dfd2f6.jpg,Wisteria,A_block_resolved,BLOCK|3|50|wisteria,50,3,train,test,train
+TRT_50_WF_jpg.rf.8f62ee1a75332f563e24334e3cd9c41e.jpg,Wisteria,A_block_resolved,BLOCK|5|50|wisteria,50,5,train,test,train
+TRT_50_WF_jpg.rf.f2e10bf9b5bb0a9445a6121cecb98f1a.jpg,Wisteria,A_block_resolved,BLOCK|7|50|wisteria,50,7,val,test,val
+TRT_50_aQ_jpg.rf.6e8c93202c1005455fc89d384ad747d8.jpg,Akebia,A_block_resolved,BLOCK|4|50|akebia,50,4,train,test,train
+TRT_80_AQ_jpg.rf.17f7f42429509bd3d1d5befc3f84cbb8.jpg,Akebia,A_block_resolved,BLOCK|2|80|akebia,80,2,train,train,test
+TRT_80_AQ_jpg.rf.542a5cea0bdcfd6aea585dcb01953fca.jpg,Akebia,A_block_resolved,BLOCK|5|80|akebia,80,5,train,train,test
+TRT_80_AQ_jpg.rf.640fe37b76989b67b8d3305b526efbaf.jpg,Akebia,A_block_resolved,BLOCK|1|80|akebia,80,1,train,train,test
+TRT_80_AQ_jpg.rf.e7cd3ab59416afe91862609f229150b3.jpg,Akebia,A_block_resolved,BLOCK|4|80|akebia,80,4,train,train,test
+TRT_80_CR_jpg.rf.3e251e0a4f783e6aadf4019387f95cc3.jpg,Campsis,A_block_resolved,BLOCK|5|80|campsis,80,5,train,train,test
+TRT_80_CR_jpg.rf.4b85271f943777024f44bd6a6a6d4faf.jpg,Campsis,A_block_resolved,BLOCK|7|80|campsis,80,7,val,val,test
+TRT_80_CR_jpg.rf.9679c70a53d5f4f7a2e4fef45c217e85.jpg,Campsis,A_block_resolved,BLOCK|8|80|campsis,80,8,val,val,test
+TRT_80_CR_jpg.rf.969b7a614face0cdc86101cd53d39fad.jpg,Campsis,A_block_resolved,BLOCK|3|80|campsis,80,3,train,train,test
+TRT_80_HA_jpg.rf.37489a73813a4f7e9a4c9fdb5843fb6a.jpg,Hydrangea,A_block_resolved,BLOCK|8|80|hydrangea,80,8,val,val,test
+TRT_80_HA_jpg.rf.c795c5b29696a04f4d6b09df846d996b.jpg,Hydrangea,A_block_resolved,BLOCK|4|80|hydrangea,80,4,train,train,test
+TRT_80_LH_jpg.rf.4aa82d0ebb2cd4268dc3879027b15998.jpg,Lonicera,A_block_resolved,BLOCK|5|80|lonicera,80,5,train,train,test
+TRT_80_LH_jpg.rf.869adc3d650874bfd512969b8bea22d9.jpg,Lonicera,A_block_resolved,BLOCK|3|80|lonicera,80,3,train,train,test
+TRT_80_LH_jpg.rf.9b755d7789bd301d1546d638916f9370.jpg,Lonicera,A_block_resolved,BLOCK|1|80|lonicera,80,1,train,train,test
+TRT_80_LH_jpg.rf.ab92481f5270ac7499da9ad5834f4fbb.jpg,Lonicera,A_block_resolved,BLOCK|7|80|lonicera,80,7,val,val,test
+TRT_80_LH_jpg.rf.c5ca915dde3e1176331b0fc9d2e33ee9.jpg,Lonicera,A_block_resolved,BLOCK|6|80|lonicera,80,6,val,val,test
+TRT_80_LH_jpg.rf.f002f189c479ab27c43e3c844271d2e6.jpg,Lonicera,A_block_resolved,BLOCK|2|80|lonicera,80,2,train,train,test
+TRT_80_MG_jpg.rf.17ee8eb4caeecc030660eafcc9e649cf.jpg,Madame Galen,A_block_resolved,BLOCK|1|80|madamegalen,80,1,train,train,test
+TRT_80_MG_jpg.rf.24dd3b4a3aadc32fb3a9c5c6e6e01e42.jpg,Madame Galen,A_block_resolved,BLOCK|5|80|madamegalen,80,5,train,train,test
+TRT_80_MG_jpg.rf.61d00270f374777a70654aab6d2b0b0c.jpg,Madame Galen,A_block_resolved,BLOCK|6|80|madamegalen,80,6,val,val,test
+TRT_80_MG_jpg.rf.8186d2a59b3e6ede7ec82bd754598691.jpg,Madame Galen,A_block_resolved,BLOCK|7|80|madamegalen,80,7,val,val,test
+TRT_80_MG_jpg.rf.848cb6a48176df3fae0decc3aa363b06.jpg,Madame Galen,A_block_resolved,BLOCK|2|80|madamegalen,80,2,train,train,test
+TRT_80_MG_jpg.rf.a19df76536cf3f0101d562d3630c24b6.jpg,Madame Galen,A_block_resolved,BLOCK|3|80|madamegalen,80,3,train,train,test
+TRT_80_MG_jpg.rf.ed20d355f476a3c4aa13bcab89dc0483.jpg,Madame Galen,A_block_resolved,BLOCK|4|80|madamegalen,80,4,train,train,test
+TRT_80_PQ_jpg.rf.2a39fa265032e79b906bd818c6c7aec8.jpg,Parthenocissus,A_block_resolved,BLOCK|8|80|parthenocissus,80,8,val,val,test
+TRT_80_PQ_jpg.rf.38c8b69a47cbcdee9090b9e3acd18726.jpg,Parthenocissus,A_block_resolved,BLOCK|7|80|parthenocissus,80,7,val,val,test
+TRT_80_PQ_jpg.rf.a19c5602267b48ff74a6f9833ccd92e4.jpg,Parthenocissus,A_block_resolved,BLOCK|5|80|parthenocissus,80,5,train,train,test
+TRT_80_PQ_jpg.rf.aa39f34dffdaddd68472b4c371ff58c2.jpg,Parthenocissus,A_block_resolved,BLOCK|4|80|parthenocissus,80,4,train,train,test
+TRT_80_PQ_jpg.rf.db75ed8f63a37b06f014f98f109fc6af.jpg,Parthenocissus,A_block_resolved,BLOCK|1|80|parthenocissus,80,1,train,train,test
+TRT_80_WF_jpg.rf.06abcd3d7b649ac13fd825b1979d1e74.jpg,Wisteria,A_block_resolved,BLOCK|1|80|wisteria,80,1,train,train,test
+TRT_80_WF_jpg.rf.270808d6ef8146b5fbf1256fd1b302f3.jpg,Wisteria,A_block_resolved,BLOCK|4|80|wisteria,80,4,train,train,test
+TRT_80_WF_jpg.rf.6c502bdc04fa9549a16e496473fe7f3e.jpg,Wisteria,A_block_resolved,BLOCK|2|80|wisteria,80,2,train,train,test
+TRT_80_WF_jpg.rf.7ea8a0733b594446a278dd9a03405a10.jpg,Wisteria,A_block_resolved,BLOCK|8|80|wisteria,80,8,val,val,test
+TRT_80_WF_jpg.rf.a673b41905cce12accefb40f5dc3d73a.jpg,Wisteria,A_block_resolved,BLOCK|6|80|wisteria,80,6,val,val,test
+TRT_80_WF_jpg.rf.b1239f89118b1f3a1c76e1a1665d1320.jpg,Wisteria,A_block_resolved,BLOCK|3|80|wisteria,80,3,train,train,test
+Trt-1-Akebia-quinata-10-_aug1_jpeg.rf.1faa783a3d46855b44af2a07f36af46f.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-11-_aug1_jpeg.rf.7abd2b9d882551d21e5b3e6b33088931.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-13-_aug1_jpeg.rf.269a57a22edb2214f056959a71354c9f.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-14-_aug1_jpeg.rf.323238d303df61c9662360f79629e573.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-16-_aug1_jpeg.rf.ebf26ee890dd517981cf279bc1f95bf1.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-18-_aug1_jpeg.rf.95ee25906c13b28d9a75c17e584cce47.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-19-_aug1_jpeg.rf.efaacb5ac08f48432487d612748d8904.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-20-_aug1_jpeg.rf.80d75c19987ea86f92767cf1d04110b9.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-22-_aug1_jpeg.rf.4bd8c157c7eeaad60c2c28827282864f.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-4-_aug1_jpeg.rf.35353f57b23f69b0f7d6b09cbb504ee6.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-7-_aug1_jpeg.rf.48a98000bee9df5d755e3545a0417c46.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-8-_aug1_jpeg.rf.effd6112855ed51ed7631f5344674187.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Campsis-radicans-10-_aug1_jpeg.rf.17e8a826f971960ae408d0a901d42748.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-12-_aug1_jpeg.rf.bfacfb79d05884db2f4df3871d16b2da.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-14-_aug1_jpeg.rf.f503052c6dba795e97d234aa01386110.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-15-_aug1_jpeg.rf.9b18282d802813c3e03be9374e0a246c.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-16-_aug1_jpeg.rf.7ac8c506b2404cbc39635644010e0875.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-18-_aug1_jpeg.rf.53c47364e0f6dfb0757d4ace2db85000.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-20-_aug1_jpeg.rf.7cb4a92bed2a623eb503808c916ad00d.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-21-_aug1_jpeg.rf.f11510294beac18bf88c9f3e0fc9f07f.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-22-_aug1_jpeg.rf.f6edbaf5478f9ece433f43ffaa8e35d0.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-23-_aug1_jpeg.rf.18d1d8803d9823249b236e39e80595b2.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-4-_aug1_jpeg.rf.7f1bd71d59df8b0eee0fced8969c53bb.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-5-_aug1_jpeg.rf.2283202537a1d88f0ab978c7f08cad67.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-6-_aug1_jpeg.rf.e87846ce9549b66ec5ec13e6beef5e35.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-7-_aug1_jpeg.rf.50e4e529304864d3d92fcc1f0e4763c2.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-8-_aug1_jpeg.rf.8cc471b60f81ae4a70c2e1ad70d36ed3.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-9-_aug1_jpeg.rf.7bcfbf8ce9ab8a809b821ca7c898a48d.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Hydrangea-10-_aug1_jpeg.rf.826fd12e017e7b8d4c4cdd8921bac783.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-11-_aug1_jpeg.rf.fe65d20bd7728272601049fd84764fa4.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-13-_aug1_jpeg.rf.ebcef5a8f5e1e72b26f481412abed01b.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-18-_aug1_jpeg.rf.0f713d954f35b0e7def081c2a9b31721.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-21-_aug1_jpeg.rf.08b494fb289fbd3c824b7c1f49f0b289.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-4-_aug1_jpeg.rf.a2003b6d509cf2bc171afbd3035f30ad.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-5-_aug1_jpeg.rf.09e070ef54b7e8aa4e19ce5e10815881.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-6-_aug1_jpeg.rf.8d1a4934473708526143022d7a34d3d5.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-7-_aug1_jpeg.rf.61014019cfe6f41ac1a6369929fa235b.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Lonicera-heckrottii-10-_aug1_jpeg.rf.c5bbfff3acf7181ee6fc9a6b0ad92a47.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-11-_aug1_jpeg.rf.7db0106b673b27880014e3debeaeb81c.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-12-_aug1_jpeg.rf.faeb8f64f3d897e6d7b41191739e56e1.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-16-_aug1_jpeg.rf.5996be73b5b028fe3fb6e22a32c9c591.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-17-_aug1_jpeg.rf.d9d575fa6c5acd1e97139048e26039e6.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-19-_aug1_jpeg.rf.e068d70e515aecac485bae1a5f72ead6.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-20-_aug1_jpeg.rf.6c722d62e6aa77d3e89292ad87376286.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-22-_aug1_jpeg.rf.247f2a95af6482bbf28e85d07b42c03b.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-4-_aug1_jpeg.rf.9821bba8867c9d32e0ff81f4d358c695.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-6-_aug1_jpeg.rf.f0f5b406cbd7ffa2382546c55252a570.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-7-_aug1_jpeg.rf.a85663081ae1c1ea8edd5c66c9211aab.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-8-_aug1_jpeg.rf.26a9ed443d7d588b6245c60a146f056a.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-10-_aug1_jpeg.rf.da823c4f6b183fd06f0b2942f7560d12.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-14-_aug1_jpeg.rf.c761abc1ef5939f15be5b15b9dc5ae4a.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-15-_aug1_jpeg.rf.aea24f95f6ff12355e8f68614235849e.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-16-_aug1_jpeg.rf.0bcad64deb77718f59ef60212c84b9bd.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-18-_aug1_jpeg.rf.aa614b126d96b49ef4792f245cc050de.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-19-_aug1_jpeg.rf.991ea67e42d7ae9d3e741c55d6e44bb3.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-20-_aug1_jpeg.rf.15ed39145ce456cfffed95e76dfd72bd.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-21-_aug1_jpeg.rf.929a3ee2044660f8b338ec1ca852ddd8.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-23-_aug1_jpeg.rf.6b7cc7cd5c613bf190bbfbfc897c1819.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-4-_aug1_jpeg.rf.77df6c22c6e2f6328b0f5e6cb9ba42fe.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-8-_aug1_jpeg.rf.5c0c32b8c870d73886255a2af5d1b669.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-9-_aug1_jpeg.rf.687127770a9267f6bbdf813896d75b9a.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-10-_aug1_jpeg.rf.2640f2021b1b963baf60764aec0b6401.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-13-_aug1_jpeg.rf.5214624d130e7e4e88257e248d39e6e1.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-14-_aug1_jpeg.rf.f0d10fdea09bf039e210cb269af01a20.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-16-_aug1_jpeg.rf.3afb59bdbfdd5fe967c905defcf37739.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-17-_aug1_jpeg.rf.392cafdfda4db4960d9d493b31b4efbc.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-18-_aug1_jpeg.rf.6bfb0a612db4619475b21ba67c9dfed1.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-19-_aug1_jpeg.rf.24f739eab695c37e0198883e8fa737c5.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-21-_aug1_jpeg.rf.c4bc027aafb672e25b3df0c87a7b18cc.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-4-_aug1_jpeg.rf.47eb4b4c38473b60d28d9b0123075bb6.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-5-_aug1_jpeg.rf.66e87e1d212a82035910401a467b04ec.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-6-_aug1_jpeg.rf.ed4b4cde12c692a1b1955fbaa640d3f3.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-7-_aug1_jpeg.rf.902b36ffc4f04f021bde3b535322d626.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-8-_aug1_jpeg.rf.acf11486d8df4a7c91a0a21939c1b103.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-9-_aug1_jpeg.rf.5206ea66f8534d5328c3b8c67d79cc03.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Wisteria-floribunda-11-_aug1_jpeg.rf.aaaa18c588dc65d09ea3d3e628179e8a.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-13-_aug1_jpeg.rf.31bd6187e5eed31551791a2bc15bcb31.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-14-_aug1_jpeg.rf.6dd369340026c363911fd083cb20ee34.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-15-_aug1_jpeg.rf.46b7a1ed7a4b8c0df4aa5ff17e1cc681.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-16-_aug1_jpeg.rf.ab45a3ec4405b5285075375f8eb9a6d2.jpg,Parthenocissus,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-17-_aug1_jpeg.rf.48d88579a5de3f506e23cb1cd57249f0.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-18-_aug1_jpeg.rf.eef8a6ba1bfd31056dd5bce9033d90a8.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-20-_aug1_jpeg.rf.fb59fe95ce78eda5583e15cec81d5031.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-21-_aug1_jpeg.rf.2c8c7df0f435e2d4576fe4764e119359.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-4-_aug1_jpeg.rf.d0c7039b91adcb87d29347a55ec06126.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-6-_aug1_jpeg.rf.5b8494cbb4cc1f93432b00e49e6b1e81.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-2-Akebia-quinata-10-_aug1_jpeg.rf.33f99ca9103c84bedb7f87b25b66f95f.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-11-_aug1_jpeg.rf.02a17529bfc37b4af94407697ffabd0f.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-12-_aug1_jpeg.rf.0459b7db118c36a5c6a5150cb8a19dcd.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-16-_aug1_jpeg.rf.e80824e69a4c97c848a9e5e001bfae6b.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-17-_aug1_jpeg.rf.cfed7bac7c9159b899ef15851f227481.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-18-_aug1_jpeg.rf.4090a2aae379fd70546f649c31af1e4e.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-19-_aug1_jpeg.rf.f442d6f06b9135f76f320763ae94dd35.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-20-_aug1_jpeg.rf.b13649bc1e40d804545ea833308c5d74.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-21-_aug1_jpeg.rf.127c142e9c14fba15ca13ae5e0627791.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-22-_aug1_jpeg.rf.1ca67f09f4e54a4e32c57b3f65610e6e.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-23-_aug1_jpeg.rf.d98d64a9a1ea245dc466abf732ebbfde.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-4-_aug1_jpeg.rf.41d90ce2593d50bab9ed8b1cd9f54aa5.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-5-_aug1_jpeg.rf.3eff38240ee90af85926986416f8f4f3.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-6-_aug1_jpeg.rf.5b5aadd329260dbbe739ad9b04ddd17a.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-7-_aug1_jpeg.rf.4619a8e6058923e0ad36652a0eefeb34.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-8-_aug1_jpeg.rf.9d156a89b89049f9670f6fde071cd363.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-9-_aug1_jpeg.rf.88996232baa68deb98669b958623a564.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Campsis-radicans-13-_aug1_jpeg.rf.807556530ce322ecd192cb364b9217fc.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-15-_aug1_jpeg.rf.b2d6f5420f13c327b665ece4a371a557.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-16-_aug1_jpeg.rf.757b4de5256090de287713ba4cf697c7.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-17-_aug1_jpeg.rf.562a0aec0a342292438d4d63546957dd.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-18-_aug1_jpeg.rf.ba73f5200c8787ee3c1a874d23b6e212.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-19-_aug1_jpeg.rf.56b161f1bfc954ebeba0dba3b68399fd.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-20-_aug1_jpeg.rf.abc58b31e6b340f90d0f7ca8e9ae76e0.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-21-_aug1_jpeg.rf.c78308caffec1b24f9c9fc61e849a2c3.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-22-_aug1_jpeg.rf.681680065c125d820b490b0bf73395e8.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-23-_aug1_jpeg.rf.6fc689dc220ab8c537f421078473c470.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-5-_aug1_jpeg.rf.6dc8ce715390c265ff3b59c17e7deec6.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-7-_aug1_jpeg.rf.0ecbd6343c2cfece8fa230c28d260cbf.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-9-_aug1_jpeg.rf.f8628c4d95674e0b41008e757f53d014.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Hydrangea-10-_aug1_jpeg.rf.d107e035fe5bb2d7f3aea2a969e8271d.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-12-_aug1_jpeg.rf.5e6661fe3df5d0345706303606664592.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-14-_aug1_jpeg.rf.dbee882508d67ffb7b1a3b4d4f937120.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-15-_aug1_jpeg.rf.872d982b1d7f0c64f5ff0add90690f42.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-18-_aug1_jpeg.rf.130ced49383a53c98363fc3504fb0bda.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-20-_aug1_jpeg.rf.fdfd682a90413980bf865062de88b973.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-21-_aug1_jpeg.rf.c2fec810e0a10f90463753c565372c2d.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-5-_aug1_jpeg.rf.b40f3be709d5deb8275f9c520c0666e8.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-6-_aug1_jpeg.rf.eec03cae33cdfa8fff5b48382eda0acb.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-7-_aug1_jpeg.rf.fcdede9b4aa3b0202a634ff709c6d025.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-8-_aug1_jpeg.rf.8511e45cefcd82a4bee5eb73a91e34be.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-9-_aug1_jpeg.rf.cfd7047cba3e20be3441bf8b2bad6547.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-11-_aug1_jpeg.rf.6be30a5be22997be633d95b6fd47f3f7.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-15-_aug1_jpeg.rf.8fa7798afdb890015c9430db1cfd205e.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-16-_aug1_jpeg.rf.b2fd1d6ee283d31f58216f91e0ed292b.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-18-_aug1_jpeg.rf.ae4ed121032b9c984e184968cb02e512.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-19-_aug1_jpeg.rf.2bdc29cf31e3923c8174fe5684024eac.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-20-_aug1_jpeg.rf.81b472f1b37c983f94c7976ee8bea2dd.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-22-_aug1_jpeg.rf.93d389a9573a60ef3d320f4d3566e8dc.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-4-_aug1_jpeg.rf.f36f4d0b11033eec9809ea8b64ed727e.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-5-_aug1_jpeg.rf.a8128c1486f671bf4edbd98fa92f9877.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-6-_aug1_jpeg.rf.c58d11cfed6e7e2de670d1effca3a708.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-7-_aug1_jpeg.rf.e7892e11e82161b222204985510db78c.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-9-_aug1_jpeg.rf.b43987ce2058c2fb421fa486384f5606.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-10-_aug1_jpeg.rf.60c3605a2a074d9c1bbea63beda3229d.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-11-_aug1_jpeg.rf.f70d82a65230312e8698746c017d998c.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg,Madame Galen,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-13-_aug1_jpeg.rf.c7c519485aef62995b81355eb390364d.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-15-_aug1_jpeg.rf.9bcf3540e579b588ca4e5e1e6d22aca7.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-16-_aug1_jpeg.rf.29356ac940324065b6e9218650f83a27.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-17-_aug1_jpeg.rf.1917f881b50aeeeacdc5fe18d8649f9f.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-18-_aug1_jpeg.rf.19343f0353556806cda34c7b6043c0d7.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-19-_aug1_jpeg.rf.06c3b93410b1f55288b6b9222651c024.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-21-_aug1_jpeg.rf.3929bfdc0ae0ec815c5716ba95b3b945.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-22-_aug1_jpeg.rf.93b3a75856f569ae505b7bb2d71cb1fb.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-23-_aug1_jpeg.rf.5603fb831d7bd21c06c90e5029dc1c66.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-4-_aug1_jpeg.rf.93906621adb842213fc304b7da6c3e1b.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-5-_aug1_jpeg.rf.6fe73a3d4e525cf9017331a5f0cbf9eb.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-6-_aug1_jpeg.rf.d14c9f95563074e45b99447f5a35f23a.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-7-_aug1_jpeg.rf.4b7dc87035fc83fbee467f96b955a66c.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-8-_aug1_jpeg.rf.abd87a72162f9298f1808a42cd8b39a5.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-9-_aug1_jpeg.rf.73f1b90b2ef9b95f53acdc75026c078d.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Wisteria-floribunda-10-_aug1_jpeg.rf.0c3d33c3832ca94f5f3f1e34505dab1a.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-11-_aug1_jpeg.rf.7d3fb9f17ed7daa0222158a132313eb3.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-12-_aug1_jpeg.rf.8f1e1261d34ec827a656b6c5ace524ce.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-13-_aug1_jpeg.rf.3e67e30eacef2ada0af05bcd2d7ab2ac.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-14-_aug1_jpeg.rf.296fab77958b9b8730daa5e7cee9efd7.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-15-_aug1_jpeg.rf.72c73c3128371fc6971cbfae3aa0e0f8.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-19-_aug1_jpeg.rf.d08d89302757724c0cfc55df2e91b310.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-21-_aug1_jpeg.rf.287f4c1c27cc58a3d2de956afc2f3062.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-22-_aug1_jpeg.rf.7bbdfd14bd66bc9056e46c19bf111cfd.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-4-_aug1_jpeg.rf.1f8d11c8d9d8173c981950b4d540d302.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-5-_aug1_jpeg.rf.5399be18a04907fd5aebf3d447bc0532.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-9-_aug1_jpeg.rf.e396d7d22a558891fc98001491f9c4a9.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-lonicera-heckrottii-10-_aug1_jpeg.rf.2c4f794d9ffa5cfd83e6aa68d7921610.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-11-_aug1_jpeg.rf.134aeb64283724641edb0edf475314cf.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-13-_aug1_jpeg.rf.c7d2b7ce3497e74607525722467323d2.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-14-_aug1_jpeg.rf.66dea3124f4e1b9f31f24d38cbdfe0ae.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-15-_aug1_jpeg.rf.8ea6637b1cce25d0d03a6f0c79bdfd7c.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-16-_aug1_jpeg.rf.4fa61b9215836f37308ae2d09c4e3d5c.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-19-_aug1_jpeg.rf.e489f963fbd49d5398035cf84a24c1f5.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-21-_aug1_jpeg.rf.b5b8a81d82fab4dc0f2841f1b33fa8de.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-4-_aug1_jpeg.rf.88f10d52edd3f3e691fe8fb1ea8ab8f6.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-6-_aug1_jpeg.rf.ac7a2e90e6a0e8496b5fe66d7a99bb8d.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-8-_aug1_jpeg.rf.e07f086e5cc628875d89c3acb2475b60.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-9-_aug1_jpeg.rf.d4682e20283fec472b745711ebc5592e.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-3-Akebia-quinata-10-_aug1_jpeg.rf.cf87ff58d3b6301db67d49b8e942c42f.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-11-_aug1_jpeg.rf.dff2f315487d7f177053def1e2be7689.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-12-_aug1_jpeg.rf.9f8500007a584a040843ad7baf65ce18.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-14-_aug1_jpeg.rf.2185254f88b375ca8d1314851b2d976e.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-16-_aug1_jpeg.rf.a9393a4fddf8d9d3b2bf947e85fa509a.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-17-_aug1_jpeg.rf.4c7a3c878350cb3f3b4c86c6d4fb78f3.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-21-_aug1_jpeg.rf.69d945cea644ae21f0fa3a4149d222f6.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-23-_aug1_jpeg.rf.7f794fff3ff2051229b7df080a1e0c28.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-5-_aug1_jpeg.rf.e9d16563a74fe64e227473fa8e925324.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-7-_aug1_jpeg.rf.5ae604c3f9bdad05ab96c08e687ee26f.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-8-_aug1_jpeg.rf.cc7e32b1cc8e885fa15ab0ab81ef049d.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-9-_aug1_jpeg.rf.14ac5bae2e973dda39038c43bd28e581.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Campsis-radicans-10-_aug1_jpeg.rf.82b739a769054911b6e72eac341c378f.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-11-_aug1_jpeg.rf.d5e6a0ced5008d99a0c6aa8d37df6043.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-12-_aug1_jpeg.rf.c117bbfd8084d252dd3cdaa644f6863a.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-14-_aug1_jpeg.rf.fd0229fea6e0519b980747599f44690b.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-16-_aug1_jpeg.rf.9c9d46f6e68ad47045f5b25b99c034e3.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-17-_aug1_jpeg.rf.92bb0a3e30bb9799a79871f0baa18898.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-18-_aug1_jpeg.rf.3f358e05fa776af2cc8366def7d72d42.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-19-_aug1_jpeg.rf.143c81768a9e82742c6f86bfd0281c3b.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-4-_aug1_jpeg.rf.2f6b3d5b9a3f556515b816f4fcc815c1.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-6-_aug1_jpeg.rf.a8e03197ebbab769ac0b57fce0f65c92.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-7-_aug1_jpeg.rf.a2dcc8ec66def7313c417b0f45a4217d.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Hydrangea-11-_aug1_jpeg.rf.3ea754c1095cb31426ceb6622fcc746f.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-13-_aug1_jpeg.rf.15827193927cb9fed50473e5ba33e6fe.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-14-_aug1_jpeg.rf.833cacf5a0d186c16e8a4afa10850de4.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-16-_aug1_jpeg.rf.03d269353805283f1a641a3c2e9dd2dd.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-17-_aug1_jpeg.rf.e790adb9f47cc54b9aa090fc29f770e8.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-19-_aug1_jpeg.rf.909aabeff2a9effb41042507b4eb242c.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-20-_aug1_jpeg.rf.bfaff3caf218f6cc7127fcf24ccf4ce1.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-21-_aug1_jpeg.rf.d59252ef3d509f1d2999f8a146e60ad0.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-22-_aug1_jpeg.rf.f729e336295f9b5ec381da838a8227a9.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-4-_aug1_jpeg.rf.5c5d0bf4a0cf7e4ac261c1d51f41c53f.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-5-_aug1_jpeg.rf.f41be895ab917e203ef235113a8bd0f1.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-8-_aug1_jpeg.rf.80482dfdc824453fba2fb6508bf1cc3c.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Lonicera-heckrottii-11-_aug1_jpeg.rf.3c0bb24d299cac96b8dbf62bde4d3e86.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-12-_aug1_jpeg.rf.0797b9db1efd6822e7bb0cf2056911be.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-14-_aug1_jpeg.rf.64bbb58c40246a502a487e42ff3f3c9f.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-15-_aug1_jpeg.rf.cb39f821e477658269c5148b5b60a6f4.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-16-_aug1_jpeg.rf.fee3a63fedc996c5f1135b3b8fcce1f2.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-18-_aug1_jpeg.rf.1310e29c578a941476785921ef2c7304.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-19-_aug1_jpeg.rf.dff27a189098b6e88e819740a5c29e09.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-20-_aug1_jpeg.rf.02b48a97652a2144c659cd99151b3817.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-21-_aug1_jpeg.rf.9f00d51569b7db378a872f96316fd0f5.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-22-_aug1_jpeg.rf.6b58164bbf9be4dc343a6f0d1a045cdf.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-23-_aug1_jpeg.rf.a3583d0476dc894c7a08ebf4a8926e3d.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-5-_aug1_jpeg.rf.65f319faee300d6de06024ae0ff15510.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-6-_aug1_jpeg.rf.7eea30605026b68c3247cc07cff625ac.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-8-_aug1_jpeg.rf.d51004d145d4f04cb10ec60e4a56f6ac.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-10-_aug1_jpeg.rf.29607d3fddf5f8a475803842b0c4e80e.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-11-_aug1_jpeg.rf.d9c0f0a7994708ebde17c038c5df3696.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-13-_aug1_jpeg.rf.a7f022808104b43f6657264d9dccfc5c.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-15-_aug1_jpeg.rf.7417830898880d723c15b55fdb3977b5.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-16-_aug1_jpeg.rf.0e31c8cf6a38d9b77eec432080ba3be2.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-18-_aug1_jpeg.rf.35beee1e8714355bae2616c7510cbc14.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-20-_aug1_jpeg.rf.dc3daa31fe15241b2671a7768cd0e7b8.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-21-_aug1_jpeg.rf.5f42e838e74edae7bd4fe3f5cb67b1ef.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-23-_aug1_jpeg.rf.7e62ce9e94a0d5fb0a968de55bb2e7fe.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-5-_aug1_jpeg.rf.4d7e4e8b0a7cc7c375bf565c5031fccc.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-6-_aug1_jpeg.rf.d2ff40dbeb2670271661777f32c05907.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-7-_aug1_jpeg.rf.103570608280e86066d6424e2325ec1e.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-10-_aug1_jpeg.rf.820a5be095bc12fd9889a9eff78d38bb.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-11-_aug1_jpeg.rf.4363e4d11d47c3cad108c6da58703d3c.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.f1898cd4c4ec6be2286effb88f2ea056.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-13-_aug1_jpeg.rf.5ace8f6bb7e1421fc11e81a2c5bad335.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-16-_aug1_jpeg.rf.2f7f90498730a22f93d0538deb97d46e.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-17-_aug1_jpeg.rf.4ec018a68a676b1739b79e6cde407427.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-18-_aug1_jpeg.rf.601718d1ee1339fb7e11674ceb4f53a7.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-19-_aug1_jpeg.rf.978eeb6377650f0a9ba520402bf7e565.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-20-_aug1_jpeg.rf.05d369385a80fb3344b69f96200c8bff.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-22-_aug1_jpeg.rf.1b66dac4f03205c465484005880931f2.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-5-_aug1_jpeg.rf.a62db155ea0a6e4cb7e0a8ba04be0fec.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-6-_aug1_jpeg.rf.24122cd37fae3980471b6d9a97885199.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-7-_aug1_jpeg.rf.bd69410957e677b12ab780af5b350d83.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-8-_aug1_jpeg.rf.6bfe087d36291516c68e5984865f3476.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-9-_aug1_jpeg.rf.3940e052a475d91f0e3337acd7dc51b7.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Wisteria-floribunda-10-_aug1_jpeg.rf.64a99eb0ff80d133806c6ad57e174f3f.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-12-_aug1_jpeg.rf.472194a1010832c0f4b9907d1607c87c.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-13-_aug1_jpeg.rf.040932ae79b67cf77dd14599bf05eafb.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-14-_aug1_jpeg.rf.330a3025b2d72b7f43e1da8a9cd3be7b.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-15-_aug1_jpeg.rf.8290beeefff2f58358cf06f547a25319.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-17-_aug1_jpeg.rf.d68dc6e30217e46ad50e4bf4165de87a.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-18-_aug1_jpeg.rf.60f574f9d3f61f3b45e011cd39d20b7e.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-19-_aug1_jpeg.rf.f60aeebd11b06ac218a4559712fbfd0c.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-20-_aug1_jpeg.rf.e5226de9d0fcb717e2bb566494627aeb.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-21-_aug1_jpeg.rf.68038b9be775784904f5a8816be7d604.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-22-_aug1_jpeg.rf.de42d26307cdd1dd3ef6dbaa20eb71e9.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-23-_aug1_jpeg.rf.4b3fc07a6ac29762e0ce7e450f8c463d.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-4-_aug1_jpeg.rf.1e90e791bf0b71feb7ee565568d20606.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-5-_aug1_jpeg.rf.a57b9415cc2246eeb25ff896ad6269a1.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-8-_aug1_jpeg.rf.58e4648710b96eac6bc6316db3c59506.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-9-_aug1_jpeg.rf.34e29173a13126da2ff6fbdecfef93f3.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+TRT_20_MG_jpg.rf.3746e0c3c2073462966aaa79ce68b203.jpg,Madame Galen,A_block_resolved,BLOCK|2|20|madamegalen,20,2,test,train,train
+TRT_20_MG_jpg.rf.91117546c282c97bb36503a989084792.jpg,Madame Galen,A_block_resolved,BLOCK|5|20|madamegalen,20,5,test,train,train
+TRT_20_MG_jpg.rf.a9698ed35a0b25d5c8c49aefc80d8e66.jpg,Madame Galen,A_block_resolved,BLOCK|7|20|madamegalen,20,7,test,val,val
+TRT_20_PQ_jpg.rf.89b8f55b0c3c6737e419caf490fee222.jpg,Parthenocissus,A_block_resolved,BLOCK|2|20|parthenocissus,20,2,test,train,train
+TRT_20_WF_jpg.rf.57feebcc7820442b07df80296f7a2a00.jpg,Wisteria,A_block_resolved,BLOCK|2|20|wisteria,20,2,test,train,train
+TRT_50_AQ_jpg.rf.0f97b8b07b17605da0db1e549a3c264d.jpg,Akebia,A_block_resolved,BLOCK|3|50|akebia,50,3,train,test,train
+TRT_50_AQ_jpg.rf.2af56ad6b05dd040db7c043b358a9b4e.jpg,Akebia,A_block_resolved,BLOCK|2|50|akebia,50,2,train,test,train
+TRT_50_HA_jpg.rf.ef271881995d726aa774d99431f25ca7.jpg,Hydrangea,A_block_resolved,BLOCK|1|50|hydrangea,50,1,train,test,train
+TRT_50_LH_jpg.rf.2a5eb5f87a616758c150e67b3e0c8c1b.jpg,Lonicera,A_block_resolved,BLOCK|8|50|lonicera,50,8,val,test,val
+TRT_50_LH_jpg.rf.7a315046205cabf19a78a1b1efb6dc96.jpg,Lonicera,A_block_resolved,BLOCK|5|50|lonicera,50,5,train,test,train
+TRT_50_LH_jpg.rf.f1c891a69006e4f728f83d1f633eba87.jpg,Lonicera,A_block_resolved,BLOCK|3|50|lonicera,50,3,train,test,train
+TRT_50_PQ_jpg.rf.a72e6cb989d61164f2e14f0a2c72a974.jpg,Parthenocissus,A_block_resolved,BLOCK|6|50|parthenocissus,50,6,val,test,val
+TRT_50_WF_jpg.rf.73ec597c76e5f097ff62e52c51c2b138.jpg,Wisteria,A_block_resolved,BLOCK|8|50|wisteria,50,8,val,test,val
+TRT_80_AQ_jpg.rf.10ac57ec361b82f2c6eee804c0e64784.jpg,Akebia,A_block_resolved,BLOCK|7|80|akebia,80,7,val,val,test
+TRT_80_CR_jpg.rf.9f5e4afeb2b723d3cf428adf23932538.jpg,Campsis,A_block_resolved,BLOCK|4|80|campsis,80,4,train,train,test
+TRT_80_CR_jpg.rf.f2fb2eaab5f4453b69cdae3873cc6354.jpg,Campsis,A_block_resolved,BLOCK|2|80|campsis,80,2,train,train,test
+TRT_80_HA_jpg.rf.09c4bf1b7a4ed2dd8bf83eef3d8e39f7.jpg,Hydrangea,A_block_resolved,BLOCK|2|80|hydrangea,80,2,train,train,test
+TRT_80_HA_jpg.rf.199d44f1a65ae719d7e0f19fdb64c704.jpg,Hydrangea,A_block_resolved,BLOCK|3|80|hydrangea,80,3,train,train,test
+TRT_80_HA_jpg.rf.31f3d759a0ccd5b0a8b7f256e73e4d06.jpg,Hydrangea,A_block_resolved,BLOCK|7|80|hydrangea,80,7,val,val,test
+TRT_80_LH_jpg.rf.7cf57bf5c8ac0eb179d74f08e06a7ffb.jpg,Lonicera,A_block_resolved,BLOCK|8|80|lonicera,80,8,val,val,test
+TRT_80_LH_jpg.rf.ae025bbefe899cba5e8904519e3d8240.jpg,Lonicera,A_block_resolved,BLOCK|4|80|lonicera,80,4,train,train,test
+TRT_80_MG_jpg.rf.c4fc070e9ed2a9c6b3a3629316440950.jpg,Madame Galen,A_block_resolved,BLOCK|8|80|madamegalen,80,8,val,val,test
+TRT_80_PQ_jpg.rf.399684c40dfe5eb6133caef4418ad565.jpg,Parthenocissus,A_block_resolved,BLOCK|6|80|parthenocissus,80,6,val,val,test
+TRT_80_PQ_jpg.rf.d5be5fdebac26c8394cafedc6cba0283.jpg,Parthenocissus,A_block_resolved,BLOCK|2|80|parthenocissus,80,2,train,train,test
+TRT_80_WF_jpg.rf.5d607e6a74e9db849474924c3d4bcb86.jpg,Wisteria,A_block_resolved,BLOCK|5|80|wisteria,80,5,train,train,test
+Trt-1-Akebia-quinata-12-_aug1_jpeg.rf.ac0a87ee959864e9dbb5421e91c13d1d.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-15-_aug1_jpeg.rf.20874870d957e728d24e1c0cbc920371.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-9-_aug1_jpeg.rf.1d2e9f8d5c7c39cd728025490aea9ee5.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinataa_aug1_jpeg.rf.f8c8493f18ef240324669fccb4123857.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Campsis-radicans-11-_aug1_jpeg.rf.e24e4f67724a80319702225535bab6eb.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-13-_aug1_jpeg.rf.fa715e16f62ef80d091d45509484238b.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Hydrangea-12-_aug1_jpeg.rf.476ee0c3c4f1dc83c0fef343d7a8b69f.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-22-_aug1_jpeg.rf.6b3b14fda023efaa7b0bdb73f90f9cae.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Lonicera-heckrottii-13-_aug1_jpeg.rf.cd06a23a694791db1bb09976a1246991.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-21-_aug1_jpeg.rf.5286a97cedaac9e311699180d36d7441.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-9-_aug1_jpeg.rf.a52c96ff3359bedbb16197ba0a203b48.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-17-_aug1_jpeg.rf.9a10f9f2be9ad26aa479a8b1b6884e4d.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-5-_aug1_jpeg.rf.a739c23519b1127fdce8e2326828e8f9.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-7-_aug1_jpeg.rf.699ad8113261cbada9d0fd891e90834f.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-11-_aug1_jpeg.rf.70cd39ab94b9bca8baaf54f7871bdca5.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-20-_aug1_jpeg.rf.d4ff019e251df70a08a03424d77950c6.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-22-_aug1_jpeg.rf.9136bb1423f17cce7c53b7f42752f09e.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-23-_aug1_jpeg.rf.e15ecd54c354e7b0a3ef31a39fda205b.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Wisteria-floribunda-10-_aug1_jpeg.rf.0eada51fc1502e2e270cde847e32ade2.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-19-_aug1_jpeg.rf.acdcc563517bf3429759369d3df1ef6c.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-7-_aug1_jpeg.rf.6b6469a5a2f7111aae64dd41816dca67.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-9-_aug1_jpeg.rf.4983eef652d3bdaf5e7f7661c38e204c.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-2-Akebia-quinata-13-_aug1_jpeg.rf.506fb0625888532c99f2d2b9299ab281.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Campsis-radicans-10-_aug1_jpeg.rf.83cf53c018b65d0e8b97fea360257802.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-11-_aug1_jpeg.rf.5cc08d160100d0795e33da364292488e.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-14-_aug1_jpeg.rf.4a8adfa59658df796ca7bd4f8f2b7feb.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-4-_aug1_jpeg.rf.5bb0a374e7980ea146e62bc549914dda.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Hydrangea-13-_aug1_jpeg.rf.4ab75a1642a52a9f9a7a8bcf790b8f85.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Hydrangea-17-_aug1_jpeg.rf.ed5cc39e769e21e933e0a645661ea570.jpg,Hydrangea,B_treatment_species,TRTSP|50|hydrangea,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-17-_aug1_jpeg.rf.c97c3aeb8c064e9e93b430afe4a8f9f4.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-23-_aug1_jpeg.rf.75c1af1260ab73a0da4986c088bfcaf5.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-8-_aug1_jpeg.rf.cbf000716947ed753c0c49732e962759.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-14-_aug1_jpeg.rf.11fdeb38e6ed3ceed962c360e277492e.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Wisteria-floribunda-16-_aug1_jpeg.rf.7c0387ea17d316a2d1eaba2a621e8e3d.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-17-_aug1_jpeg.rf.81988ebcd7fa7514176cd507731446ab.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-18-_aug1_jpeg.rf.c6ab45b20faf99cf0535db957c207a0b.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-6-_aug1_jpeg.rf.8be762d6a7361f257c06fde77081b534.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-lonicera-heckrottii-17-_aug1_jpeg.rf.b8b43ef9aeb8d5dfe44cb62faf2446fb.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-20-_aug1_jpeg.rf.19bef8b9ed32870cae484deca05a8ce4.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-22-_aug1_jpeg.rf.c20218efa932daca67736bc67fc44008.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-5-_aug1_jpeg.rf.f98a51e27ae37c9693510ffe420bd75d.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-3-Akebia-quinata-18-_aug1_jpeg.rf.6e9d2d15d6fc3f3407159b0370f998a8.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-19-_aug1_jpeg.rf.e374c52021580991307d37c9574a920b.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-20-_aug1_jpeg.rf.ba3728517d52f1347fecd67950dd27af.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-6-_aug1_jpeg.rf.4e08f4c129390e9470dd7c4e2d1ed580.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Campsis-radicans-20-_aug1_jpeg.rf.99a77c3b4cc7e5cb34ec735784c42e5e.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-21-_aug1_jpeg.rf.de3fb2a9f11a79d13d41340b47861d6f.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-9-_aug1_jpeg.rf.9b7a7d58d8dfeab449effb5eb02b403f.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Hydrangea-12-_aug1_jpeg.rf.66868bb194232f8d21798e92fae9c496.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-15-_aug1_jpeg.rf.e300d5847eac562ba759aca39338fbc2.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Hydrangea-7-_aug1_jpeg.rf.c4ceaddf0624cf973a2101d3458c6ceb.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Lonicera-heckrottii-13-_aug1_jpeg.rf.4cb94fa2664444d2e5ee4589c2aacb89.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-17-_aug1_jpeg.rf.38fdd567e00a247400bea3d35863a0b9.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-4-_aug1_jpeg.rf.c68e879c1d488f5802043afc6a7ae7fe.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-7-_aug1_jpeg.rf.7a3a06addddd3846914b60f5c0076f69.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-14-_aug1_jpeg.rf.a5a352e0699da31f8893dec76d36ffda.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-17-_aug1_jpeg.rf.d46fe4a0481835b7c968fabde5062f4e.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-4-_aug1_jpeg.rf.8f9c1a725db0cd6a733302d1e95d3433.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-8-_aug1_jpeg.rf.f849f48d28b054ad9ff8d6b824fedb78.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-9-_aug1_jpeg.rf.96c26757f7e68392d64446ea439659bb.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-14-_aug1_jpeg.rf.75e1156be2aa8780cdf3667620acb21f.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-15-_aug1_jpeg.rf.594bcbb62c86791ca42288ed65b79d57.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-21-_aug1_jpeg.rf.690ee9e84a9b8b3553fe00e3b9827bb0.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-23-_aug1_jpeg.rf.5d10df1451d1c01fd7e152b7d4da6fda.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Wisteria-floribunda-16-_aug1_jpeg.rf.7c2f1ac526668551b1d7c1651718ca65.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-6-_aug1_jpeg.rf.0fc7032e747e14d3ded2b379c1e9668e.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+TRT_20_AQ_jpg.rf.1c4fa5feeaf6debf40fef471d410fe72.jpg,Akebia,A_block_resolved,BLOCK|2|20|akebia,20,2,test,train,train
+TRT_20_AQ_jpg.rf.8fb8c3ca83861ab3976bcc6bc7c62b75.jpg,Akebia,A_block_resolved,BLOCK|1|20|akebia,20,1,test,train,train
+TRT_20_CR_jpg.rf.faeeff51c80d67ecc564b1cefd8cd54b.jpg,Campsis,A_block_resolved,BLOCK|6|20|campsis,20,6,test,val,val
+TRT_20_HA_jpg.rf.6b3f103aca5a5c1f40e1c66e2cfb944c.jpg,Hydrangea,A_block_resolved,BLOCK|1|20|hydrangea,20,1,test,train,train
+TRT_20_LH_jpg.rf.1a07672ae643320067a758716546420a.jpg,Lonicera,A_block_resolved,BLOCK|5|20|lonicera,20,5,test,train,train
+TRT_20_PQ_jpg.rf.47dd88684a2f2381d99c4d11d2c9d703.jpg,Parthenocissus,A_block_resolved,BLOCK|1|20|parthenocissus,20,1,test,train,train
+TRT_20_PQ_jpg.rf.69b4f747c5ca14855c230e64d44d296e.jpg,Parthenocissus,A_block_resolved,BLOCK|8|20|parthenocissus,20,8,test,val,val
+TRT_50_CR_jpg.rf.33b98fc22f007b3d146152f088ddaa20.jpg,Campsis,A_block_resolved,BLOCK|7|50|campsis,50,7,val,test,val
+TRT_50_HA_jpg.rf.edf55af99fc14d81062ac57bd5ab2132.jpg,Hydrangea,A_block_resolved,BLOCK|8|50|hydrangea,50,8,val,test,val
+TRT_50_MG_jpg.rf.6e29d532a278d7101f1158643ea20c7c.jpg,Madame Galen,A_block_resolved,BLOCK|3|50|madamegalen,50,3,train,test,train
+TRT_50_PQ_jpg.rf.24b59c07efb9014dae87abbe040ff7e8.jpg,Parthenocissus,A_block_resolved,BLOCK|5|50|parthenocissus,50,5,train,test,train
+TRT_50_WF_jpg.rf.0ce140381e33d6b9317a6d335f427afc.jpg,Wisteria,A_block_resolved,BLOCK|4|50|wisteria,50,4,train,test,train
+TRT_50_WF_jpg.rf.106bc82c5dea6b5ed3dc63aafe8c493b.jpg,Wisteria,A_block_resolved,BLOCK|1|50|wisteria,50,1,train,test,train
+TRT_50_WF_jpg.rf.ae2208232ef6d513e60b5f3b88cca812.jpg,Wisteria,A_block_resolved,BLOCK|2|50|wisteria,50,2,train,test,train
+TRT_50_WF_jpg.rf.fe90c74200256fda3e635859ea0f0e9c.jpg,Wisteria,A_block_resolved,BLOCK|6|50|wisteria,50,6,val,test,val
+TRT_80_AQ_jpg.rf.3e84fe8fa09b572354cf95f382fcb7c4.jpg,Akebia,A_block_resolved,BLOCK|6|80|akebia,80,6,val,val,test
+TRT_80_AQ_jpg.rf.5f27ff8c8337002b3dc0e7450946d27b.jpg,Akebia,A_block_resolved,BLOCK|3|80|akebia,80,3,train,train,test
+TRT_80_AQ_jpg.rf.7d0fc3d96cdc138fee42fa7c3debdfa6.jpg,Akebia,A_block_resolved,BLOCK|8|80|akebia,80,8,val,val,test
+TRT_80_CR_jpg.rf.a3cb88f4d3612c4d58056d2bf6e5d3fe.jpg,Campsis,A_block_resolved,BLOCK|6|80|campsis,80,6,val,val,test
+TRT_80_CR_jpg.rf.fb8bd39e09db43e705e6d717a0606317.jpg,Campsis,A_block_resolved,BLOCK|1|80|campsis,80,1,train,train,test
+TRT_80_HA_jpg.rf.361df4550fadd5c033f7017b6e42b211.jpg,Hydrangea,A_block_resolved,BLOCK|6|80|hydrangea,80,6,val,val,test
+TRT_80_HA_jpg.rf.cdfa3af5c74b33569d89747d412ab3ad.jpg,Hydrangea,A_block_resolved,BLOCK|5|80|hydrangea,80,5,train,train,test
+TRT_80_HA_jpg.rf.f93e3608398613bd49f76e92de6c6d1d.jpg,Hydrangea,A_block_resolved,BLOCK|1|80|hydrangea,80,1,train,train,test
+TRT_80_PQ_jpg.rf.806f3732d3f3f55853d9d3e5bdc05388.jpg,Parthenocissus,A_block_resolved,BLOCK|3|80|parthenocissus,80,3,train,train,test
+TRT_80_WF_jpg.rf.53d2cbddbeaea9da647d5000eeea83e9.jpg,Wisteria,A_block_resolved,BLOCK|7|80|wisteria,80,7,val,val,test
+Trt-1-Akebia-quinata-17-_aug1_jpeg.rf.548f2b0d0659149a994769222073d39c.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-21-_aug1_jpeg.rf.c67a9a007fac413cd1fb3fdb7d1c1053.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-5-_aug1_jpeg.rf.f5f5d36060d2ff2be6b3e84332613af3.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Akebia-quinata-6-_aug1_jpeg.rf.7957b19ca8f9a773599970231529a2cb.jpg,Akebia,B_treatment_species,TRTSP|20|akebia,20,,test,train,train
+Trt-1-Campsis-radicans-17-_aug1_jpeg.rf.946a05eb49b31cf94fee174b12f73d49.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Campsis-radicans-19-_aug1_jpeg.rf.c9b937b7a604f7aad531de9def9e6205.jpg,Campsis,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Hydrangea-14-_aug1_jpeg.rf.043bb76130e19e98d572b519af8faff6.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-15-_aug1_jpeg.rf.2f92a07d1b70fe42686b31d045df51f5.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-16-_aug1_jpeg.rf.52ec11a84956c71e4f8173651626351c.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-19-_aug1_jpeg.rf.2c40793ec560b043641382876340d1eb.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-20-_aug1_jpeg.rf.01e4008b97c3b57af68b0fd07b2490cb.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-8-_aug1_jpeg.rf.71b97e299ef19fc618dbeb01a022f015.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Hydrangea-9-_aug1_jpeg.rf.31b406cdbea30422c3d55c9893f33024.jpg,Hydrangea,B_treatment_species,TRTSP|20|hydrangea,20,,test,train,train
+Trt-1-Lonicera-heckrottii-14-_aug1_jpeg.rf.8caceed1809abde574ea7b2671d4992b.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-15-_aug1_jpeg.rf.14f4758a3eaf76234c5ee2fa8c74acef.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-18-_aug1_jpeg.rf.38fcd0daf9c08540753d901aa63b74a7.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-23-_aug1_jpeg.rf.eeb25f62bfe63968c2339424b0a4fd74.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Lonicera-heckrottii-5-_aug1_jpeg.rf.4e0105eca22b17e52cd209b4bec5ec1d.jpg,Lonicera,B_treatment_species,TRTSP|20|lonicera,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-11-_aug1_jpeg.rf.4c7eda29ec6084f09746bbd9ce33a6b8.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-12-_aug1_jpeg.rf.2beb8ec691b15228596695721ab44d74.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-13-_aug1_jpeg.rf.661d7d7bfe21df47b622d98259568e3a.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-22-_aug1_jpeg.rf.ba8e71f7e88d90816e036194a5a6838f.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-6-_aug1_jpeg.rf.239d8bd2e07adb4e84bd4070fd9972f5.jpg,Madame Galen,B_treatment_species,TRTSP|20|campsis,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.eed61bee0646f15751e616b96925b75f.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Parthenocissus-quinquefloia-Virginia-Creeper-15-_aug1_jpeg.rf.5b33c687d355b32f41d1e7d76255c2a4.jpg,Parthenocissus,B_treatment_species,TRTSP|20|parthenocissus,20,,test,train,train
+Trt-1-Wisteria-floribunda-12-_aug1_jpeg.rf.f3ee42d00d2c1381f86af644dde21fcf.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-22-_aug1_jpeg.rf.b6189ab47cfbe82c5d165c888dda22e4.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-23-_aug1_jpeg.rf.72f55e437e4d848ca857c25a3a70bade.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-5-_aug1_jpeg.rf.aebf8d5bfdd195bd3ad496e707960099.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-1-Wisteria-floribunda-8-_aug1_jpeg.rf.c86f29d1488b2bdee8569751b99c92b9.jpg,Wisteria,B_treatment_species,TRTSP|20|wisteria,20,,test,train,train
+Trt-2-Akebia-quinata-14-_aug1_jpeg.rf.edc983f1fb81af2ec5af41965beeaa70.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Akebia-quinata-15-_aug1_jpeg.rf.cc159edd98491e7e9eb6f3c639d73295.jpg,Akebia,B_treatment_species,TRTSP|50|akebia,50,,train,test,train
+Trt-2-Campsis-radicans-12-_aug1_jpeg.rf.8c0be4dbcc73dfb3f185339eda09304a.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-6-_aug1_jpeg.rf.524470769ee7947592068f912f960a54.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Campsis-radicans-8-_aug1_jpeg.rf.d365fb07cda965a5ea817354ab44d6e3.jpg,Campsis,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-10-_aug1_jpeg.rf.a4dea30bd9fa684b6183a192f0ebf969.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-12-_aug1_jpeg.rf.b2b9737fe57f476a97a862a1362ef7a7.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-14-_aug1_jpeg.rf.7a5348ab75fcee04d96be3cb3e174311.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-21-_aug1_jpeg.rf.71a4f82f509b3dcb8dd44568f3c97531.jpg,Madame Galen,B_treatment_species,TRTSP|50|campsis,50,,train,test,train
+Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-20-_aug1_jpeg.rf.ff69147f727f806988d0ad13515cb94a.jpg,Parthenocissus,B_treatment_species,TRTSP|50|parthenocissus,50,,train,test,train
+Trt-2-Wisteria-floribunda-20-_aug1_jpeg.rf.8545da024df76feb11b245093eda631c.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-23-_aug1_jpeg.rf.efa6112e36c9de73c782abb467cabee2.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-7-_aug1_jpeg.rf.095ad3dbe7c490dfc62fb52c40af0e7a.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-Wisteria-floribunda-8-_aug1_jpeg.rf.bdc34ad23f8b034f5fe349d40e33b5e1.jpg,Wisteria,B_treatment_species,TRTSP|50|wisteria,50,,train,test,train
+Trt-2-lonicera-heckrottii-12-_aug1_jpeg.rf.679e21d87e56ea6b29baebfea4181df3.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-18-_aug1_jpeg.rf.7d6b7c83d2a33bc42470960ccdc432c5.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-23-_aug1_jpeg.rf.1c00ad12f47cee8a5f4d6791d23997d8.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-2-lonicera-heckrottii-7-_aug1_jpeg.rf.dcf71f2e80b44bc197b955b2c3255a8e.jpg,Lonicera,B_treatment_species,TRTSP|50|lonicera,50,,train,test,train
+Trt-3-Akebia-quinata-13-_aug1_jpeg.rf.b3f3d8920318d5d008773bd8df266637.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-15-_aug1_jpeg.rf.8cd827eecc2a158abb2a22829038b8ab.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-22-_aug1_jpeg.rf.057cc2bb021c5324a6460547aba46d67.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Akebia-quinata-4-_aug1_jpeg.rf.4fab5e4d30b18dd6d0274c580fe2675e.jpg,Akebia,B_treatment_species,TRTSP|80|akebia,80,,train,train,test
+Trt-3-Campsis-radicans-13-_aug1_jpeg.rf.f67249ed0ca96a9857e8d1f5702e6fab.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-15-_aug1_jpeg.rf.e995fb73646abcb4ecab04101e408d46.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-3-_aug1_jpeg.rf.d01085c29310547e5d13cfbaeb6e7c4c.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-5-_aug1_jpeg.rf.adb1ec7628dd5861e09be59ce0a73c69.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Campsis-radicans-8-_aug1_jpeg.rf.4628c96c7b4a6f16e63d4501b7ddb7cc.jpg,Campsis,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Hydrangea-10-_aug1_jpeg.rf.a873487e8c94850bea83e6adb9d78174.jpg,Hydrangea,B_treatment_species,TRTSP|80|hydrangea,80,,train,train,test
+Trt-3-Lonicera-heckrottii-10-_aug1_jpeg.rf.b06271a7d5d7c9983b885d66fe3762a6.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Lonicera-heckrottii-9-_aug1_jpeg.rf.15d4a6332492db7f58d7b72f19ac95e3.jpg,Lonicera,B_treatment_species,TRTSP|80|lonicera,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-12-_aug1_jpeg.rf.b942d068ce3ad176944e139b923ab146.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Madame-Galen-Trumpet-vine-Campsis-taglibuana-Madame-galen-22-_aug1_jpeg.rf.5d8fb8f1d75c60cfb57dce985dab7fc2.jpg,Madame Galen,B_treatment_species,TRTSP|80|campsis,80,,train,train,test
+Trt-3-Parthenocissus-quinquefloia-Virginia-Creeper-4-_aug1_jpeg.rf.1137aa928c71ac64b3fb86f0d7c2b2fb.jpg,Parthenocissus,B_treatment_species,TRTSP|80|parthenocissus,80,,train,train,test
+Trt-3-Wisteria-floribunda-11-_aug1_jpeg.rf.b7e84d7727aec2f4165c6eff668c9385.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test
+Trt-3-Wisteria-floribunda-7-_aug1_jpeg.rf.d619c1c06594651027c78a15197fa264.jpg,Wisteria,B_treatment_species,TRTSP|80|wisteria,80,,train,train,test

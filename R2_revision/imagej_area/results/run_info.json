@@ -1,0 +1,72 @@
+{
+  "run_utc": "2026-11-13 07:44:32",
+  "script_sha256": "d7f2e037176ebaee098c1702470a6a2f53472fae90f31c9a500615728f2f6ca8",
+  "frozen_inputs": {
+    "JAFR_Final_Revision/analysis/author_scripts/imagej_remeasurement/AREA_ANALYSIS_PLAN.md": "936fa12b41c29ea459d6b4e4ff56e6d11a7b2f5a5dbae29af461cb2187e2c962",
+    "JAFR_Final_Revision/analysis/author_scripts/imagej_remeasurement/AREA_ANALYSIS_PLAN_AMENDMENT_1.md": "2ffcafd606ffbde40ae829b2a0a54cda42e9ac9c1a5c83ed551b715da5485cbe",
+    "JAFR_Final_Revision/analysis/author_scripts/imagej_remeasurement/Measure_Vine_Canopy.ijm": "5a266bf4937eaf2c9f5fa02deb30af6f24a774d3e0255d1b7ddc67c8a5c9c3b6",
+    "JAFR_Final_Revision/analysis/author_scripts/imagej_remeasurement/make_measurement_images.py": "1740f19a3ecbac037d65302cab0a82e64a7db9dbc43a5bf1622447043742831d",
+    "JAFR_Final_Revision/analysis/author_scripts/imagej_remeasurement/read_imagej_outputs.py": "a8d94eb86311035c1729f775d8752a67b32c3d3a81bd24abb5eca7c662da7881",
+    "ImageJ_remeasurement/v2_dataset_images/measurement_manifest.csv": "34dc5ea9313a5afc91b34ed5ff87bfec0bdc8471caae08a46596c9ce14786dcb",
+    "ImageJ_remeasurement/v2_dataset_images/repeat_key.csv": "91497a455fc8aab00ea11d6af63119041be98d6876a14d257d53fcaf9c32fb14",
+    "ImageJ_remeasurement/v2_dataset_images/images_to_measure_results/measurements.csv": "4e0a10f4bb0c2978914a1c3f4b45c7a689336c5af3a6c8ae33b4a25b1d790372",
+    "ImageJ_remeasurement/v2_dataset_images/repeat_20_results/measurements.csv": "448d13a2d83a178687b6d752831d44e0a2c30781ce96d67c93b4daf6b6ad0c5c",
+    "ImageJ_remeasurement/v2_dataset_images/scale_review.csv": "3ab1a4cf27853ccdd950c8299d8327f2eb6ff0ac67c3b4778b884b5016028f90",
+    "ImageJ_remeasurement/v2_dataset_images/repeat_scale_review.csv": "06d0f0d10f6e7cd8eceb0bd93f86b4fdf62f8e1db7054594bb48b7a22a93ae69"
+  },
+  "deviations_sha256": "f5a52b7aac0a62761ff45b75648ca2f7f719101d3cafc134917af7b1d7edfa4d",
+  "gt_json_sha256": "abc0623b6345d77ab5986a21a324cfa74ad90f07878f61afbc1810d3400580e0",
+  "pred_manifest_sha256": "6105bdd16f7645b714eb62d88bb49bc2dfb2f8a267c38f0d71380d0f847e1f79",
+  "backdrop_threshold": 140.0,
+  "bootstrap": {
+    "B": 10000,
+    "seed": 42
+  },
+  "min_n_stratum": 10,
+  "exclusions": {
+    "n_measured": 169,
+    "no_scale": 20,
+    "imagej_area_zero": 0,
+    "amend_twins_left_out": 5,
+    "primary_n_photos": 164,
+    "primary_n_analysed": 144,
+    "prespec_n_analysed": 149,
+    "primary_n_unseen_in_LOTO": 71,
+    "primary_no_scale_unseen_in_LOTO": 0,
+    "primary_n_not_in_LOTO": 73,
+    "primary_no_scale_not_in_LOTO": 20,
+    "prespec_n_tier_A": 35,
+    "prespec_n_tier_C/D": 114,
+    "primary_n_backdrop_white": 68,
+    "primary_n_backdrop_black": 76,
+    "model_area_zero_primary": {
+      "UNet": 4,
+      "DeepLabV3": 0,
+      "SegFormer": 0,
+      "MaskRCNN": 2,
+      "SoloV2": 8,
+      "YOLO11seg": 1,
+      "PGSS_YOLO11": 8
+    },
+    "model_area_zero_prespecified": {
+      "UNet": 4,
+      "DeepLabV3": 0,
+      "SegFormer": 0,
+      "MaskRCNN": 2,
+      "SoloV2": 8,
+      "YOLO11seg": 0,
+      "PGSS_YOLO11": 6
+    }
+  },
+  "repeat_gaps_hours": {
+    "gap_h_min": 4.833333333333333,
+    "gap_h_median": 8.933333333333334,
+    "gap_h_max": 24.366666666666667
+  },
+  "versions": {
+    "python": "3.12.7",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "opencv": "4.10.0"
+  }
+}

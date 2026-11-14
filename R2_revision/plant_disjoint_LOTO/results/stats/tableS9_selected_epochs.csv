@@ -1,0 +1,22 @@
+model,fold,selected_epoch,epochs_run
+U-Net,test_trt20,45,60
+U-Net,test_trt50,44,59
+U-Net,test_trt80,48,63
+DeepLabv3,test_trt20,14,29
+DeepLabv3,test_trt50,8,23
+DeepLabv3,test_trt80,20,35
+SegFormer,test_trt20,6,21
+SegFormer,test_trt50,43,58
+SegFormer,test_trt80,29,44
+Mask R-CNN,test_trt20,33,48
+Mask R-CNN,test_trt50,32,47
+Mask R-CNN,test_trt80,23,38
+Simplified SOLOv2,test_trt20,10,25
+Simplified SOLOv2,test_trt50,25,40
+Simplified SOLOv2,test_trt80,75,90
+YOLO11-seg,test_trt20,32,47
+YOLO11-seg,test_trt50,47,62
+YOLO11-seg,test_trt80,32,47
+YOLO11-PGSS,test_trt20,86,100
+YOLO11-PGSS,test_trt50,45,60
+YOLO11-PGSS,test_trt80,54,69

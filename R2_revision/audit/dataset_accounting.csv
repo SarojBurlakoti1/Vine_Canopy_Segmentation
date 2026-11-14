@@ -1,0 +1,8 @@
+species,train_raw,val,test,total_raw,backdrop_2024_2025_black,backdrop_2023_white,backdrop_not_recoverable,tier_A_block_resolved,tier_B_treatment_species,tier_C_independent_dated,tier_D_independent_undated,train_augmented_3x
+Akebia,113,24,24,161,84,56,21,24,60,56,21,339
+Campsis,93,33,32,158,83,46,29,24,59,46,29,279
+Hydrangea,104,23,22,149,71,58,20,23,48,58,20,312
+Lonicera,116,25,25,166,84,56,26,24,60,56,26,348
+Madame Galen,128,15,15,158,83,54,21,24,59,54,21,384
+Parthenocissus,115,25,25,165,84,57,24,24,60,57,24,345
+Wisteria,120,26,26,172,83,67,22,24,59,67,22,360

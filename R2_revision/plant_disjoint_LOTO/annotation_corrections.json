@@ -1,0 +1,14 @@
+[
+  {
+    "file_name": "Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg",
+    "export_split": "train",
+    "remove_annotation_id": 305,
+    "remove_category": "Madame Galen",
+    "kept_annotation_id": 306,
+    "kept_category": "Parthenocissus",
+    "reason": "Two near-identical polygons on the same plant (export annotation 305, Madame Galen, 360,490 px; annotation 306, Parthenocissus, 359,900 px). The corresponding author inspected the image and confirmed the species as Parthenocissus.",
+    "decided_by": "corresponding author",
+    "date": "2026-11-09",
+    "related": "split_assignment_final.csv lists this image's species as Madame Galen, while its group_id (TRTSP|50|parthenocissus) and file name indicate Parthenocissus; correct the species in the data deposit (checklist B10, B16)."
+  }
+]

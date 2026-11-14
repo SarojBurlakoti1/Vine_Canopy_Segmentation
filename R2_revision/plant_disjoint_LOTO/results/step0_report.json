@@ -1,0 +1,424 @@
+{
+ "started": "2026-11-09 17:08:18",
+ "checks": {
+  "P1_all_572_present_in_recorded_split": {
+   "ok": true,
+   "detail": {
+    "n_fold_rows": 572,
+    "missing": [],
+    "n_missing": 0,
+    "wrong_split": [],
+    "n_wrong_split": 0
+   }
+  },
+  "P2_export_not_roboflow_augmented": {
+   "ok": true,
+   "detail": {
+    "prefixes_more_frequent_in_export_than_manifest": 0,
+    "of_which_used_by_LOTO_images": 0,
+    "examples": {},
+    "meaning": "PASS = one file per source image for every LOTO image, so the LOTO images are unaugmented originals (closes checklist B9)."
+   }
+  },
+  "P2b_export_size_matches_manifest": {
+   "ok": true,
+   "detail": {
+    "train_images_in_export": 790,
+    "manifest_train_rows": 790,
+    "export_images_not_in_manifest": 0,
+    "examples": [],
+    "note": "images not in the manifest are ignored (as in rebuild_splits.py); a large excess (about 2x the manifest) would indicate an augmented export"
+   }
+  },
+  "P3_no_rotation_fill_in_corners": {
+   "ok": true,
+   "detail": {
+    "n_flagged": 0,
+    "flagged": [],
+    "action": "inspect flagged images visually; dark backdrops can trigger this"
+   }
+  },
+  "P4a_category_ids_valid": {
+   "ok": true,
+   "detail": {
+    "bad": []
+   }
+  },
+  "P4b_annotation_species_matches_manifest": {
+   "ok": false,
+   "detail": {
+    "n": 1,
+    "examples": [
+     {
+      "file": "Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg",
+      "manifest": "Madame Galen",
+      "annotated": [
+       "Madame Galen",
+       "Parthenocissus"
+      ]
+     }
+    ]
+   }
+  },
+  "P4c_every_image_annotated": {
+   "ok": true,
+   "detail": {
+    "n": 0,
+    "files": []
+   }
+  },
+  "P4d_polygons_inside_image": {
+   "ok": true,
+   "detail": {
+    "n": 0,
+    "files": []
+   }
+  },
+  "P5_r1_pipeline_scripts_identical_to_b2f792f": {
+   "ok": true,
+   "detail": {
+    "found": {
+     "augment_train.py": "810ccb1d50ab4dcf3269a65aa2a508f163663784cab920ff43cfc6ecabc5d66d",
+     "letterbox_resize.py": "78f9e10d406a694cc06d12a9f0c360a83fb6173769ebca16910b4a6da2fe580d"
+    },
+    "expected": {
+     "augment_train.py": "810ccb1d50ab4dcf3269a65aa2a508f163663784cab920ff43cfc6ecabc5d66d",
+     "letterbox_resize.py": "78f9e10d406a694cc06d12a9f0c360a83fb6173769ebca16910b4a6da2fe580d"
+    },
+    "note": ""
+   }
+  },
+  "C1_annotation_corrections_valid": {
+   "ok": true,
+   "detail": {
+    "n": 1,
+    "problems": [],
+    "file": "/Users/sarojburlakoti/Downloads/Revision/JAFR_Final_Revision/analysis/author_scripts/loto_retraining/annotation_corrections.json",
+    "sha256": "e552ad7bd7b199f00fd66dd355597a04bc445680354d0983ce91f929ad342e7f"
+   }
+  },
+  "POST_test_trt20": {
+   "ok": true,
+   "detail": {
+    "counts_final": {
+     "train": 1008,
+     "valid": 42,
+     "test": 194
+    },
+    "train_is_3x": true,
+    "sources_match_fold_lists": true,
+    "test_groups_disjoint_from_train_valid": true,
+    "no_test_source_in_train_or_valid": true,
+    "all_final_images_640": true,
+    "yolo_pairs_ok": true,
+    "yolo_label_lines": {
+     "train": 1200,
+     "valid": 45,
+     "test": 236
+    },
+    "annotation_corrections_applied": true,
+    "n_annotations_removed_by_corrections": 1
+   }
+  },
+  "POST_test_trt50": {
+   "ok": true,
+   "detail": {
+    "counts_final": {
+     "train": 1026,
+     "valid": 42,
+     "test": 188
+    },
+    "train_is_3x": true,
+    "sources_match_fold_lists": true,
+    "test_groups_disjoint_from_train_valid": true,
+    "no_test_source_in_train_or_valid": true,
+    "all_final_images_640": true,
+    "yolo_pairs_ok": true,
+    "yolo_label_lines": {
+     "train": 1232,
+     "valid": 49,
+     "test": 221
+    },
+    "annotation_corrections_applied": true,
+    "n_annotations_removed_by_corrections": 1
+   }
+  },
+  "POST_test_trt80": {
+   "ok": true,
+   "detail": {
+    "counts_final": {
+     "train": 1020,
+     "valid": 42,
+     "test": 190
+    },
+    "train_is_3x": true,
+    "sources_match_fold_lists": true,
+    "test_groups_disjoint_from_train_valid": true,
+    "no_test_source_in_train_or_valid": true,
+    "all_final_images_640": true,
+    "yolo_pairs_ok": true,
+    "yolo_label_lines": {
+     "train": 1233,
+     "valid": 46,
+     "test": 224
+    },
+    "annotation_corrections_applied": true,
+    "n_annotations_removed_by_corrections": 1
+   }
+  }
+ },
+ "warnings": [],
+ "folds": {
+  "test_trt20": {
+   "fold": "test_trt20",
+   "fold_column": "fold_test_trt20",
+   "test_treatment": [
+    "20"
+   ],
+   "n_raw": {
+    "train": 336,
+    "valid": 42,
+    "test": 194
+   },
+   "built": "2026-11-09 17:08:43",
+   "source_export": "/Users/sarojburlakoti/Downloads/Revision/Run/Vines_2025.v8-vineo.coco-segmentation",
+   "fold_file_sha256": "03f4cc52bde842db4a1ad52ca659310e8546f2d26fbd32f3ade504c4e3b32c0b",
+   "post_checks": {
+    "counts_final": {
+     "train": 1008,
+     "valid": 42,
+     "test": 194
+    },
+    "train_is_3x": true,
+    "sources_match_fold_lists": true,
+    "test_groups_disjoint_from_train_valid": true,
+    "no_test_source_in_train_or_valid": true,
+    "all_final_images_640": true,
+    "yolo_pairs_ok": true,
+    "yolo_label_lines": {
+     "train": 1200,
+     "valid": 45,
+     "test": 236
+    },
+    "annotation_corrections_applied": true,
+    "n_annotations_removed_by_corrections": 1,
+    "annotation_sha256": {
+     "train": "86b266e7919fd1319323494662cc8e422635ddb926cf2af5f55ac6ff56a6fb0f",
+     "valid": "ed5e40c996e5c7dfeb178a6a5abc5d12fd3a7d6d9416de2e336458b345699901",
+     "test": "237db419ca3294ae4a8b7b348b4f0d00f69f90aeab5c37432ca82c999bc1424c"
+    }
+   },
+   "annotation_corrections": [
+    {
+     "file_name": "Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg",
+     "export_split": "train",
+     "remove_annotation_id": 305,
+     "remove_category": "Madame Galen",
+     "kept_annotation_id": 306,
+     "kept_category": "Parthenocissus",
+     "reason": "Two near-identical polygons on the same plant (export annotation 305, Madame Galen, 360,490 px; annotation 306, Parthenocissus, 359,900 px). The corresponding author inspected the image and confirmed the species as Parthenocissus.",
+     "decided_by": "corresponding author",
+     "date": "2026-11-09",
+     "related": "split_assignment_final.csv lists this image's species as Madame Galen, while its group_id (TRTSP|50|parthenocissus) and file name indicate Parthenocissus; correct the species in the data deposit (checklist B10, B16)."
+    }
+   ],
+   "files_copied_not_linked": true
+  },
+  "test_trt50": {
+   "fold": "test_trt50",
+   "fold_column": "fold_test_trt50",
+   "test_treatment": [
+    "50"
+   ],
+   "n_raw": {
+    "train": 342,
+    "valid": 42,
+    "test": 188
+   },
+   "built": "2026-11-09 17:09:07",
+   "source_export": "/Users/sarojburlakoti/Downloads/Revision/Run/Vines_2025.v8-vineo.coco-segmentation",
+   "fold_file_sha256": "03f4cc52bde842db4a1ad52ca659310e8546f2d26fbd32f3ade504c4e3b32c0b",
+   "post_checks": {
+    "counts_final": {
+     "train": 1026,
+     "valid": 42,
+     "test": 188
+    },
+    "train_is_3x": true,
+    "sources_match_fold_lists": true,
+    "test_groups_disjoint_from_train_valid": true,
+    "no_test_source_in_train_or_valid": true,
+    "all_final_images_640": true,
+    "yolo_pairs_ok": true,
+    "yolo_label_lines": {
+     "train": 1232,
+     "valid": 49,
+     "test": 221
+    },
+    "annotation_corrections_applied": true,
+    "n_annotations_removed_by_corrections": 1,
+    "annotation_sha256": {
+     "train": "1419732c0b5ccabb7788a0af4b683a4d999f75224983703878c22a6e152f614a",
+     "valid": "f848d8fcb962524f52cc9aa3151989ddbe2587c080ec5e56ae5ea15ece370181",
+     "test": "5aa21e71d965bfd43b8a93e04a1fa79dd4a0acceccf741a6e9d914cc30fbf722"
+    }
+   },
+   "annotation_corrections": [
+    {
+     "file_name": "Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg",
+     "export_split": "train",
+     "remove_annotation_id": 305,
+     "remove_category": "Madame Galen",
+     "kept_annotation_id": 306,
+     "kept_category": "Parthenocissus",
+     "reason": "Two near-identical polygons on the same plant (export annotation 305, Madame Galen, 360,490 px; annotation 306, Parthenocissus, 359,900 px). The corresponding author inspected the image and confirmed the species as Parthenocissus.",
+     "decided_by": "corresponding author",
+     "date": "2026-11-09",
+     "related": "split_assignment_final.csv lists this image's species as Madame Galen, while its group_id (TRTSP|50|parthenocissus) and file name indicate Parthenocissus; correct the species in the data deposit (checklist B10, B16)."
+    }
+   ],
+   "files_copied_not_linked": true
+  },
+  "test_trt80": {
+   "fold": "test_trt80",
+   "fold_column": "fold_test_trt80",
+   "test_treatment": [
+    "80"
+   ],
+   "n_raw": {
+    "train": 340,
+    "valid": 42,
+    "test": 190
+   },
+   "built": "2026-11-09 17:09:31",
+   "source_export": "/Users/sarojburlakoti/Downloads/Revision/Run/Vines_2025.v8-vineo.coco-segmentation",
+   "fold_file_sha256": "03f4cc52bde842db4a1ad52ca659310e8546f2d26fbd32f3ade504c4e3b32c0b",
+   "post_checks": {
+    "counts_final": {
+     "train": 1020,
+     "valid": 42,
+     "test": 190
+    },
+    "train_is_3x": true,
+    "sources_match_fold_lists": true,
+    "test_groups_disjoint_from_train_valid": true,
+    "no_test_source_in_train_or_valid": true,
+    "all_final_images_640": true,
+    "yolo_pairs_ok": true,
+    "yolo_label_lines": {
+     "train": 1233,
+     "valid": 46,
+     "test": 224
+    },
+    "annotation_corrections_applied": true,
+    "n_annotations_removed_by_corrections": 1,
+    "annotation_sha256": {
+     "train": "7e169fd850ea2cc6eb53effc35540103fece450da84eb078ad44f44f9173e841",
+     "valid": "87b4a0d48f926b080bb6d41d10787751bf8f20498c468cf49d8d59cef23d0670",
+     "test": "09b77c1b4b2a87aa363b6725fc7d72ffa478e564d0881b4a35bc6049f3fc8357"
+    }
+   },
+   "annotation_corrections": [
+    {
+     "file_name": "Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg",
+     "export_split": "train",
+     "remove_annotation_id": 305,
+     "remove_category": "Madame Galen",
+     "kept_annotation_id": 306,
+     "kept_category": "Parthenocissus",
+     "reason": "Two near-identical polygons on the same plant (export annotation 305, Madame Galen, 360,490 px; annotation 306, Parthenocissus, 359,900 px). The corresponding author inspected the image and confirmed the species as Parthenocissus.",
+     "decided_by": "corresponding author",
+     "date": "2026-11-09",
+     "related": "split_assignment_final.csv lists this image's species as Madame Galen, while its group_id (TRTSP|50|parthenocissus) and file name indicate Parthenocissus; correct the species in the data deposit (checklist B10, B16)."
+    }
+   ],
+   "files_copied_not_linked": true
+  }
+ },
+ "inputs": {
+  "v8": "/Users/sarojburlakoti/Downloads/Revision/Run/Vines_2025.v8-vineo.coco-segmentation",
+  "folds": "/Users/sarojburlakoti/Downloads/Revision/JAFR_Final_Revision/analysis/audit_outputs/loto_fold_assignment.csv",
+  "folds_sha256": "03f4cc52bde842db4a1ad52ca659310e8546f2d26fbd32f3ade504c4e3b32c0b",
+  "manifest": "/Users/sarojburlakoti/Downloads/Revision/JAFR_Final_Revision/analysis/audit_outputs/split_assignment_final.csv",
+  "manifest_sha256": "f1939d38ec3b5bd58f375f5392fd956c65ca2b4093b0b64219c7e4e52e31cff2",
+  "fold_columns": [
+   "fold_test_trt20",
+   "fold_test_trt50",
+   "fold_test_trt80"
+  ]
+ },
+ "export": {
+  "images_in_json": {
+   "train": 790,
+   "valid": 169,
+   "test": 170
+  },
+  "image_files_on_disk": {
+   "train": 790,
+   "valid": 169,
+   "test": 170
+  },
+  "categories": [
+   {
+    "id": 0,
+    "name": "objects",
+    "supercategory": "none"
+   },
+   {
+    "id": 1,
+    "name": "Akebia",
+    "supercategory": "objects"
+   },
+   {
+    "id": 2,
+    "name": "Campsis",
+    "supercategory": "objects"
+   },
+   {
+    "id": 3,
+    "name": "Hydrangea",
+    "supercategory": "objects"
+   },
+   {
+    "id": 4,
+    "name": "Lonicera",
+    "supercategory": "objects"
+   },
+   {
+    "id": 5,
+    "name": "Madame Galen",
+    "supercategory": "objects"
+   },
+   {
+    "id": 6,
+    "name": "Parthenocissus",
+    "supercategory": "objects"
+   },
+   {
+    "id": 7,
+    "name": "Wisteria",
+    "supercategory": "objects"
+   }
+  ],
+  "loto_image_sizes": {
+   "640x640": 405,
+   "1536x2048": 167
+  }
+ },
+ "corrections": [
+  {
+   "file_name": "Trt-2-Parthenocissus-quinquefloia-Virginia-Creeper-12-_aug1_jpeg.rf.b95ddcad1d5da8e805a112e530f28f16.jpg",
+   "export_split": "train",
+   "remove_annotation_id": 305,
+   "remove_category": "Madame Galen",
+   "kept_annotation_id": 306,
+   "kept_category": "Parthenocissus",
+   "reason": "Two near-identical polygons on the same plant (export annotation 305, Madame Galen, 360,490 px; annotation 306, Parthenocissus, 359,900 px). The corresponding author inspected the image and confirmed the species as Parthenocissus.",
+   "decided_by": "corresponding author",
+   "date": "2026-11-09",
+   "related": "split_assignment_final.csv lists this image's species as Madame Galen, while its group_id (TRTSP|50|parthenocissus) and file name indicate Parthenocissus; correct the species in the data deposit (checklist B10, B16)."
+  }
+ ],
+ "result": "built; all post-build checks passed",
+ "finished": "2026-11-09 17:09:31"
+}

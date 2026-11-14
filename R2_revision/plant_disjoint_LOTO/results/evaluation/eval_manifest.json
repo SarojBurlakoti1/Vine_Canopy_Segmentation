@@ -1,0 +1,86 @@
+{
+  "script": "/workspace/Revision/JAFR_Final_Revision/analysis/author_scripts/loto_retraining/step2_evaluate_test_folds.py",
+  "started_utc": "2026-11-10 18:22:12",
+  "args": {
+    "folds_root": "/workspace/Revision/LOTO_folds",
+    "runs_root": "/workspace/loto_runs",
+    "fold_file": "/workspace/Revision/JAFR_Final_Revision/analysis/author_scripts/loto_retraining/../../audit_outputs/loto_fold_assignment.csv",
+    "out_root": "/workspace/loto_eval_corrected",
+    "split": "test",
+    "folds": [
+      "test_trt20",
+      "test_trt50",
+      "test_trt80"
+    ],
+    "models": [
+      "UNet",
+      "DeepLabV3",
+      "SegFormer",
+      "MaskRCNN",
+      "SoloV2",
+      "YOLO11seg",
+      "PGSS_YOLO11"
+    ],
+    "seed": 42,
+    "max_images": 0,
+    "no_coco": false,
+    "smoke": false,
+    "gt_corrections": "post_evaluation_corrections.json"
+  },
+  "analysis_plan_commit": "ecf84fd346cecf73b5f17f84ba89fb42edab9807",
+  "sha256": {
+    "step2_evaluate_test_folds.py": "57f167f4e1b8500a1bb598d835c2e66c411936b9d55225314ace5b83f8298550",
+    "loto_common.py": "ae2b12cdbadcfc91f12cfef976d493333f705e67f537e0d193b6fcd4f62b25c9",
+    "../unified_pixel_dice.py": "0d0df0e8f65dbfc00fbcc62b24058156f251c039265932baba41748e0d88419f",
+    "models/UNet/train_unet_loto.py": "0ab6b0d307170997da5f295442bce8a9641ab13d483934af08b541555df3b114",
+    "models/DeepLabV3/train_deeplabv3_loto.py": "3ec0d3758106fe132cdf7c8cf19d54d1d826db0011e32a8c3c50710441d05282",
+    "models/SegFormer/train_segformer_loto.py": "a5c478fec0cb3a5e956cb78f00b16c6743d65b53db2eff6f4424effc52308fa0",
+    "models/MaskRCNN/train_maskrcnn_loto.py": "c69118bae5866e3440a01f502834450778a22db8268016833e213173b11d5424",
+    "models/SoloV2/train_solov2_loto.py": "042dc540e5512f06f0ea15fa42a7f567104ac2cacb445f9b81f91837ad664450",
+    "models/PGSS_YOLO11/pgss_modules.py": "ac4717f7cc8fc1ba526ba02c5b8eac006a66e287e64460511d0c946e67190c07"
+  },
+  "fold_file_sha256": "03f4cc52bde842db4a1ad52ca659310e8546f2d26fbd32f3ade504c4e3b32c0b",
+  "versions": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "ultralytics": "8.4.208",
+    "transformers": "5.22.2",
+    "pycocotools": "2.0.11",
+    "numpy": "2.5.4",
+    "opencv-python": "5.0.0.93",
+    "opencv-python-headless": "5.0.0.93",
+    "cuda": "12.8",
+    "gpu": "NVIDIA A40"
+  },
+  "smoke_test_NOT_A_RESULT": false,
+  "partial_run": false,
+  "gt_corrections": [
+    {
+      "file_name": "Trt-1-Wisteria-floribunda-16-_aug1_jpeg.rf.ab45a3ec4405b5285075375f8eb9a6d2.jpg",
+      "change": "relabel all polygons of this image",
+      "from_category": "Parthenocissus",
+      "to_category": "Wisteria",
+      "how_found": "During the test evaluation (10 Nov 2026), all seven models predicted Wisteria on this image (LOTO fold test_trt20), whose file name names Wisteria floribunda, while its two polygons were labelled Parthenocissus.",
+      "decided_by": "corresponding author, after inspecting the image",
+      "date": "2026-11-10",
+      "applies_to": "Ground truth of the test evaluation (step2_evaluate_test_folds.py --gt_corrections). In folds test_trt50 and test_trt80 this image is a training image; those models were trained with the original label (Parthenocissus) and were not retrained.",
+      "status_relative_to_plan": "Deviation from the frozen analysis plan (commit ecf84fd): identified after the test evaluation. The pre-specified result set (labels as exported) is kept alongside the corrected one."
+    }
+  ],
+  "gt_corrections_sha256": "1c44f79433ad682eaf6ec5ce45d1d27a2fef89bd5fbd503df814dbf8f1ea7318",
+  "gt_corrections_applied": [
+    {
+      "file_name": "Trt-1-Wisteria-floribunda-16-_aug1_jpeg.rf.ab45a3ec4405b5285075375f8eb9a6d2.jpg",
+      "from": "Parthenocissus",
+      "to": "Wisteria",
+      "n_polygons_relabelled": 2,
+      "fold": "test_trt20",
+      "split": "test"
+    }
+  ],
+  "finished_utc": "2026-11-10 18:30:04",
+  "n_evaluated": 21,
+  "failures": []
+}

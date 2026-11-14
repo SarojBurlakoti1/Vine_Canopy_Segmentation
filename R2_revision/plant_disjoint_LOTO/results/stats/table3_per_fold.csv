@@ -1,0 +1,22 @@
+model,fold,n_images,mIoU_8class,mIoU_7species,macro_precision_8class,macro_recall_8class,macro_f1_8class,coco_AP,coco_AP50,coco_AP75
+U-Net,test_trt20,194,68.1,64.2,82.2,80.0,80.4,n/a,n/a,n/a
+U-Net,test_trt50,188,71.1,67.6,85.1,80.5,82.5,n/a,n/a,n/a
+U-Net,test_trt80,190,70.9,67.5,83.5,82.1,82.4,n/a,n/a,n/a
+DeepLabv3,test_trt20,194,84.0,82.3,93.6,89.3,91.2,n/a,n/a,n/a
+DeepLabv3,test_trt50,188,81.4,79.4,88.5,91.2,89.5,n/a,n/a,n/a
+DeepLabv3,test_trt80,190,85.2,83.8,91.5,92.3,91.9,n/a,n/a,n/a
+SegFormer,test_trt20,194,87.5,86.3,94.7,92.0,93.3,n/a,n/a,n/a
+SegFormer,test_trt50,188,88.6,87.4,93.2,94.6,93.9,n/a,n/a,n/a
+SegFormer,test_trt80,190,88.1,87.0,94.3,93.0,93.6,n/a,n/a,n/a
+Mask R-CNN,test_trt20,194,79.7,77.4,89.4,87.9,88.5,60.0,84.1,72.4
+Mask R-CNN,test_trt50,188,78.7,76.3,86.8,88.9,87.7,57.4,84.7,68.2
+Mask R-CNN,test_trt80,190,81.4,79.6,90.7,88.7,89.6,59.2,85.2,67.3
+Simplified SOLOv2,test_trt20,194,68.9,65.5,90.8,74.3,81.0,32.1,64.7,29.0
+Simplified SOLOv2,test_trt50,188,73.4,70.7,89.5,79.9,84.2,35.9,70.7,35.5
+Simplified SOLOv2,test_trt80,190,72.7,70.0,92.3,77.1,83.5,37.2,72.1,38.4
+YOLO11-seg,test_trt20,194,83.2,81.4,92.2,89.5,90.6,60.8,82.5,74.2
+YOLO11-seg,test_trt50,188,86.5,85.2,92.5,93.1,92.7,65.0,86.2,74.8
+YOLO11-seg,test_trt80,190,82.6,80.7,89.4,91.5,90.2,64.8,87.2,76.0
+YOLO11-PGSS,test_trt20,194,85.6,84.1,93.0,91.4,92.1,63.0,82.8,75.5
+YOLO11-PGSS,test_trt50,188,85.0,83.5,91.6,92.1,91.8,63.6,85.6,75.2
+YOLO11-PGSS,test_trt80,190,83.9,82.3,91.0,91.4,91.1,62.8,84.6,72.3

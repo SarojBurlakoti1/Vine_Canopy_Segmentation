@@ -1,0 +1,6 @@
+repeat_file,file,line_x1,line_x2,line_px,analyst_note_during_measuring,finding,status
+R01.png,114_IMG_9753.png,638.00,0.00,638.451,,"scale line runs to the image edge (flagged by checking script, 13 Nov 2026 UTC)","NO SCALE - same photo as 114_IMG_9753.png, confirmed NO SCALE in scale_review.csv; not noted during the repeat"
+R04.png,041_IMG_9614.png,638.00,0.00,638.905,,"scale line runs to the image edge (flagged by checking script, 13 Nov 2026 UTC)","NO SCALE - analyst reported after measuring, 12 Nov 2026: ""in R04 forgot to comment as No scale""; same photo as 041_IMG_9614.png, confirmed NO SCALE in scale_review.csv"
+R07.png,167_IMG_9751.png,1.00,604.00,603.013,No scale,"scale line runs to the image edge (flagged by checking script, 13 Nov 2026 UTC)","NO SCALE - noted during measuring; same photo as 167_IMG_9751.png, confirmed NO SCALE in scale_review.csv"
+R09.png,029_IMG_9571.png,1.00,640.00,639.313,,"scale line runs to the image edge (flagged by checking script, 13 Nov 2026 UTC)",SCALE OK - same photo as 029_IMG_9571.png (SCALE OK in scale_review.csv: both posts at the image edges); line again drawn edge to edge
+R10.png,047_IMG_9635.png,637.00,80.00,559.151,,"scale line runs to the image edge (flagged by checking script, 13 Nov 2026 UTC)","NO SCALE - same photo as 047_IMG_9635.png, confirmed NO SCALE in scale_review.csv; not noted during the repeat"
